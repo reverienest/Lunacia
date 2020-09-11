@@ -9,10 +9,10 @@ public class TestPlayer : MonoBehaviour
 {
     public Rigidbody2D rb;
 
+    [SerializeField]
     private float speed = 0f; //do not change
 
-    [SerializeField]
-    private float maxSpeed = 10.0f; //max speed the player can reach
+    public float maxSpeed = 10.0f; //max speed the player can reach
 
     [SerializeField]
     private float accel = 10.0f; //rate at which the player gains speed
@@ -21,7 +21,6 @@ public class TestPlayer : MonoBehaviour
     private float decel = 8.0f; // rate at which player loses speed
 
     private Vector2 movement;
-
     private Vector2 pastMovement; //Last known direction the player was headed
 
     private float moveX;
@@ -73,7 +72,7 @@ public class TestPlayer : MonoBehaviour
         }
         else 
         {
-            MovePlayer(pastMovement * 0.5f);
+            MovePlayer(pastMovement);
         }
     }
 
