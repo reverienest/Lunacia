@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PauseMenuController : MonoBehaviour
@@ -8,25 +9,31 @@ public class PauseMenuController : MonoBehaviour
     private GameObject pauseShade;
     private Animator animator;
     public string mainMenuSceneName;
+    // animatable representation of the current time scale
+    public Slider timeSlider;
 
     // Start is called before the first frame update
     void Start()
     {
         // get the shade child component
     	pauseShade = gameObject.transform.Find("Shade").gameObject;
+    	timeSlider = GetComponentInChildren<Slider>();
         // deactivate the shade on game start
         pauseShade.SetActive(false);
         // setup animator
         animator = pauseShade.GetComponent<Animator>();
+        // set "timeScale" to 1 at start
+        timeSlider.value = 1f;
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePause();
         }
+        Time.timeScale = timeSlider.value;
     }
 
     private void TogglePause() 
@@ -39,7 +46,6 @@ public class PauseMenuController : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            Time.timeScale = 0f;
             pauseShade.SetActive(true);
             paused = true;
         }
@@ -48,11 +54,13 @@ public class PauseMenuController : MonoBehaviour
     private IEnumerator IResume()
     {
         animator.Play("Exit");
-        // wait until anim stops - use actual time outside of time.timeScale
-        yield return StartCoroutine(IWaitForRealSeconds(0.55f));
+        // wait until anim stops - use real time outside of time.timeScale
+        yield return StartCoroutine(IWaitForRealSeconds(0.9f));
+        // reset time scale to account for rounding errors
+        Time.timeScale = 1f; 
+        timeSlider.value = 1f;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        Time.timeScale = 1f;
         pauseShade.SetActive(false);
         paused = false;
     }
@@ -64,15 +72,18 @@ public class PauseMenuController : MonoBehaviour
 
     public void Click_Options()
     {
-        // TODO: implement
+        Time.timeScale = 1f;
+        // implement options menu
     }
 
     // load main menu scene (title screen)
     public void Click_MainMenu()
     {
+        Time.timeScale = 1f;
         Debug.Log("Quit to Main Menu! Scene \"" + mainMenuSceneName + "\" now loading...");
         TogglePause();
-        if (!mainMenuSceneName.Equals("")) {
+        if (!mainMenuSceneName.Equals("")) 
+        {
             SceneManager.LoadScene(mainMenuSceneName);
         }
     }
