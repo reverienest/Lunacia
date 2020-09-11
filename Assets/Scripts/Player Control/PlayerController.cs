@@ -28,6 +28,5 @@ public class PlayerController : MonoBehaviour
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
         }
         rigid.AddForce(moveDirection.normalized * acceleration * Time.deltaTime, ForceMode2D.Impulse);
-        print(moveDirection.normalized);
     }
 }
