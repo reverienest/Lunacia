@@ -54,13 +54,13 @@ public class PauseMenuController : MonoBehaviour
     private IEnumerator IResume()
     {
         animator.Play("Exit");
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         // wait until anim stops - use real time outside of time.timeScale
-        yield return StartCoroutine(IWaitForRealSeconds(0.9f));
+        yield return StartCoroutine(IWaitForRealSeconds(0.8f));
         // reset time scale to account for rounding errors
         Time.timeScale = 1f; 
         timeSlider.value = 1f;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         pauseShade.SetActive(false);
         paused = false;
     }
