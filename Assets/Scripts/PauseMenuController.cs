@@ -6,18 +6,16 @@ using UnityEngine.SceneManagement;
 public class PauseMenuController : MonoBehaviour
 {
     private bool paused = false;
-    private GameObject pauseShade;
+    public GameObject pauseShade;
     private Animator animator;
     public string mainMenuSceneName;
     // animatable representation of the current time scale
     public Slider timeSlider;
+    private bool canPause = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        // get the shade child component
-    	pauseShade = gameObject.transform.Find("Shade").gameObject;
-    	timeSlider = GetComponentInChildren<Slider>();
         // deactivate the shade on game start
         pauseShade.SetActive(false);
         // setup animator
@@ -29,7 +27,7 @@ public class PauseMenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && canPause)
         {
             TogglePause();
         }
@@ -57,7 +55,9 @@ public class PauseMenuController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         // wait until anim stops - use real time outside of time.timeScale
+        canPause = false;
         yield return StartCoroutine(IWaitForRealSeconds(0.8f));
+        canPause = true;
         // reset time scale to account for rounding errors
         Time.timeScale = 1f; 
         timeSlider.value = 1f;
