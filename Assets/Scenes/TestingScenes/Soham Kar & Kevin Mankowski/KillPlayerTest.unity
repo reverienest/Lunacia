@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 312562745}
   m_Layer: 0
   m_Name: Test Floor (5)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 360945251}
   m_Layer: 0
   m_Name: Test Floor (1)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 389837125}
   m_Layer: 0
   m_Name: Test Floor (7)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 837739952}
   m_Layer: 0
   m_Name: Test Floor (3)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,9 +944,10 @@ GameObject:
   - component: {fileID: 1239605913}
   - component: {fileID: 1239605909}
   - component: {fileID: 1239605914}
+  - component: {fileID: 1239605915}
   m_Layer: 0
   m_Name: TestPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1084,6 +1085,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceleration: 10
+--- !u!114 &1239605915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239605908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9866f15748fdb14ab552ad7f18c868b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1250661364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,7 +1110,7 @@ GameObject:
   - component: {fileID: 1250661366}
   m_Layer: 0
   m_Name: Test Floor (2)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1206,7 +1219,7 @@ GameObject:
   - component: {fileID: 1397871873}
   m_Layer: 0
   m_Name: Test Floor (4)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1315,7 +1328,7 @@ GameObject:
   - component: {fileID: 1924936258}
   m_Layer: 0
   m_Name: Test Floor (6)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

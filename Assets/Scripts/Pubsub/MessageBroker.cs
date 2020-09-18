@@ -21,5 +21,9 @@ namespace Pubsub {
 		public event EventHandler<ExampleEventArgs> ExampleTopic = delegate { };
 
 		public void Raise(ExampleEventArgs exampleEventArgs) { ExampleTopic(this, exampleEventArgs); }
+
+		public event EventHandler<PlayerDeathEvent> playerDeath = delegate { };
+
+		public void Raise(PlayerDeathEvent playerDeathArgs) { playerDeath(this, playerDeathArgs); }
 	}
 }
