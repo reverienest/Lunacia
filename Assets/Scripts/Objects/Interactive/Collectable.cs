@@ -31,7 +31,7 @@ public class Collectable : MonoBehaviour
         }
     }
 
-    private string Collect(PlayerInventory playerInv)
+    private void Collect(PlayerInventory playerInv)
     {
         playerInv.CollectItem(CollectableType, gameObject);
 
@@ -39,7 +39,5 @@ public class Collectable : MonoBehaviour
         //    Destroy(gameObject);
         //else
         //    Destroy(parentCollectable);
-
-        return "bruh momentum";
     }
 }
