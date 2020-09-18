@@ -5,8 +5,8 @@ using UnityEngine;
 public class Collectable : MonoBehaviour
 {
     public string CollectableType;
-    public GameObject parentCollectable;
     // Strawberry, Book1, Book2;
+    //public GameObject parentCollectable;
 
     void Start()
     {
@@ -33,11 +33,11 @@ public class Collectable : MonoBehaviour
 
     private void Collect(PlayerInventory playerInv)
     {
-        playerInv.CollectItem(CollectableType);
+        playerInv.CollectItem(CollectableType, gameObject);
 
-        if (parentCollectable == null)
-            Destroy(gameObject);
-        else
-            Destroy(parentCollectable);
+        //if (parentCollectable == null)
+        //    Destroy(gameObject);
+        //else
+        //    Destroy(parentCollectable);
     }
 }

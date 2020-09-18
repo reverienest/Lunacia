@@ -9,15 +9,17 @@ public class PlayerInventory : MonoBehaviour
     public int book1Count;
     public int book2Count;
 
+    private List<GameObject> inactiveItems = new List<GameObject>();
+
     void Start()
     {
         
     }
 
-    public void CollectItem(string item)
+    public void CollectItem(string itemName, GameObject item)
     {
-        Debug.Log("Collected " + item + "!");
-        switch (item)
+        Debug.Log("Collected " + itemName + "!");
+        switch (itemName)
         {
             case "Strawberry":
                 strawberryCount += 1;
@@ -29,5 +31,7 @@ public class PlayerInventory : MonoBehaviour
                 book2Count += 1;
                 break;
         }
+        inactiveItems.Add(item);
+        item.SetActive(false);
     }
 }
