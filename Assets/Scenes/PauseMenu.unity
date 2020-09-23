@@ -465,7 +465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   speed: 10
-  movement: {x: 0, y: 0}
+  maxSpeed: 10
+  accel: 10
+  decel: 8
 --- !u!50 &1239605910
 Rigidbody2D:
   serializedVersion: 4
@@ -566,6 +568,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 605397292}
     m_Modifications:
+    - target: {fileID: 95885194, guid: 873772262929ce94cb28ff1b2eda75dd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718397935, guid: 873772262929ce94cb28ff1b2eda75dd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8676203405860445314, guid: 873772262929ce94cb28ff1b2eda75dd,
         type: 3}
       propertyPath: m_LocalPosition.x
