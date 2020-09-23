@@ -13,6 +13,10 @@ public class PauseMenuController : MonoBehaviour
     public Slider timeSlider;
     private bool canPause = true;
 
+    private Transform optionsButton;
+    private Transform resumeButton;
+    private Transform menuButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +26,11 @@ public class PauseMenuController : MonoBehaviour
         animator = pauseShade.GetComponent<Animator>();
         // set "timeScale" to 1 at start
         timeSlider.value = 1f;
+
+        // import buttons into the menu
+        optionsButton = transform.Find("Shade/Buttons/Options");
+        menuButton = transform.Find("Shade/Buttons/Menu");
+        resumeButton = transform.Find("Shade/Buttons/Resume");
     }
 
     // Update is called once per frame
@@ -46,11 +55,17 @@ public class PauseMenuController : MonoBehaviour
             Cursor.visible = true;
             pauseShade.SetActive(true);
             paused = true;
+
+            (optionsButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartEntry();
         }
     }
 
     private IEnumerator IResume()
     {
+
+        // toggle frame animations in buttons
+        (optionsButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartExit();
+
         animator.Play("Exit");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -63,6 +78,7 @@ public class PauseMenuController : MonoBehaviour
         timeSlider.value = 1f;
         pauseShade.SetActive(false);
         paused = false;
+
     }
 
     public void Click_Resume()
