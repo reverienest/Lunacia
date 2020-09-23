@@ -29,7 +29,7 @@ public class PauseMenuController : MonoBehaviour
 
         // import buttons into the menu
         optionsButton = transform.Find("Shade/Buttons/Options");
-        menuButton = transform.Find("Shade/Buttons/Menu");
+        menuButton = transform.Find("Shade/Buttons/MainMenu");
         resumeButton = transform.Find("Shade/Buttons/Resume");
     }
 
@@ -47,6 +47,11 @@ public class PauseMenuController : MonoBehaviour
     {
         if (paused)
         {
+            // start exit animation
+            (optionsButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartExit();
+            (menuButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartExit();
+            (resumeButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartExit();
+
             StartCoroutine(IResume());
         }
         else
@@ -56,15 +61,15 @@ public class PauseMenuController : MonoBehaviour
             pauseShade.SetActive(true);
             paused = true;
 
+            // start entry animation
             (optionsButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartEntry();
+            (menuButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartEntry();
+            (resumeButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartEntry();
         }
     }
 
     private IEnumerator IResume()
     {
-
-        // toggle frame animations in buttons
-        (optionsButton.GetComponent(typeof(PauseMenuButtonController)) as PauseMenuButtonController).StartExit();
 
         animator.Play("Exit");
         Cursor.lockState = CursorLockMode.Locked;

@@ -12,11 +12,14 @@ public class PauseMenuButtonController : MonoBehaviour
 
     private bool onEntry = true, onExit = false, onHover;
 
-    private int dormantFrame = -10, startingFrame = 3, staticFrame = 35, peakFrame = 59; 
+    private int dormantFrame = -20, startingFrame = 3, staticFrame = 35, peakFrame = 59; 
         //starting is set to 3 to avoid dim buttons
         //dormant is set to negative to stop frame progression when entry just began (i.e. the sprites are still transparent)
 
     private Sprite[] sprites;
+
+    private Transform text;
+    private double textSizeMin = 18.0, textSizeMax = 22.0;
 
     UnityEngine.UI.Image renderer;
 
@@ -36,15 +39,23 @@ public class PauseMenuButtonController : MonoBehaviour
         //the 0th element is the whole spritesheet and not the actual sprite
         //from 1 and on, the corresponding frame is (i - 1)th frame, which will be appended to
         //the actual list for actual sprites, instead of the object list
+        
+        //the resources must be sort in order manually because unity doesn't
+        //always import them by their naming order
         for (int i = 1; i < spriteList.Length; i++)
         {
-            sprites[i - 1] = spriteList[i] as Sprite;
+            int true_index = Int32.Parse(spriteList[i].name.Substring(
+                spriteList[i].name.LastIndexOf("_")+1
+            ));
+            sprites[true_index] = spriteList[i] as Sprite;
         }
 
         //replace sprite with overrideSprite, the latter is controled dynamically by this script
         renderer.overrideSprite = renderer.sprite;
 
-        
+        frame = dormantFrame;
+
+        text = transform.Find("Text");
     }
 
     public void StartEntry()
@@ -93,6 +104,7 @@ public class PauseMenuButtonController : MonoBehaviour
                 onEntry = false;
             }
         }
+        //exit animation
         else if (onExit)
         {
             if (frame > startingFrame)
@@ -106,23 +118,25 @@ public class PauseMenuButtonController : MonoBehaviour
         }
         else //not on any major animations
         {
+            //hover animation
             if (onHover)
             {
                 if (frame < peakFrame)
-                {
                     frame++;
-                }
             }
             else
             {
                 if(frame > staticFrame)
-                {
                     frame--;
-                }
             }
+            //scale button text according to sprite progression
+            text.GetComponent<UnityEngine.UI.Text>().fontSize =
+                (int)(
+                    (textSizeMax - textSizeMin) / (peakFrame * 1.0 - staticFrame)
+                    * (frame - staticFrame) + textSizeMin
+                );
         }
 
-        //print(frame + "onEntry:" + onEntry);
         //set sprite according to static frame number
         if (img_num != frame)
         {
@@ -134,7 +148,7 @@ public class PauseMenuButtonController : MonoBehaviour
             {
                 renderer.overrideSprite = sprites[frame];
             }
-            
         }
+
     }
 }
