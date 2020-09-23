@@ -12,7 +12,10 @@ public class PauseMenuButtonController : MonoBehaviour
 
     private bool onEntry = true, onExit = false, onHover;
 
-    private int startingFrame = 3, staticFrame = 35, peakFrame = 59; //starting is set to 3 to avoid dim buttons
+    private int dormantFrame = -10, startingFrame = 3, staticFrame = 35, peakFrame = 59; 
+        //starting is set to 3 to avoid dim buttons
+        //dormant is set to negative to stop frame progression when entry just began (i.e. the sprites are still transparent)
+
     private Sprite[] sprites;
 
     UnityEngine.UI.Image renderer;
@@ -50,7 +53,7 @@ public class PauseMenuButtonController : MonoBehaviour
         onEntry = true;
         onExit = false;
         onHover = false;
-        frame = startingFrame;
+        frame = dormantFrame;
     }
     public void StartExit()
     {
@@ -123,7 +126,15 @@ public class PauseMenuButtonController : MonoBehaviour
         //set sprite according to static frame number
         if (img_num != frame)
         {
-            renderer.overrideSprite = sprites[frame];
+            if (frame < startingFrame)
+            {
+                renderer.overrideSprite = sprites[startingFrame];
+            }
+            else
+            {
+                renderer.overrideSprite = sprites[frame];
+            }
+            
         }
     }
 }
