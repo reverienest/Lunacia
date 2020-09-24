@@ -6,30 +6,26 @@ using Pubsub;
 
 public class KillPlayer : MonoBehaviour
 {
-    GameObject player;
-    GameObject[] hazards;
+    public GameObject player;
 
-    static KillPlayer()
-    {
-        MessageBroker.Instance.playerDeath += consumePlayerDeathEvent;
+    private static bool addedMessageBroker = false;
+
+    void Awake() {
+        if (!addedMessageBroker) {
+            MessageBroker.Instance.playerDeath += consumePlayerDeathEvent;
+            addedMessageBroker = true;
+        }
     }
 
-    static void consumePlayerDeathEvent(object sender, PlayerDeathEvent death) {
+    static void consumePlayerDeathEvent(object sender, PlayerDeathEventArguments death) {
 		print(death.deathMessage);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
-    void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-        hazards = GameObject.FindGameObjectsWithTag("Hazard");
-    }
-
-    void OnCollisionEnter2D(Collision2D col)
-    {
+    void OnCollisionEnter2D(Collision2D col) {
         if (col.gameObject.tag == "Hazard")
         {
-            MessageBroker.Instance.Raise(new PlayerDeathEvent("Player died!"));
+            MessageBroker.Instance.Raise(new PlayerDeathEventArguments("Player died!"));
         }
     }
 
