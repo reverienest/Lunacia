@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Juliet Baldwin/TitleScreen.unity
+    guid: 29f41720fb62c2e4b8041dce03d786b0
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Daniel Carr/Collectable.unity
+    guid: 64aa00a7d01548649a914aece7f2a733
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Juliet Baldwin/Credits.unity
+    guid: cd006f80fa3bb29419a7d54d7e9d9020
   m_configObjects: {}
