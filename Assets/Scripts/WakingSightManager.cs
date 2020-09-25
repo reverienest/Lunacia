@@ -5,14 +5,11 @@ using UnityEngine.UI;
 
 public class WakingSightManager : MonoBehaviour
 {
-    // Drag image component here in the inspector window
+    
     public Image myImageComponent;
-
-    // Drag first sprite here in the inspector window
     public Sprite WSoff;
-
-    // Drag second sprite here in the inspector window
     public Sprite WSon;
+    public WakingSight wakingSight;
 
     public void SetImage(Sprite x)
     {
@@ -22,11 +19,11 @@ public class WakingSightManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (wakingSight.activeMode == 0)
         {
             SetImage(WSoff);
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (wakingSight.activeMode == 1)
         {
             SetImage(WSon);
         }

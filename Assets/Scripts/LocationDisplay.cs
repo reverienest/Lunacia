@@ -11,10 +11,10 @@ public class LocationDisplay : MonoBehaviour
     void setLocation(string place)
     {
         location = place;
+        locationText.text = "Location: " + location;
     }
     
     void Update()
     {
-        locationText.text = "Location: " + location;
     }
 }
