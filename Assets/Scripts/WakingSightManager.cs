@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class WakingSightManager : MonoBehaviour
 {
-    // Drag image component here in the inspector window
-    public Image myImageComponent;
 
     // Drag first sprite here in the inspector window
     public Sprite WSoff;
@@ -14,9 +12,9 @@ public class WakingSightManager : MonoBehaviour
     // Drag second sprite here in the inspector window
     public Sprite WSon;
 
-    public void SetImage(Sprite x)
+    public void SetImage(Sprite newSprite)
     {
-        this.GetComponent<Image>().sprite = x;
+        this.GetComponent<Image>().sprite = newSprite;
     }
  
     // Update is called once per frame
