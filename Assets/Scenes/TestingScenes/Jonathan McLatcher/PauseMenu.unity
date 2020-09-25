@@ -473,6 +473,16 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7164559277294958148, guid: 7c3bf6eb5d303114cae98ed9249237a2,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164559277714928611, guid: 7c3bf6eb5d303114cae98ed9249237a2,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7164559277950106048, guid: 7c3bf6eb5d303114cae98ed9249237a2,
         type: 3}
       propertyPath: m_Name
@@ -581,6 +591,11 @@ PrefabInstance:
     - target: {fileID: 7164559277950106052, guid: 7c3bf6eb5d303114cae98ed9249237a2,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164559278788063373, guid: 7c3bf6eb5d303114cae98ed9249237a2,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
