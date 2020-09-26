@@ -19,7 +19,11 @@ namespace Pubsub {
 		}
 
 		public event EventHandler<ExampleEventArgs> ExampleTopic = delegate { };
+		public event EventHandler<PlayerDeathEventArguments> PlayerDeathTopic = delegate { };
+		public event EventHandler<WakingSightModeEventArgs> WakingSightModeTopic = delegate { };
 
 		public void Raise(ExampleEventArgs exampleEventArgs) { ExampleTopic(this, exampleEventArgs); }
+		public void Raise(PlayerDeathEventArguments playerDeathArgs) { PlayerDeathTopic(this, playerDeathArgs); }
+		public void Raise(WakingSightModeEventArgs wakingSightModeEventArgs) { WakingSightModeTopic(this, wakingSightModeEventArgs); }
 	}
 }
