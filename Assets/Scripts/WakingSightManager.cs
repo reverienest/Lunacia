@@ -11,9 +11,9 @@ public class WakingSightManager : MonoBehaviour
     public Sprite WSon;
     public WakingSight wakingSight;
 
-    public void SetImage(Sprite x)
+    public void SetImage(Sprite newSprite)
     {
-        this.GetComponent<Image>().sprite = x;
+        this.GetComponent<Image>().sprite = newSprite;
     }
  
     // Update is called once per frame
