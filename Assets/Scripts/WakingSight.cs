@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Pubsub;
 using UnityEngine;
 
 public class WakingSight : MonoBehaviour
@@ -32,6 +33,7 @@ public class WakingSight : MonoBehaviour
         if (mode != activeMode && !changingMode) {
             // Flag mode changing so coroutine can't be called twice simultaneously
             changingMode = true;
+			MessageBroker.Instance.Raise(new WakingSightModeEventArgs(mode));
             activeMode = mode;
             if (mode == 0) {
                 // Set to max scale and step down
