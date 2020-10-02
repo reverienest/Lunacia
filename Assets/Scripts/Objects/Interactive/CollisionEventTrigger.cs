@@ -9,7 +9,8 @@ public class MyEvent : UnityEvent<string, GameObject> { }
 
 public class CollisionEventTrigger : MonoBehaviour
 {
-
+    public string myStr;
+    public GameObject myGameObj;
     public MyEvent myEvent;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -17,7 +18,7 @@ public class CollisionEventTrigger : MonoBehaviour
         //Debug.Log(collision.tag);
         if (collision.tag == "Player")
         {
-            myEvent.Invoke("hello world", gameObject); 
+            myEvent.Invoke(myStr, myGameObj); 
             // can be used to send dynamic stuff like .SendMessage()
             // use myEvent.Invoke("ApplyDamage", gameObject) and config to .SendMessage()
             // to run .SendMessage("ApplyDamage", gameObject) when invoked.
