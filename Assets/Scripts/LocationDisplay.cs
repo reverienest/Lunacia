@@ -8,6 +8,11 @@ public class LocationDisplay : MonoBehaviour
     private string location = "Glade";
     public Text locationText;
 
+    void Start()
+    {
+        setLocation("Intro Glade");
+    }
+
     void setLocation(string place)
     {
         location = place;
