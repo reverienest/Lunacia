@@ -59,7 +59,7 @@ MonoBehaviour:
   identifier: 46fbfdf3fc43db0458918377fd40293e
   parentIdentifier: default
   displaySortOrder: 0
-  active: 0
+  active: 1
   Properties:
     LiveUpdate:
       Value: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   identifier: 2c5177b11d81d824dbb064f9ac8527da
   parentIdentifier: default
   displaySortOrder: 0
-  active: 0
+  active: 1
   Properties:
     LiveUpdate:
       Value: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
       Value: Desktop
       HasValue: 1
     SpeakerMode:
-      Value: 3
+      Value: 6
       HasValue: 1
     VirtualChannelCount:
       Value: 128
@@ -498,7 +498,7 @@ MonoBehaviour:
   identifier: 52eb9df5db46521439908db3a29a1bbb
   parentIdentifier: default
   displaySortOrder: 0
-  active: 0
+  active: 1
   Properties:
     LiveUpdate:
       Value: 0
