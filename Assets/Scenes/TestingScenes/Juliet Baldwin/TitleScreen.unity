@@ -1494,8 +1494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf7c2c39c218c164095d67bf8d08c9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startGameScene: Collectable
-  timeSlider: {fileID: 0}
+  startGameScene: Milestone1
+  creditsScene: Credits
 --- !u!1 &1846419947
 GameObject:
   m_ObjectHideFlags: 0
