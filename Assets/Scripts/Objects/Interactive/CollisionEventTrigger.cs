@@ -30,4 +30,9 @@ public class CollisionEventTrigger : MonoBehaviour
         if (g != null)
             Debug.Log(g.name + " says: " + s);
     }
+
+    public void InvokeEvent()
+    {
+        myEvent.Invoke(myStr, myGameObj);
+    }
 }

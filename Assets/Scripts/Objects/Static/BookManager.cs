@@ -16,6 +16,7 @@ public class BookManager : MonoBehaviour
 
     public GameObject bookDisplayPanel;
     private TextObject openedBookText;
+    public Animator animator;
 
     void Start()
     {
@@ -28,7 +29,13 @@ public class BookManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))// || Input.GetButtonDown("Fire1"))
+        {
+            if (openedBookText != null && !openedBookText.TrySkipText())
+            {
+                CloseBook();
+            }
+        }
     }
 
     public void OpenBook(TextObject textObj)
@@ -41,6 +48,7 @@ public class BookManager : MonoBehaviour
         openedBookText = textObj;
         bookDisplayPanel.SetActive(true);
         openedBookText.textContainer.SetActive(true);
+        animator.SetBool("isOpen", true); // requires panel to be active :)
 
         //  animation stuff or delay here
 
@@ -57,6 +65,12 @@ public class BookManager : MonoBehaviour
     }
 
     public void CloseBook()
+    {
+        animator.SetBool("isOpen", false);
+        // DisableBook();
+    }
+
+    public void DisableBook()
     {
         bookDisplayPanel.SetActive(false);
         openedBookText.textContainer.SetActive(false);

@@ -14,7 +14,6 @@ public class TextObject : MonoBehaviour
     [Tooltip("Set automatically by book manager if exists")]
     public float textSpeed;
 
-    public BookManager bManager;
     [Tooltip("Usually the scrollrect")]
     public GameObject textContainer; 
     public TextMeshProUGUI m_TextMeshPro;
@@ -24,11 +23,6 @@ public class TextObject : MonoBehaviour
 
     void Start()
     {
-        if (bManager == null)
-        {
-            Debug.LogWarning("Book Manager is null!");
-        }
-
         // force characters to load
         m_TextMeshPro.ForceMeshUpdate();
 
@@ -37,15 +31,6 @@ public class TextObject : MonoBehaviour
             SetTextAlphaZero();
         }
 
-    }
-
-    void LateUpdate()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
-            if (coroutine != null)
-                SkipTypingString();
-            else
-                CloseBook();
     }
 
     #region - SETTING TEXT STUFF -
@@ -154,24 +139,25 @@ public class TextObject : MonoBehaviour
 
     #endregion
 
-    public void OpenBook()
-    {
-        bManager.OpenBook(this);
-    }
-
     public void StartTyping()
     {
         coroutine = TypeString();
         StartCoroutine(coroutine);
     }
 
-    public void CloseBook()
-    {
-        bManager.CloseBook();
-    }
-
     public void UpdateTextSpeed(float charDelay)
     {
         textSpeed = charDelay;
+    }
+
+    // returns true if text is skipped, false if it isn't
+    public bool TrySkipText()
+    {
+        if (coroutine != null)
+        {
+            SkipTypingString();
+            return true;
+        }
+        return false;
     }
 }
