@@ -59,4 +59,8 @@ public class WakingSight : MonoBehaviour
             changingMode = false;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        
+    }
 }
