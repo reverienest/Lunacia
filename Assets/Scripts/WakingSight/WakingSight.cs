@@ -38,7 +38,6 @@ public class WakingSight : MonoBehaviour
             activeMode = mode;
             if (mode == 0) {
 				
-				print("uwu;;");
 				animator.SetBool("WakingSightOn", true);
 
                 // Set to max scale and step down
