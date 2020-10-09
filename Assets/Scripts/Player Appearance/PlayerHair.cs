@@ -6,11 +6,10 @@ public class PlayerHair : MonoBehaviour
 {
     public int num_steps;
 
-    public float length;
-    public float spread;
-    public float freq;
-    public float random_range;
-    public float stiffness;
+    public float length; //the stretchiness of the hair
+    public float spread; //the amplitude of the hair's waving motion
+    public float freq; //how fast the hair waves around
+    public float stiffness; //the lower the softer the hair
 
     public Vector2 lShift, rShift;
 
@@ -22,6 +21,8 @@ public class PlayerHair : MonoBehaviour
 
     private LineRenderer renderer;
     private Rigidbody2D rigid;
+
+    private PlayerBody bodyScript;
 
     private float nonStaticVelAng;
 
@@ -42,6 +43,7 @@ public class PlayerHair : MonoBehaviour
         //graphic components
         renderer = GetComponent<LineRenderer>();
         rigid = GetComponentInParent<Rigidbody2D>();
+        bodyScript = GetComponent<PlayerBody>();
 
     }
 
@@ -73,8 +75,8 @@ public class PlayerHair : MonoBehaviour
         // iterate through shape
         for (int i = num_steps - 1; i > 0; i--)
         {
-            axial[i] = lerp(axial[i], axial[i-1], timer % (1.0f / stiffness), (1.0f / stiffness));
-            steps[i] = lerp(steps[i], steps[i-1], timer%(1.0f/stiffness), (1.0f/stiffness));
+            axial[i] = lerp(axial[i], axial[i-1], Time.deltaTime * stiffness, 1.0f);
+            steps[i] = lerp(steps[i], steps[i-1], Time.deltaTime * stiffness, 1.0f);
         }
 
         steps[0] = v2FromAngle(vel_ang + Mathf.PI);
@@ -82,16 +84,29 @@ public class PlayerHair : MonoBehaviour
 
         // form main curvature
         Vector2 pos_temp = new Vector2(pos.x, pos.y);
-        if (vel.x <0)
+        if (bodyScript.facingLeft)
         {
             pos_temp += lShift;
+
+            //equilibrium position when facing left
+            if (vel.magnitude < 0.0001)
+            {
+                steps[0] = v2FromAngle(0.1f);
+            }
         }
         else
         {
             pos_temp += rShift;
+
+            //equilibrium position when facing right
+            if (vel.magnitude < 0.0001)
+            {
+                steps[0] = v2FromAngle(3.24f);
+            }
         }
+
         Vector3[] spline = new Vector3[num_steps+1];
-        spline[0] = new Vector3(pos.x, pos.y);
+        spline[0] = new Vector3(pos_temp.x, pos_temp.y);
 
         for(int i = 0; i < num_steps; i++)
         {
@@ -109,7 +124,7 @@ public class PlayerHair : MonoBehaviour
     float getAxial()
     {
         float t = timer * freq;
-        return Mathf.Sin(t + Random.value * random_range);
+        return Mathf.Sin(t);
     }
 
     void handleWind()
