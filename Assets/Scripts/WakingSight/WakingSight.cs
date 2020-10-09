@@ -8,11 +8,12 @@ public class WakingSight : MonoBehaviour
     public int activeMode = 0;
     public float maxScale = 10f;
     private bool changingMode = false;
+	private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,26 +37,34 @@ public class WakingSight : MonoBehaviour
 			MessageBroker.Instance.Raise(new WakingSightModeEventArgs(mode));
             activeMode = mode;
             if (mode == 0) {
+				
+				print("uwu;;");
+				animator.SetBool("WakingSightOn", true);
+
                 // Set to max scale and step down
-                Vector3 scale = new Vector3(maxScale, maxScale, 0);
-                Vector3 step = new Vector3(-maxScale/30, -maxScale/30, 0);
-                while (transform.localScale.x > 0) {
-                    scale += step;
-                    transform.localScale = scale;
-                    yield return new WaitForSeconds(0.1f);
-                }
-                transform.localScale = Vector3.zero;
+                // Vector3 scale = new Vector3(maxScale, maxScale, 0);
+                // Vector3 step = new Vector3(-maxScale/30, -maxScale/30, 0);
+                // while (transform.localScale.x > 0) {
+                //     scale += step;
+                //     transform.localScale = scale;
+                //     yield return new WaitForSeconds(0.1f);
+                // }
+                // transform.localScale = Vector3.zero;
             } else if (mode == 1) {
+
+				animator.SetBool("WakingSightOn", false);
+
                 // Set scale to zero and step up
-                Vector3 scale = Vector3.zero;
-                Vector3 step = new Vector3(maxScale/30, maxScale/30, 0);
-                while (transform.localScale.x < maxScale) {
-                    scale += step;
-                    transform.localScale = scale;
-                    yield return new WaitForSeconds(0.1f);
-                }
-                transform.localScale = new Vector3(maxScale, maxScale, 0);
+                // Vector3 scale = Vector3.zero;
+                // Vector3 step = new Vector3(maxScale/30, maxScale/30, 0);
+                // while (transform.localScale.x < maxScale) {
+                //     scale += step;
+                //     transform.localScale = scale;
+                //     yield return new WaitForSeconds(0.1f);
+                // }
+                // transform.localScale = new Vector3(maxScale, maxScale, 0);
             }
+			yield return null;
             changingMode = false;
         }
     }
