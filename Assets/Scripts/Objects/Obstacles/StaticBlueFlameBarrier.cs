@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlueFlameBarrier : MonoBehaviour
+public class StaticBlueFlameBarrier : MonoBehaviour
 {
-    public GameObject player;
-
-    void Update() {
+    void Update()
+    {
         if (KillPlayer.hasBlueFlame) {
             this.GetComponent<BoxCollider2D>().isTrigger = true;
         } else {
