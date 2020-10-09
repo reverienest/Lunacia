@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pubsub;
 
-public class FlameBarrier : MonoBehaviour
+public class DynamicFlameBarrier : MonoBehaviour
 {
    private bool isRedFlame;
    private bool isBlueFlame;

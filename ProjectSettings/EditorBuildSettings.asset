@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingScenes/Juliet Baldwin/Credits.unity
     guid: cd006f80fa3bb29419a7d54d7e9d9020
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/Scene A.unity
+    guid: ab71d9e562ad9bb4e813074a11c18c04
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/Scene B.unity
+    guid: d296ca10278ba5847a43fb9d04100cce
   m_configObjects: {}

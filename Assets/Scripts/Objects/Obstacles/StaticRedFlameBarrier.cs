@@ -2,16 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedFlameBarrier : MonoBehaviour
+public class StaticRedFlameBarrier : MonoBehaviour
 {
-    public GameObject player;
-
-    void Update() {
+    void Update()
+    {
         if (KillPlayer.hasRedFlame) {
             this.GetComponent<BoxCollider2D>().isTrigger = true;
         } else {
             this.GetComponent<BoxCollider2D>().isTrigger = false;
         }
     }
-    
 }
