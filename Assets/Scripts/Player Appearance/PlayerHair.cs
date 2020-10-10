@@ -10,8 +10,10 @@ public class PlayerHair : MonoBehaviour
     public float spread; //the amplitude of the hair's waving motion
     public float freq; //how fast the hair waves around
     public float stiffness; //the lower the softer the hair
+    public float blobSize;
 
     public Vector2 lShift, rShift;
+    public Vector2 lBlobShift, rBlobShift;
 
     private float[] axial; //axial deviation away from the main shape 
     private Vector2[] steps; //main shape of hair strand (denote by angle of each segment)
@@ -21,6 +23,7 @@ public class PlayerHair : MonoBehaviour
 
     private LineRenderer renderer;
     private Rigidbody2D rigid;
+    private SpriteRenderer hairBlob;
 
     private PlayerBody bodyScript;
 
@@ -44,7 +47,10 @@ public class PlayerHair : MonoBehaviour
         renderer = GetComponent<LineRenderer>();
         rigid = GetComponentInParent<Rigidbody2D>();
         bodyScript = GetComponent<PlayerBody>();
+        hairBlob = transform.GetChild(0).GetComponent<SpriteRenderer>();
 
+        hairBlob.color = renderer.startColor;
+        hairBlob.transform.localScale = new Vector3(blobSize, blobSize, blobSize);
     }
 
     // Update is called once per frame
@@ -84,9 +90,11 @@ public class PlayerHair : MonoBehaviour
 
         // form main curvature
         Vector2 pos_temp = new Vector2(pos.x, pos.y);
+        Vector2 blob_pos_temp = new Vector2(pos.x, pos.y);
         if (bodyScript.facingLeft)
         {
             pos_temp += lShift;
+            blob_pos_temp += lBlobShift;
 
             //equilibrium position when facing left
             if (vel.magnitude < 0.0001)
@@ -97,6 +105,7 @@ public class PlayerHair : MonoBehaviour
         else
         {
             pos_temp += rShift;
+            blob_pos_temp += rBlobShift;
 
             //equilibrium position when facing right
             if (vel.magnitude < 0.0001)
@@ -115,9 +124,11 @@ public class PlayerHair : MonoBehaviour
             spline[i + 1] = new Vector3(pos_temp.x, pos_temp.y) + perp * axial[i] * spread * i;
         }
 
-        // draw hair in mesh renderer
+        // draw hair in line renderer
         renderer.positionCount = num_steps + 1;
         renderer.SetPositions(spline);
+
+        hairBlob.transform.position = blob_pos_temp;
     }
 
     // formula for sine wave for hair strand

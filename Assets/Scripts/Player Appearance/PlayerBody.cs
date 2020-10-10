@@ -18,6 +18,7 @@ public class PlayerBody : MonoBehaviour
     {
         rigid = GetComponentInParent<Rigidbody2D>();
         renderer = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class PlayerBody : MonoBehaviour
     {
         Vector2 vel = rigid.velocity;
 
-        if (vel.x < 0.0f != facingLeft) //a flip is needed
+        if (vel.x <= 0.0f != facingLeft) //a flip is needed
         {
             if (timeSinceLastFlip > timeSinceLastFlipConstraint)
             {
