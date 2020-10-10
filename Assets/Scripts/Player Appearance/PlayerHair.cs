@@ -19,11 +19,12 @@ public class PlayerHair : MonoBehaviour
     private Vector2[] steps; //main shape of hair strand (denote by angle of each segment)
 
     private float timer = 0.0f;
-    private Vector2 pos, vel;
+    private Vector2 pos, vel, f;
 
     private LineRenderer renderer;
     private Rigidbody2D rigid;
     private SpriteRenderer hairBlob;
+    private WindDetector wd;
 
     private PlayerBody bodyScript;
 
@@ -48,9 +49,16 @@ public class PlayerHair : MonoBehaviour
         rigid = GetComponentInParent<Rigidbody2D>();
         bodyScript = GetComponent<PlayerBody>();
         hairBlob = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        wd = GetComponentInParent<WindDetector>();
 
         hairBlob.color = renderer.startColor;
         hairBlob.transform.localScale = new Vector3(blobSize, blobSize, blobSize);
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        print(collision);
     }
 
     // Update is called once per frame
@@ -60,6 +68,7 @@ public class PlayerHair : MonoBehaviour
         timer = timer + Time.deltaTime % 10000000000.0f; //just to prevent overflow
         pos = rigid.position;
         vel = rigid.velocity;
+
         float vel_ang;
         if (vel.magnitude != 0)
         {
@@ -91,6 +100,7 @@ public class PlayerHair : MonoBehaviour
         // form main curvature
         Vector2 pos_temp = new Vector2(pos.x, pos.y);
         Vector2 blob_pos_temp = new Vector2(pos.x, pos.y);
+
         if (bodyScript.facingLeft)
         {
             pos_temp += lShift;

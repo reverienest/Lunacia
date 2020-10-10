@@ -19,6 +19,7 @@ public class PlayerBody : MonoBehaviour
         rigid = GetComponentInParent<Rigidbody2D>();
         renderer = GetComponent<SpriteRenderer>();
 
+        //facingLeft = 
     }
 
     // Update is called once per frame
@@ -26,8 +27,9 @@ public class PlayerBody : MonoBehaviour
     {
         Vector2 vel = rigid.velocity;
 
-        if (vel.x <= 0.0f != facingLeft) //a flip is needed
+        if (vel.x < 0.0f != facingLeft) //a flip is needed
         {
+            //this is to prevent over-frequent flipping when approaching the cursor
             if (timeSinceLastFlip > timeSinceLastFlipConstraint)
             {
                 //flip
@@ -40,5 +42,7 @@ public class PlayerBody : MonoBehaviour
         {
             timeSinceLastFlip += Time.deltaTime;
         }
+
+        facingLeft = vel.x < 0.0f;
     }
 }
