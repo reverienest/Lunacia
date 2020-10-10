@@ -10,7 +10,8 @@ public class PlayerHair : MonoBehaviour
     public float spread; //the amplitude of the hair's waving motion
     public float freq; //how fast the hair waves around
     public float stiffness; //the lower the softer the hair
-    public float blobSize;
+    public float blobSize; //size of the hair blob behind the face
+    public float windMax, velEffectMax;
 
     public Vector2 lShift, rShift;
     public Vector2 lBlobShift, rBlobShift;
@@ -86,7 +87,6 @@ public class PlayerHair : MonoBehaviour
 
         // update hair shape:
         // determine basic constants
-        handleWind();
         // iterate through shape
         for (int i = num_steps - 1; i > 0; i--)
         {
@@ -101,16 +101,15 @@ public class PlayerHair : MonoBehaviour
         Vector2 pos_temp = new Vector2(pos.x, pos.y);
         Vector2 blob_pos_temp = new Vector2(pos.x, pos.y);
 
+        Vector2 equi_temp;
+
         if (bodyScript.facingLeft)
         {
             pos_temp += lShift;
             blob_pos_temp += lBlobShift;
 
             //equilibrium position when facing left
-            if (vel.magnitude < 0.0001)
-            {
-                steps[0] = v2FromAngle(0.1f);
-            }
+            equi_temp = new Vector2(1, 0);
         }
         else
         {
@@ -118,14 +117,16 @@ public class PlayerHair : MonoBehaviour
             blob_pos_temp += rBlobShift;
 
             //equilibrium position when facing right
-            if (vel.magnitude < 0.0001)
-            {
-                steps[0] = v2FromAngle(3.24f);
-            }
+            equi_temp = new Vector2(-1, 0);
         }
 
+        equi_temp = lerp(equi_temp, wd.wind, (wd.wind.magnitude / windMax) % 1.0f, 1.0f);
+
         Vector3[] spline = new Vector3[num_steps+1];
-        spline[0] = new Vector3(pos_temp.x, pos_temp.y);
+        spline[0] = new Vector2(pos_temp.x, pos_temp.y);
+        steps[0] = v2FromAngle(
+            lerp(equi_temp + steps[0], steps[0], (vel.magnitude / velEffectMax) % 1.0f, 1.0f)
+        );
 
         for(int i = 0; i < num_steps; i++)
         {
@@ -147,14 +148,7 @@ public class PlayerHair : MonoBehaviour
         float t = timer * freq;
         return Mathf.Sin(t);
     }
-
-    void handleWind()
-    {
-        //against wind: lower spread, higher frequency, longer length
-
-        //following wind: higher spread, higher frequency, shorter length
-    }
-
+    
     Vector2 lerp(Vector2 start, Vector2 end, float progress, float span)
     {
         return end * (progress / span) + start *((span - progress) / span);

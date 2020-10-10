@@ -703,6 +703,8 @@ MonoBehaviour:
   freq: 6
   stiffness: 5
   blobSize: 5
+  windMax: 1
+  velEffectMax: 1
   lShift: {x: 0, y: 0.33}
   rShift: {x: 0, y: 0.33}
   lBlobShift: {x: 0, y: 0.34}
@@ -720,7 +722,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingLeft: 0
-  timeSinceLastFlipConstraint: 0.5
 --- !u!120 &1493754989
 LineRenderer:
   m_ObjectHideFlags: 0
