@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingScenes/Juliet Baldwin/Credits.unity
     guid: cd006f80fa3bb29419a7d54d7e9d9020
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Austin Chemelli/SFX Demo.unity
+    guid: 1aaa1322ed7480a428fa13944256186c
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Austin Chemelli/SFX Demo2.unity
+    guid: d1f46d29ba5bd2c48a62427ef98541ca
   m_configObjects: {}
