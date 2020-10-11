@@ -9,6 +9,8 @@ public class WakingSight : MonoBehaviour
     public float maxScale = 10f;
     private bool changingMode = false;
 
+    public SpriteRenderer sprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,11 +37,16 @@ public class WakingSight : MonoBehaviour
             changingMode = true;
 			MessageBroker.Instance.Raise(new WakingSightModeEventArgs(mode));
             activeMode = mode;
+            float scalarStep = maxScale/30;
             if (mode == 0) {
                 // Set to max scale and step down
                 Vector3 scale = new Vector3(maxScale, maxScale, 0);
-                Vector3 step = new Vector3(-maxScale/30, -maxScale/30, 0);
+                Vector3 step = new Vector3(-scalarStep, -scalarStep, 0);
+                Color c = sprite.color;
+                c.a = 0f;
                 while (transform.localScale.x > 0) {
+                    c.a += 1f/30f;
+                    sprite.color = c;
                     scale += step;
                     transform.localScale = scale;
                     yield return new WaitForSeconds(0.1f);
@@ -48,8 +55,12 @@ public class WakingSight : MonoBehaviour
             } else if (mode == 1) {
                 // Set scale to zero and step up
                 Vector3 scale = Vector3.zero;
-                Vector3 step = new Vector3(maxScale/30, maxScale/30, 0);
+                Vector3 step = new Vector3(scalarStep, scalarStep, 0);
+                Color c = sprite.color;
+                c.a = 1f;
                 while (transform.localScale.x < maxScale) {
+                    c.a -= 1f/30f;
+                    sprite.color = c;
                     scale += step;
                     transform.localScale = scale;
                     yield return new WaitForSeconds(0.1f);

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pubsub;
+
 
 public class Vine : MonoBehaviour
 {
@@ -9,13 +11,19 @@ public class Vine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        MessageBroker.Instance.WakingSightModeTopic += consumeExampleMessage;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void consumeExampleMessage(object sender, WakingSightModeEventArgs example)
     {
-        
+        if (example.ActiveMode == 0)
+        {
+            this.gameObject.SetActive(true);
+        }
+        if (example.ActiveMode == 1)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other) {
