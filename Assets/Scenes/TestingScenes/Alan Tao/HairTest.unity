@@ -698,13 +698,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   num_steps: 8
-  length: 0.26
-  spread: 0.1
+  length: 0.22
+  spread: 0.2
   freq: 6
   stiffness: 5
   blobSize: 5
-  windMax: 1
+  windMax: 10
   velEffectMax: 1
+  windEffectMag: 0.3
   lShift: {x: 0, y: 0.33}
   rShift: {x: 0, y: 0.33}
   lBlobShift: {x: 0, y: 0.34}
@@ -920,12 +921,12 @@ PrefabInstance:
     - target: {fileID: 8674726948282775861, guid: 0a54ae81c33a32c4eac20edbaf418236,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: 8674726948282775861, guid: 0a54ae81c33a32c4eac20edbaf418236,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 8674726948282775861, guid: 0a54ae81c33a32c4eac20edbaf418236,
         type: 3}
@@ -945,7 +946,7 @@ PrefabInstance:
     - target: {fileID: 8674726948282775861, guid: 0a54ae81c33a32c4eac20edbaf418236,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 8674726948282775862, guid: 0a54ae81c33a32c4eac20edbaf418236,
         type: 3}

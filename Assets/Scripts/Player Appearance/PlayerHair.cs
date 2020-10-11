@@ -11,7 +11,7 @@ public class PlayerHair : MonoBehaviour
     public float freq; //how fast the hair waves around
     public float stiffness; //the lower the softer the hair
     public float blobSize; //size of the hair blob behind the face
-    public float windMax, velEffectMax;
+    public float windMax, velEffectMax, windEffectMag;
 
     public Vector2 lShift, rShift;
     public Vector2 lBlobShift, rBlobShift;
@@ -20,9 +20,10 @@ public class PlayerHair : MonoBehaviour
     private Vector2[] steps; //main shape of hair strand (denote by angle of each segment)
 
     private float timer = 0.0f;
-    private Vector2 pos, vel, f;
+    private Vector2 pos, vel;
+    private float windTransProgress, windEffect = 0.0f;
 
-    private LineRenderer renderer;
+    private LineRenderer renderer_;
     private Rigidbody2D rigid;
     private SpriteRenderer hairBlob;
     private WindDetector wd;
@@ -46,15 +47,14 @@ public class PlayerHair : MonoBehaviour
             steps[i] = new Vector2(-1, 0.1f); //in third quadrant at beginning
         }
         //graphic components
-        renderer = GetComponent<LineRenderer>();
+        renderer_ = GetComponent<LineRenderer>();
         rigid = GetComponentInParent<Rigidbody2D>();
         bodyScript = GetComponent<PlayerBody>();
         hairBlob = transform.GetChild(0).GetComponent<SpriteRenderer>();
         wd = GetComponentInParent<WindDetector>();
 
-        hairBlob.color = renderer.startColor;
+        hairBlob.color = renderer_.startColor;
         hairBlob.transform.localScale = new Vector3(blobSize, blobSize, blobSize);
-
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -87,6 +87,45 @@ public class PlayerHair : MonoBehaviour
 
         // update hair shape:
         // determine basic constants
+        float[] temp = { length, spread, freq }; // save original for later use
+        bool resumeSavedWindEffect = false;
+        float windEffectTemp = windEffect;
+
+
+        if (wd.wind.magnitude != 0) { // transition period
+
+            windEffect = windEffectMag * Mathf.Min(wd.wind.magnitude, windMax) / windMax; // magnitude of effect
+            windTransProgress += Mathf.Sign(vel.x * wd.wind.x + vel.y * wd.wind.y) * Time.deltaTime;
+            windTransProgress = Mathf.Min(Mathf.Abs(windTransProgress), 0.5f) * Mathf.Sign(windTransProgress);
+
+            windEffect *= windTransProgress / 0.5f;
+        }
+        else // reverse transition period
+        {
+            bool startOutAsPositive = Mathf.Sign(windTransProgress) > 0;
+            windTransProgress -= Mathf.Sign(windTransProgress) * Time.deltaTime;
+            if (Mathf.Sign(windTransProgress) <= 0 == startOutAsPositive)
+            {
+                windTransProgress = 0.0f;
+                windEffect = 0.0f;
+            }
+            else
+            {
+                windEffect *= windTransProgress / 0.5f;
+                resumeSavedWindEffect = true;
+            }
+        }
+        print(windTransProgress);
+
+        length *= 1 - windEffect;
+        spread *= 1 + windEffect;
+        freq *= 1 + Mathf.Abs(windEffect);
+
+        if (resumeSavedWindEffect)
+        {
+            windEffect = windEffectTemp;
+        }
+
         // iterate through shape
         for (int i = num_steps - 1; i > 0; i--)
         {
@@ -120,13 +159,15 @@ public class PlayerHair : MonoBehaviour
             equi_temp = new Vector2(-1, 0);
         }
 
-        equi_temp = lerp(equi_temp, wd.wind, (wd.wind.magnitude / windMax) % 1.0f, 1.0f);
+        equi_temp = lerp(equi_temp, wd.wind, Mathf.Min(wd.wind.magnitude, windMax), windMax);
 
         Vector3[] spline = new Vector3[num_steps+1];
         spline[0] = new Vector2(pos_temp.x, pos_temp.y);
-        steps[0] = v2FromAngle(
-            lerp(equi_temp + steps[0], steps[0], (vel.magnitude / velEffectMax) % 1.0f, 1.0f)
-        );
+        steps[0] = lerp(
+                equi_temp, steps[0],
+                Mathf.Min(vel.magnitude, velEffectMax), velEffectMax
+            );
+        steps[0].Normalize();
 
         for(int i = 0; i < num_steps; i++)
         {
@@ -136,10 +177,14 @@ public class PlayerHair : MonoBehaviour
         }
 
         // draw hair in line renderer
-        renderer.positionCount = num_steps + 1;
-        renderer.SetPositions(spline);
+        renderer_.positionCount = num_steps + 1;
+        renderer_.SetPositions(spline);
 
         hairBlob.transform.position = blob_pos_temp;
+
+        length = temp[0];
+        spread = temp[1];
+        freq = temp[2];
     }
 
     // formula for sine wave for hair strand

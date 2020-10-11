@@ -21,9 +21,15 @@ public class PlayerBody : MonoBehaviour
     {
         Vector2 vel = rigid.velocity;
 
-        facingLeft = vel.x < 0;
-        renderer.flipX = vel.x < 0;
+        if (vel.x != 0)
+        {
+            facingLeft = vel.x < 0;
+            renderer.flipX = vel.x < 0;
+            facingLeft = vel.x < 0.0f;
+        }
+        else
+        {
 
-        facingLeft = vel.x < 0.0f;
+        }
     }
 }
