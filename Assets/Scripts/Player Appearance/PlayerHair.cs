@@ -57,11 +57,6 @@ public class PlayerHair : MonoBehaviour
         hairBlob.transform.localScale = new Vector3(blobSize, blobSize, blobSize);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        print(collision);
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -115,7 +110,7 @@ public class PlayerHair : MonoBehaviour
                 resumeSavedWindEffect = true;
             }
         }
-        print(windTransProgress);
+        //print(windTransProgress);
 
         length *= 1 - windEffect;
         spread *= 1 + windEffect;
