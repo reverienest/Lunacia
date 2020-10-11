@@ -17,7 +17,7 @@ public class DynamicFlameBarrier : MonoBehaviour
        if (wakingSightState.ActiveMode == 1) {
            isRedFlame = false;
            isBlueFlame = true;
-           this.GetComponent<Renderer>().material.SetColor("_Color", Color.blue);
+           this.GetComponent<Renderer>().material.SetColor("_Color", Color.cyan);
        } else if (wakingSightState.ActiveMode == 0) {
            isRedFlame = true;
            isBlueFlame = false;
