@@ -24,8 +24,7 @@ public class KillPlayer : MonoBehaviour
         MessageBroker.Instance.PlayerDeathTopic -= consumePlayerDeathEvent;
     }
     void OnCollisionEnter2D(Collision2D col) {
-        if (col.gameObject.tag == "Hazard")
-        {
+        if (col.gameObject.tag == "Hazard") {
             MessageBroker.Instance.Raise(new PlayerDeathEventArguments("Player died!"));
         }
     }
