@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637375200662044823
+  lastModified: 637376132677554398
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
   - {fileID: -5314748213023842169}
   StringsBanks:
   - {fileID: 7664761161143538239}
-  stringsBankWriteTime: 637375200662064837
+  stringsBankWriteTime: 637376132677564399
   cacheVersion: 5
 --- !u!114 &7664761161143538239
 MonoBehaviour:
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637375200662064837
+  lastModified: 637376132677564399
   LoadResult: 0
   FileSizes:
   - Name: Desktop
