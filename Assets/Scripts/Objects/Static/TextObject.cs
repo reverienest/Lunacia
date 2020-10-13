@@ -22,7 +22,7 @@ public class TextObject : MonoBehaviour
 
     private IEnumerator coroutine;
 
-    void Start()
+    void Awake()
     {
         m_TextMeshPro = GetComponent<TextMeshProUGUI>();
         if (m_TextMeshPro == null)
