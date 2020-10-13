@@ -58,8 +58,8 @@ MonoBehaviour:
   windEffectMag: 0.3
   lShift: {x: 0, y: 0.33}
   rShift: {x: 0, y: 0.33}
-  lBlobShift: {x: 0, y: 0.34}
-  rBlobShift: {x: 0, y: 0.34}
+  lBlobShift: {x: 0, y: 0.33}
+  rBlobShift: {x: 0, y: 0.33}
 --- !u!120 &4450120243727481166
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -322,7 +322,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8346268092361463217}
-  - component: {fileID: 8346268092361463230}
   - component: {fileID: 8346268092361463231}
   - component: {fileID: 8346268092361463216}
   - component: {fileID: 8346268092361463228}
@@ -351,58 +350,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8346268092361463230
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8346268092361463229}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3021711380526246454, guid: 84a45fdc622f4f148bace62572612d82,
-    type: 3}
-  m_Color: {r: 1, g: 0.76954174, b: 0.76954174, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.1, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!50 &8346268092361463231
 Rigidbody2D:
   serializedVersion: 4

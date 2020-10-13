@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pubsub;
 
 public class BlackHole : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class BlackHole : MonoBehaviour
     public Color normalGlow, wakingGlow;
     public float attraction;
     public bool inWakingSight;
+    public enum ForceMode_
+    {
+        constant,
+        inverse,
+        inverseSqr
+    }
+    public ForceMode_ attraction_mode;
 
     private ParticleSystem pSystem;
     private ParticleSystem.TrailModule pSystemTrail;
@@ -49,6 +57,29 @@ public class BlackHole : MonoBehaviour
         counter_clockwise = !inWakingSight;
 
         attracting = new ArrayList();
+
+        MessageBroker.Instance.WakingSightModeTopic += consumeWSMessage;
+    }
+
+    private void consumeWSMessage(object sender, WakingSightModeEventArgs wsModeChange)
+    {
+        switch (wsModeChange.ActiveMode)
+        {
+            case 1:
+                inWakingSight = true;
+                counter_clockwise = false;
+
+                blackholeSprite.color = wakingGlow;
+                pSystemTrail.colorOverLifetime = WAKING_GRADIENT;
+                break;
+            case 0:
+                inWakingSight = false;
+                counter_clockwise = true;
+
+                blackholeSprite.color = normalGlow;
+                pSystemTrail.colorOverLifetime = NORMAL_GRADIENT;
+                break;
+        }
     }
 
     // Update is called once per frame
@@ -57,39 +88,24 @@ public class BlackHole : MonoBehaviour
         
     }
 
-    public void onEnterWaking()
-    {
-        inWakingSight = true;
-        counter_clockwise = false;
-
-        blackholeSprite.color = wakingGlow;
-        pSystemTrail.colorOverLifetime = WAKING_GRADIENT;
-    }
-
-    public void onExitWaking()
-    {
-        inWakingSight = false;
-        counter_clockwise = true;
-
-        blackholeSprite.color = normalGlow;
-        pSystemTrail.colorOverLifetime = NORMAL_GRADIENT;
-    }
-
     private void FixedUpdate()
     {
         foreach (Rigidbody2D rigid in attracting)
         {
             Vector2 force = (new Vector2(transform.position.x, transform.position.y) - rigid.position);
 
-            //IMPLEMENT ACTUAL FORCE HERE, my focus was on the visuals and the below are just for demo purposes!
-
-            //constant force
-            //force = attraction * v2FromAngle(angleFromV2(force))
-            //inverse force
-            force = attraction * v2FromAngle(angleFromV2(force)) / Mathf.Max(0.1f, force.magnitude);
-            //inverse square force
-            //force = attraction * v2FromAngle(angleFromV2(force)) / Mathf.Max(0.01f, force.magnitude * force.magnitude);
-
+            switch (attraction_mode)
+            {
+                case ForceMode_.constant:
+                    force = attraction * v2FromAngle(angleFromV2(force));
+                    break;
+                case ForceMode_.inverse:
+                    force = attraction * v2FromAngle(angleFromV2(force)) / Mathf.Max(0.1f, force.magnitude);
+                    break;
+                case ForceMode_.inverseSqr:
+                    force = attraction* v2FromAngle(angleFromV2(force)) / Mathf.Max(0.01f, force.magnitude * force.magnitude);
+                    break;
+            }
             //print("applying" + force);
             rigid.AddForce(force);
         }
