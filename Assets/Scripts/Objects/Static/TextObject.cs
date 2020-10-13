@@ -10,19 +10,23 @@ public class TextObject : MonoBehaviour
     [Header("** ADD THIS SCRIPT TO TEXT WITH TEXT MESH PRO **")]
     // settings
     public bool invisibleAtStart = true;
+    public bool fadeTextIn = true;
+    public int rolloverCharacterSpread = 10;
 
     [Tooltip("Set automatically by book manager if exists")]
     public float textSpeed;
 
-    [Tooltip("Usually the scrollrect")]
-    public GameObject textContainer; 
-    public TextMeshProUGUI m_TextMeshPro;
+    private TextMeshProUGUI m_TextMeshPro;
     private int charIndex = 0;
+    private int startingCharacterIndex = 0; // for fade in
 
     private IEnumerator coroutine;
 
     void Start()
     {
+        m_TextMeshPro = GetComponent<TextMeshProUGUI>();
+        if (m_TextMeshPro == null)
+            Debug.LogWarning("TextMeshPro script not found!");
         // force characters to load
         m_TextMeshPro.ForceMeshUpdate();
 
@@ -45,10 +49,9 @@ public class TextObject : MonoBehaviour
             if (!textInfo.characterInfo[i].isVisible)
                 continue;
 
-            Color32 c = textInfo.characterInfo[i].color;
-            c.a = 0;
+            textInfo.characterInfo[i].color.a = 0;
 
-            SetCharacterColor(textInfo, c, i);
+            SetCharacterColor(textInfo, textInfo.characterInfo[i].color, i);
         }
     }
 
@@ -74,10 +77,9 @@ public class TextObject : MonoBehaviour
             }
             else
             {
-                Color32 c = textInfo.characterInfo[charIndex].color;
-                c.a = 255;
+                textInfo.characterInfo[charIndex].color.a = 255;
 
-                SetCharacterColor(textInfo, c, charIndex);
+                SetCharacterColor(textInfo, textInfo.characterInfo[charIndex].color, charIndex);
 
             }
 
@@ -87,6 +89,63 @@ public class TextObject : MonoBehaviour
                 yield return new WaitForSeconds(2 * textSpeed);
             }
             charIndex++;
+            startingCharacterIndex++;
+            yield return new WaitForSeconds(textSpeed);
+        }
+
+        coroutine = null;
+    }
+
+    private IEnumerator TypeStringFadeIn()
+    {
+        TMP_TextInfo textInfo = m_TextMeshPro.textInfo;
+
+        startingCharacterIndex= charIndex;
+        bool isRangeMax = false;
+
+        byte fadeSteps = (byte)Mathf.Max(1, 255 / rolloverCharacterSpread);
+
+        while (!isRangeMax)
+        {
+            int characterCount = textInfo.characterCount;
+
+            // If No Characters then just yield and wait for some text to be added
+            if (characterCount == 0)
+            {
+                yield return new WaitForSeconds(textSpeed);
+                continue;
+            }
+
+            for (int i = startingCharacterIndex; i < charIndex + 1; i++)
+            {
+                // Skip characters that are not visible and thus have no geometry to manipulate.
+                if (!textInfo.characterInfo[i].isVisible)
+                {
+                    continue;
+                }
+                else
+                {
+                    byte alpha = (byte)Mathf.Clamp(textInfo.characterInfo[i].color.a + fadeSteps, 0, 255);
+                    textInfo.characterInfo[i].color.a = alpha;
+                    SetCharacterColor(textInfo, textInfo.characterInfo[i].color, i);
+
+                    if (alpha == 255)
+                    {
+                        startingCharacterIndex += 1;
+
+                        if (startingCharacterIndex == characterCount)
+                        {
+                            // Update mesh vertex data one last time.
+                            m_TextMeshPro.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
+                            isRangeMax = true; 
+                        }
+                    }
+                }
+            }
+
+            m_TextMeshPro.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
+            if (charIndex + 1 < characterCount) charIndex += 1;
+
             yield return new WaitForSeconds(textSpeed);
         }
 
@@ -120,16 +179,15 @@ public class TextObject : MonoBehaviour
         {
             TMP_TextInfo textInfo = m_TextMeshPro.textInfo;
 
-            for (int i = charIndex; i < textInfo.characterCount; i++)
+            for (int i = startingCharacterIndex; i < textInfo.characterCount; i++)
             {
                 // Skip characters that are not visible and thus have no geometry to manipulate.
                 if (!textInfo.characterInfo[i].isVisible)
                     continue;
 
-                Color32 c = textInfo.characterInfo[i].color;
-                c.a = 255;
+                textInfo.characterInfo[i].color.a = 255;
 
-                SetCharacterColor(textInfo, c, i);
+                SetCharacterColor(textInfo, textInfo.characterInfo[i].color, i);
             }
 
             StopCoroutine(coroutine);
@@ -141,7 +199,10 @@ public class TextObject : MonoBehaviour
 
     public void StartTyping()
     {
-        coroutine = TypeString();
+        if (fadeTextIn)
+            coroutine = TypeStringFadeIn();
+        else
+            coroutine = TypeString();
         StartCoroutine(coroutine);
     }
 

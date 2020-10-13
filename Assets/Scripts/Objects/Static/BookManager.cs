@@ -16,6 +16,7 @@ public class BookManager : MonoBehaviour
 
     public GameObject bookDisplayPanel;
     private TextObject openedBookText;
+    private GameObject openedTextContainer;
     public Animator animator;
 
     void Start()
@@ -38,16 +39,18 @@ public class BookManager : MonoBehaviour
         }
     }
 
-    public void OpenBook(TextObject textObj)
+    // TODO: disable player movement/enable in CloseBook
+    public void OpenBook(TextObject textObj, GameObject textContainer)
     {
         if (openedBookText != null)
         {
-            Debug.LogWarning("Tried opening book while book is already open!");
+            Debug.LogWarning("Tried opening book while book is already open! Tried opening: " + textObj.name);
             return;
         }
         openedBookText = textObj;
         bookDisplayPanel.SetActive(true);
-        openedBookText.textContainer.SetActive(true);
+        openedTextContainer = textContainer;
+        openedTextContainer.SetActive(true);
         animator.SetBool("isOpen", true); // requires panel to be active :)
 
         //  animation stuff or delay here
@@ -55,11 +58,11 @@ public class BookManager : MonoBehaviour
         openedBookText.StartTyping();
     }
 
-    public void OpenBook(string _, GameObject gameObj)
+    public void OpenBook(string _, GameObject gameObj) // probably won't use this, its for event args
     {
         TextObject textObj = gameObj.GetComponent<TextObject>();
         if (textObj != null)
-            OpenBook(textObj);
+            OpenBook(textObj, gameObj);
         else
             Debug.LogWarning("Tried opening book when text object does not exist!");
     }
@@ -73,9 +76,10 @@ public class BookManager : MonoBehaviour
     public void DisableBook()
     {
         bookDisplayPanel.SetActive(false);
-        openedBookText.textContainer.SetActive(false);
+        openedTextContainer.SetActive(false);
 
         openedBookText = null;
+        openedTextContainer = null;
     }
 
     public void UpdateTextSpeed(TextObject textObj)
