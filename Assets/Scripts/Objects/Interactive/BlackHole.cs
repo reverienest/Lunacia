@@ -4,18 +4,50 @@ using UnityEngine;
 
 public class BlackHole : MonoBehaviour
 {
-    public float iRadius, oRadius;
     public float particle_centri_force, particle_angular_speed, particle_radial_speed;
-    public bool counter_clockwise;
+    private bool counter_clockwise;
+    public Color normalGlow, wakingGlow;
     public float attraction;
+    public bool inWakingSight;
 
     private ParticleSystem pSystem;
+    private ParticleSystem.TrailModule pSystemTrail;
     private ArrayList attracting;
+    private SpriteRenderer blackholeSprite;
+
+    private ParticleSystem.MinMaxGradient NORMAL_GRADIENT, WAKING_GRADIENT;
 
     // Start is called before the first frame update
     void Start()
     {
+        //initialize graphic values
+        GradientAlphaKey[] aKeys = {
+            new GradientAlphaKey(0, 0),
+            new GradientAlphaKey(0.7f, 0.5f),
+            new GradientAlphaKey(0, 1)
+        };
+
+        Gradient nGradRaw = new Gradient();
+        nGradRaw.alphaKeys = aKeys;
+        nGradRaw.colorKeys = new GradientColorKey[]{ new GradientColorKey(normalGlow, 0) };
+
+        Gradient wGradRaw = new Gradient();
+        wGradRaw.alphaKeys = aKeys;
+        wGradRaw.colorKeys = new GradientColorKey[] { new GradientColorKey(wakingGlow, 0) };
+
+        NORMAL_GRADIENT = new ParticleSystem.MinMaxGradient(nGradRaw);
+        WAKING_GRADIENT = new ParticleSystem.MinMaxGradient(wGradRaw);
+
+        //connect to graphic components
         pSystem = GetComponent<ParticleSystem>();
+        pSystemTrail = pSystem.trails;
+        pSystemTrail.colorOverLifetime = inWakingSight ? WAKING_GRADIENT : NORMAL_GRADIENT;
+
+        blackholeSprite = GetComponent<SpriteRenderer>();
+        blackholeSprite.color = inWakingSight ? wakingGlow : normalGlow;
+
+        counter_clockwise = !inWakingSight;
+
         attracting = new ArrayList();
     }
 
@@ -23,6 +55,24 @@ public class BlackHole : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void onEnterWaking()
+    {
+        inWakingSight = true;
+        counter_clockwise = false;
+
+        blackholeSprite.color = wakingGlow;
+        pSystemTrail.colorOverLifetime = WAKING_GRADIENT;
+    }
+
+    public void onExitWaking()
+    {
+        inWakingSight = false;
+        counter_clockwise = true;
+
+        blackholeSprite.color = normalGlow;
+        pSystemTrail.colorOverLifetime = NORMAL_GRADIENT;
     }
 
     private void FixedUpdate()
@@ -65,6 +115,7 @@ public class BlackHole : MonoBehaviour
 
     private void LateUpdate()
     {
+
         ParticleSystem.Particle[] particles = new ParticleSystem.Particle[pSystem.particleCount];
         pSystem.GetParticles(particles);
 

@@ -5122,13 +5122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f01542e60de7640ba4cc24d2ec3981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iRadius: 1
-  oRadius: 3
   particle_centri_force: 0
   particle_angular_speed: 1
   particle_radial_speed: -0.5
-  counter_clockwise: 1
+  normalGlow: {r: 1, g: 1, b: 1, a: 1}
+  wakingGlow: {r: 0, g: 1, b: 0.8351569, a: 1}
   attraction: 1
+  inWakingSight: 0
 --- !u!212 &964607717
 SpriteRenderer:
   m_ObjectHideFlags: 0
