@@ -9,6 +9,7 @@ public class BlackHole : MonoBehaviour
     private bool counter_clockwise;
     public Color normalGlow, wakingGlow;
     public float attraction;
+    [HideInInspector]
     public bool inWakingSight;
     public enum ForceMode_
     {

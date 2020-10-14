@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerBody : MonoBehaviour
 {
-    public bool facingLeft = false;
+    [HideInInspector]
+    public bool facingLeft;
     public Vector2 headPos;
 
     public float animationSpeed;
@@ -25,6 +26,8 @@ public class PlayerBody : MonoBehaviour
         deccel = 3,
     }
 
+    //format: new [mode of the animation (see below)] ("[name of sprite sheet]", new Vector2[]{[for an n-frame 
+    //  animation, write n Vector2's each tracking the position of the center of the head so that the hair can catch up]})
     public readonly CharAnimMode[] AnimationList = {
         new BounceMode("idle_sheet", new Vector2[] {
             new Vector2(0, .33f), new Vector2(0, .31f), new Vector2(0, .29f)
@@ -56,7 +59,6 @@ public class PlayerBody : MonoBehaviour
             i.Load();
         }
 
-        vTemp = new Vector2(0, 0);
         curr = AnimationModeIndex.idle;
     }
 
@@ -124,8 +126,6 @@ public class PlayerBody : MonoBehaviour
             frameTimer = frameTimer % (1.0f / animationSpeed);
             headPos = AnimationList[(int)curr].getHeadLocation();
         }
-
-        vTemp = vel;
     }
 
     public bool basicallyEqual(Vector2 v1, Vector2 v2)

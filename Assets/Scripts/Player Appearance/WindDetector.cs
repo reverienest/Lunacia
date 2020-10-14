@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WindDetector : MonoBehaviour
 {
+    [HideInInspector]
     public Vector2 wind;
 
     // Start is called before the first frame update

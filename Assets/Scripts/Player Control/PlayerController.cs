@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D rigid;
 
+    [HideInInspector]
     public bool intentionalForce; //as opposed to unintentional force like gales & black holes
 
     // Start is called before the first frame update
