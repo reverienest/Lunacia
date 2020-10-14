@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4450120243727481166}
   - component: {fileID: 5762224306411406254}
   - component: {fileID: 1058208877555332876}
+  - component: {fileID: 8906755459583165527}
   m_Layer: 8
   m_Name: Appearance
   m_TagString: Untagged
@@ -227,8 +228,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingLeft: 0
+  headPos: {x: 0, y: 0}
   animationSpeed: 5
-  curr: 0
+--- !u!95 &8906755459583165527
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551541452173466265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe7855ad2ab600b4ea2d82d3ef2ca93e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7430475071092096395
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceleration: 10
-  intentionalForce: {x: 0, y: 0}
+  intentionalForce: 0
 --- !u!114 &1493353675722625561
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,60 +6,21 @@ public class PlayerBody : MonoBehaviour
 {
     [HideInInspector]
     public bool facingLeft;
+    [HideInInspector]
     public Vector2 headPos;
 
-    public float animationSpeed;
-    private float frameTimer;
-
     private Rigidbody2D rigid;
-    private SpriteRenderer renderer_;
     private PlayerController controller;
-    private PlayerHair hairScript;
-
-    //all modes that the character can behave under
-    //bounce, idle, and loop are all just modes of playing the animation
-    public enum AnimationModeIndex
-    {
-        idle = 0,
-        accel = 1,
-        hover = 2,
-        deccel = 3,
-    }
-
-    //format: new [mode of the animation (see below)] ("[name of sprite sheet]", new Vector2[]{[for an n-frame 
-    //  animation, write n Vector2's each tracking the position of the center of the head so that the hair can catch up]})
-    public readonly CharAnimMode[] AnimationList = {
-        new BounceMode("idle_sheet", new Vector2[] {
-            new Vector2(0, .33f), new Vector2(0, .31f), new Vector2(0, .29f)
-        }),
-        new OneWayMode("accel_sheet", new Vector2[] {
-            new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f)
-        }),
-        new BounceMode("hover_sheet", new Vector2[] {
-            new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f)
-        }),
-        new OneWayMode("accel_sheet", new Vector2[] {
-            new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f), new Vector2(0, .3f)
-        }, -1)
-     };
-
-    private AnimationModeIndex curr;
-    private AnimationModeIndex pending;
+    private SpriteRenderer renderer_;
+    private Animator playerAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
         rigid = GetComponentInParent<Rigidbody2D>();
-        renderer_ = GetComponent<SpriteRenderer>();
         controller = GetComponentInParent<PlayerController>();
-        hairScript = GetComponent<PlayerHair>();
-
-        foreach (CharAnimMode i in AnimationList)
-        {
-            i.Load();
-        }
-
-        curr = AnimationModeIndex.idle;
+        renderer_ = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -75,65 +36,11 @@ public class PlayerBody : MonoBehaviour
             facingLeft = vel.x < 0.0f;
         }
 
-        float vel_gauge = hairScript.velEffectMax;
-
-        //determine the current state of the character based on her movement
-        if (controller.intentionalForce)
-        { 
-            if (vel.magnitude > vel_gauge)
-            {
-                pending = AnimationModeIndex.hover;
-            }
-            else
-            {
-                pending = AnimationModeIndex.accel;
-            }
-        }
-        else
-        {
-            if (basicallyEqual(vel, Vector2.zero) || curr.Equals(AnimationModeIndex.idle))
-            {
-                pending = AnimationModeIndex.idle;
-            }
-            else
-            {
-                pending = AnimationModeIndex.deccel;
-            }
-        }
-
-        frameTimer += Time.deltaTime;
-        //switch the animation state if needed
-        if (!pending.Equals(curr) && AnimationList[(int)curr].isComplete())
-        {
-            //switch to new animation
-            //print("switch from " + curr + " to " + pending);
-            curr = pending;
-            AnimationList[(int)curr].Init();
-            frameTimer = 0;
-        }
-        else if (curr.Equals(AnimationModeIndex.deccel) && AnimationList[(int)curr].isComplete())
-            //deceleration automatically changes into idle-ness after completion
-        {
-            curr = AnimationModeIndex.idle;
-            AnimationList[(int)curr].Init();
-            frameTimer = 0;
-        }
-
-        //update the frame of the current animation state
-        if (frameTimer > (1.0f / animationSpeed))
-        {
-            renderer_.sprite = AnimationList[(int)curr].next();
-            frameTimer = frameTimer % (1.0f / animationSpeed);
-            headPos = AnimationList[(int)curr].getHeadLocation();
-        }
-    }
-
-    public bool basicallyEqual(Vector2 v1, Vector2 v2)
-    {
-        return Mathf.Approximately(v1.x, v2.x) &&
-            Mathf.Approximately(v1.y, v2.y);
+        playerAnimator.SetBool("UnderIntentionalForce", controller.intentionalForce);
     }
 }
+
+/*deprecated
 public abstract class CharAnimMode
 {
     protected Sprite[] content;
@@ -285,4 +192,4 @@ public class OneWayMode : CharAnimMode
         return direction == 1 ? index == content.Length - 1 : index == 0;
     }
 
-}
+}*/
