@@ -9,10 +9,7 @@ public class TestBlackholeRespondance : MonoBehaviour
     private bool broadcasted = false, broadcasted2 = false;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    void Start() { }
 
     // Update is called once per frame
     void Update()
@@ -32,4 +29,5 @@ public class TestBlackholeRespondance : MonoBehaviour
             broadcasted2 = true;
         }
     }
+
 }

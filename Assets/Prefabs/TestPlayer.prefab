@@ -56,10 +56,6 @@ MonoBehaviour:
   windMax: 10
   velEffectMax: 1
   windEffectMag: 0.3
-  lShift: {x: 0, y: 0.33}
-  rShift: {x: 0, y: 0.33}
-  lBlobShift: {x: 0, y: 0.33}
-  rBlobShift: {x: 0, y: 0.33}
 --- !u!120 &4450120243727481166
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -231,6 +227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingLeft: 0
+  animationSpeed: 5
+  curr: 0
 --- !u!1 &7430475071092096395
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceleration: 10
+  intentionalForce: {x: 0, y: 0}
 --- !u!114 &1493353675722625561
 MonoBehaviour:
   m_ObjectHideFlags: 0

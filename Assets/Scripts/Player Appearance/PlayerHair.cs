@@ -13,9 +13,6 @@ public class PlayerHair : MonoBehaviour
     public float blobSize; //size of the hair blob behind the face
     public float windMax, velEffectMax, windEffectMag;
 
-    public Vector2 lShift, rShift;
-    public Vector2 lBlobShift, rBlobShift;
-
     private float[] axial; //axial deviation away from the main shape 
     private Vector2[] steps; //main shape of hair strand (denote by angle of each segment)
 
@@ -137,22 +134,9 @@ public class PlayerHair : MonoBehaviour
 
         Vector2 equi_temp;
 
-        if (bodyScript.facingLeft)
-        {
-            pos_temp += lShift;
-            blob_pos_temp += lBlobShift;
-
-            //equilibrium position when facing left
-            equi_temp = new Vector2(1, 0);
-        }
-        else
-        {
-            pos_temp += rShift;
-            blob_pos_temp += rBlobShift;
-
-            //equilibrium position when facing right
-            equi_temp = new Vector2(-1, 0);
-        }
+        pos_temp += bodyScript.headPos;
+        blob_pos_temp += bodyScript.headPos;
+        equi_temp = new Vector2((bodyScript.facingLeft ? 1 : -1), 0);
 
         equi_temp = lerp(equi_temp, wd.wind, Mathf.Min(wd.wind.magnitude, windMax), windMax);
 
