@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8346268092361463219}
   m_Layer: 0
   m_Name: TestPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 8346268094116034784}
   - component: {fileID: 8346268094116034787}
   - component: {fileID: 8346268094116034786}
-  - component: {fileID: 857091896}
+  - component: {fileID: 843454092}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -334,7 +334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeMode: 0
   maxScale: 10
---- !u!95 &857091896
+  sprite: {fileID: 0}
+--- !u!95 &843454092
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

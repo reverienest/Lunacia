@@ -10,6 +10,8 @@ public class WakingSight : MonoBehaviour
     private bool changingMode = false;
 	private Animator animator;
 
+    public SpriteRenderer sprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,7 @@ public class WakingSight : MonoBehaviour
             changingMode = true;
 			MessageBroker.Instance.Raise(new WakingSightModeEventArgs(mode));
             activeMode = mode;
+            float scalarStep = maxScale/30;
             if (mode == 0) {
 				
 				animator.SetBool("WakingSightOn", true);
@@ -66,5 +69,9 @@ public class WakingSight : MonoBehaviour
 			yield return null;
             changingMode = false;
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        
     }
 }
