@@ -16,12 +16,16 @@ EditorBuildSettings:
     path: Assets/Scenes/UI/LoadingScreen.unity
     guid: a8b724502e6310e489ad1bab18904b94
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/LoadingScreen/GameTransitionTest1.unity
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/GameLoadingScreen/GameTransitionTest1.unity
     guid: e698e3029c56c274ea6e4383b5132b9a
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Erica/VelocityBarriers.unity
+    path: Assets/Scenes/TestingScenes/Erica/GeneralTiles.unity
     guid: 5c1c69b9a4a7c784892ecb5e0f19cc92
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/LoadingScreen/GameTransitionTest2.unity
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/GameLoadingScreen/GameTransitionTest2.unity
     guid: 85eaed9d28204ad4f8abed3572d9ebb4
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/GameLoadingScreen/Heather
+      Zhu/LoadingTest1.unity
+    guid: 8df47303e823d42fca461f631bad1b65
   m_configObjects: {}
