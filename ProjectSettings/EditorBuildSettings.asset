@@ -6,21 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Juliet Baldwin/TitleScreen.unity
-    guid: 29f41720fb62c2e4b8041dce03d786b0
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/MenuTransitions/Scene
+      B.unity
+    guid: d296ca10278ba5847a43fb9d04100cce
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Daniel Carr/Collectable.unity
-    guid: 64aa00a7d01548649a914aece7f2a733
+    path: Assets/Scenes/UI/LoadingScreen.unity
+    guid: a8b724502e6310e489ad1bab18904b94
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Juliet Baldwin/Credits.unity
-    guid: cd006f80fa3bb29419a7d54d7e9d9020
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/GameLoadingScreen/GameTransitionTest1.unity
+    guid: e698e3029c56c274ea6e4383b5132b9a
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Austin Chemelli/SFX Demo.unity
-    guid: 1aaa1322ed7480a428fa13944256186c
+    path: Assets/Scenes/TestingScenes/Erica/GeneralTiles.unity
+    guid: 5c1c69b9a4a7c784892ecb5e0f19cc92
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Austin Chemelli/SFX Demo2.unity
-    guid: d1f46d29ba5bd2c48a62427ef98541ca
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/GameLoadingScreen/GameTransitionTest2.unity
+    guid: 85eaed9d28204ad4f8abed3572d9ebb4
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Soham Kar/Scene Transitions/GameLoadingScreen/Heather
+      Zhu/LoadingTest1.unity
+    guid: 8df47303e823d42fca461f631bad1b65
   m_configObjects: {}
