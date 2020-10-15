@@ -32,7 +32,7 @@ public class BlackHole : MonoBehaviour
         //initialize graphic values
         GradientAlphaKey[] aKeys = {
             new GradientAlphaKey(0, 0),
-            new GradientAlphaKey(0.7f, 0.5f),
+            new GradientAlphaKey(0.7f, 0.9f),
             new GradientAlphaKey(0, 1)
         };
 
@@ -138,11 +138,12 @@ public class BlackHole : MonoBehaviour
 
         for (int i = 0; i < particles.Length; i++)
         {
-            if (particles[i].position.magnitude < pSystem.shape.radius * 0.3)
+            /*
+            if (particles[i].position.magnitude < pSystem.shape.radius * 0.1)
             {
                 particles[i].remainingLifetime = 0;
                 continue;
-            }
+            }*/
             //particles[i].position *= 0.9f;
             particles[i].velocity = particle_angular_speed * rotateV3(
                 v3FromAngle(angleFromV2(particles[i].position)),
