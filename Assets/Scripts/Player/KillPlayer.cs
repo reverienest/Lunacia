@@ -8,6 +8,8 @@ public class KillPlayer : MonoBehaviour
 {
     public GameObject player;
     public static Vector2 respawnLocation; // this will always spawn the player at (0,0) when first starting up the scene!
+    public static bool hasRedFlame = false;
+    public static bool hasBlueFlame = false;
    
     void Awake() {
         MessageBroker.Instance.PlayerDeathTopic += consumePlayerDeathEvent;
@@ -22,8 +24,7 @@ public class KillPlayer : MonoBehaviour
         MessageBroker.Instance.PlayerDeathTopic -= consumePlayerDeathEvent;
     }
     void OnCollisionEnter2D(Collision2D col) {
-        if (col.gameObject.tag == "Hazard")
-        {
+        if (col.gameObject.tag == "Hazard") {
             MessageBroker.Instance.Raise(new PlayerDeathEventArguments("Player died!"));
         }
     }
