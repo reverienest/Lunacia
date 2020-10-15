@@ -229,7 +229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingLeft: 0
   headPos: {x: 0, y: 0}
-  animationSpeed: 5
 --- !u!95 &8906755459583165527
 Animator:
   serializedVersion: 3
@@ -240,7 +239,7 @@ Animator:
   m_GameObject: {fileID: 6551541452173466265}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fe7855ad2ab600b4ea2d82d3ef2ca93e, type: 2}
+  m_Controller: {fileID: 9100000, guid: a876746794aca9941a8aa96aa25fc0c0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
