@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hazard
+  - WakingSight
   layers:
   - Default
   - TransparentFX
