@@ -1,82 +1,82 @@
 fileFormatVersion: 2
-guid: 4bc33a06c891a904191cbc417c23646d
+guid: 0af7655490b2a87428d4cd8c3eccea10
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2346326311801101793
-    second: editedStillMagmaLookinButMaybe_0
+      213: 3732495530827361766
+    second: nexusStone_0
   - first:
-      213: -3946453780776013226
-    second: editedStillMagmaLookinButMaybe_1
+      213: -4572661499548870689
+    second: nexusStone_1
   - first:
-      213: 7234356368869508352
-    second: editedStillMagmaLookinButMaybe_2
+      213: 5253734228522463291
+    second: nexusStone_2
   - first:
-      213: 7302615626044633689
-    second: editedStillMagmaLookinButMaybe_3
+      213: 150751730178978039
+    second: nexusStone_3
   - first:
-      213: -2298812507278245735
-    second: editedStillMagmaLookinButMaybe_4
+      213: 1662168779241684690
+    second: nexusStone_4
   - first:
-      213: 1195739899973025227
-    second: editedStillMagmaLookinButMaybe_5
+      213: -1072955438234929186
+    second: nexusStone_5
   - first:
-      213: 5028999631010396005
-    second: editedStillMagmaLookinButMaybe_6
+      213: 1286285443423168415
+    second: nexusStone_6
   - first:
-      213: -9094268720141802517
-    second: editedStillMagmaLookinButMaybe_7
+      213: 5605198303362148512
+    second: nexusStone_7
   - first:
-      213: 6106118007211510948
-    second: editedStillMagmaLookinButMaybe_8
+      213: -5402431331750664824
+    second: nexusStone_8
   - first:
-      213: 4526531076001941958
-    second: editedStillMagmaLookinButMaybe_9
+      213: 6683442432927587607
+    second: nexusStone_9
   - first:
-      213: -5238871332033704962
-    second: editedStillMagmaLookinButMaybe_10
+      213: 8746736504176465890
+    second: nexusStone_10
   - first:
-      213: -4075813842320297544
-    second: editedStillMagmaLookinButMaybe_11
+      213: 1741833316543021359
+    second: nexusStone_11
   - first:
-      213: -2596177903357358884
-    second: editedStillMagmaLookinButMaybe_12
+      213: -1234388461101717378
+    second: nexusStone_12
   - first:
-      213: 8018697715774921074
-    second: editedStillMagmaLookinButMaybe_13
+      213: 273768968230457805
+    second: nexusStone_13
   - first:
-      213: -206829567474605068
-    second: editedStillMagmaLookinButMaybe_14
+      213: 3357682388443909198
+    second: nexusStone_14
   - first:
-      213: 617036409229238463
-    second: editedStillMagmaLookinButMaybe_15
+      213: -6284060069022973835
+    second: nexusStone_15
   - first:
-      213: -4587423033539969596
-    second: editedStillMagmaLookinButMaybe_16
+      213: -8334302283272487742
+    second: nexusStone_16
   - first:
-      213: 1355129712378999870
-    second: editedStillMagmaLookinButMaybe_17
+      213: 5732879337007086256
+    second: nexusStone_17
   - first:
-      213: 4696433148660610809
-    second: editedStillMagmaLookinButMaybe_18
+      213: -9201382978940268072
+    second: nexusStone_18
   - first:
-      213: 8557166757604766894
-    second: editedStillMagmaLookinButMaybe_19
+      213: -7552384433200948733
+    second: nexusStone_19
   - first:
-      213: 4235171636914645889
-    second: editedStillMagmaLookinButMaybe_20
+      213: 1947119072001484292
+    second: nexusStone_20
   - first:
-      213: 8003095864587498328
-    second: editedStillMagmaLookinButMaybe_21
+      213: -2027068511062727922
+    second: nexusStone_21
   - first:
-      213: -3190594322119303817
-    second: editedStillMagmaLookinButMaybe_22
+      213: 1111232556056911129
+    second: nexusStone_22
   - first:
-      213: -6890457095262397053
-    second: editedStillMagmaLookinButMaybe_23
+      213: -1628605370814925610
+    second: nexusStone_23
   - first:
-      213: 6789484191725530135
-    second: editedStillMagmaLookinButMaybe_24
+      213: -7342186193918076742
+    second: nexusStone_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -164,7 +164,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_0
+      name: nexusStone_0
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1261f996ac207fd0800000000000000
-      internalID: -2346326311801101793
+      spriteID: 6eda2b0e8ec7cc330800000000000000
+      internalID: 3732495530827361766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_1
+      name: nexusStone_1
       rect:
         serializedVersion: 2
         x: 50
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652395212316b39c0800000000000000
-      internalID: -3946453780776013226
+      spriteID: fd7d849d794aa80c0800000000000000
+      internalID: -4572661499548870689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_2
+      name: nexusStone_2
       rect:
         serializedVersion: 2
         x: 100
@@ -220,14 +220,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0054d09c9c8956460800000000000000
-      internalID: 7234356368869508352
+      spriteID: b307463027309e840800000000000000
+      internalID: 5253734228522463291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_7
+      name: nexusStone_7
       rect:
         serializedVersion: 2
         x: 0
@@ -241,14 +241,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be3600458caaac180800000000000000
-      internalID: -9094268720141802517
+      spriteID: 0a8e587c82aa9cd40800000000000000
+      internalID: 5605198303362148512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_8
+      name: nexusStone_8
       rect:
         serializedVersion: 2
         x: 50
@@ -262,14 +262,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ac4578d9f94db450800000000000000
-      internalID: 6106118007211510948
+      spriteID: 885af8bb355b605b0800000000000000
+      internalID: -5402431331750664824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_9
+      name: nexusStone_9
       rect:
         serializedVersion: 2
         x: 100
@@ -283,14 +283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c9ccd1f70871de30800000000000000
-      internalID: 4526531076001941958
+      spriteID: 71ddb6b7b7b50cc50800000000000000
+      internalID: 6683442432927587607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_11
+      name: nexusStone_11
       rect:
         serializedVersion: 2
         x: 200
@@ -304,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b1f0eda7eccf67c0800000000000000
-      internalID: -4075813842320297544
+      spriteID: f21cc7a3c2c3c2810800000000000000
+      internalID: 1741833316543021359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_12
+      name: nexusStone_12
       rect:
         serializedVersion: 2
         x: 250
@@ -325,14 +325,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc8aa8b3f588fbd0800000000000000
-      internalID: -2596177903357358884
+      spriteID: e78e0351c329edee0800000000000000
+      internalID: -1234388461101717378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_14
+      name: nexusStone_14
       rect:
         serializedVersion: 2
         x: 0
@@ -346,14 +346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f3e0adaa91312df0800000000000000
-      internalID: -206829567474605068
+      spriteID: e4cc8cfa752e89e20800000000000000
+      internalID: 3357682388443909198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_15
+      name: nexusStone_15
       rect:
         serializedVersion: 2
         x: 50
@@ -367,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb067915857209800800000000000000
-      internalID: 617036409229238463
+      spriteID: 5704bae59a88ac8a0800000000000000
+      internalID: -6284060069022973835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_16
+      name: nexusStone_16
       rect:
         serializedVersion: 2
         x: 100
@@ -388,14 +388,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cdb7636e033650c0800000000000000
-      internalID: -4587423033539969596
+      spriteID: 2ccf0dafa3c965c80800000000000000
+      internalID: -8334302283272487742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_18
+      name: nexusStone_18
       rect:
         serializedVersion: 2
         x: 200
@@ -409,14 +409,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f6f841e0151d2140800000000000000
-      internalID: 4696433148660610809
+      spriteID: 8d190f18eee1e4080800000000000000
+      internalID: -9201382978940268072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_19
+      name: nexusStone_19
       rect:
         serializedVersion: 2
         x: 250
@@ -430,29 +430,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea430d604d921c670800000000000000
-      internalID: 8557166757604766894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: editedStillMagmaLookinButMaybe_21
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 853b2206945b01f60800000000000000
-      internalID: 8003095864587498328
+      spriteID: 30a1edb4f5a803790800000000000000
+      internalID: -7552384433200948733
       vertices: []
       indices: 
       edges: []
