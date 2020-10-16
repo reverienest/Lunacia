@@ -8,7 +8,9 @@ public class Spawnpoint : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D col)
     {
-        KillPlayer.respawnLocation = respawnPoint;
-        Debug.Log("Respawn location changed to " + respawnPoint);
+        if (col.gameObject.tag == "Player") {
+            KillPlayer.respawnLocation = respawnPoint;
+            Debug.Log("Respawn location changed to " + respawnPoint);   
+        }
     }
 }
