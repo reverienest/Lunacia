@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 531124228770807829}
   m_Layer: 0
   m_Name: BlueFlame
-  m_TagString: Untagged
+  m_TagString: Flame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

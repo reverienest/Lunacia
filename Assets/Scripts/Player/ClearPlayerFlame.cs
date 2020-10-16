@@ -7,7 +7,14 @@ public class ClearPlayerFlame : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Player" && (KillPlayer.hasBlueFlame || KillPlayer.hasRedFlame)) {
-            Destroy(col.gameObject.transform.GetChild(2).gameObject);
+            GameObject currentFlame = null;
+            Transform[] children = col.gameObject.GetComponentsInChildren<Transform>();
+            foreach (Transform child in children) {
+                if (child.tag == "Flame") {
+                    currentFlame = child.gameObject;
+                }
+            }
+            Destroy(currentFlame);
             KillPlayer.hasBlueFlame = false;  
             KillPlayer.hasRedFlame = false;  
         }
