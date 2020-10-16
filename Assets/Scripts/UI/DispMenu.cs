@@ -48,26 +48,4 @@ public class DispMenu : MonoBehaviour {
         }
     }
 
-    //public void SetBrightness(float brightLvl) {
-        //Screen.brightness = brightLvl;
-        //Debug.Log(brightLvl);
-     //   RenderSettings.ambientLight = new Color(brightLvl, brightLvl, brightLvl, 1.0f);
-   // }
-
-    public float GammaCorrection;
-   
-    public Rect SliderLocation;
-   
-    void Update() {
-       
-        RenderSettings.ambientLight = new Color(GammaCorrection, GammaCorrection, GammaCorrection, 1.0f);
-       
-    }
-   
-    void OnGUI () {
-       
-        GammaCorrection = GUI.HorizontalSlider(SliderLocation, GammaCorrection, 0, 1.0f);
-       
-    }
-
 }
