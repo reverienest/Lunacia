@@ -10,6 +10,9 @@ public class PlayerController : MonoBehaviour
     
     private Rigidbody2D rigid;
 
+    [HideInInspector]
+    public bool intentionalForce; //as opposed to unintentional force like gales & black holes
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +30,9 @@ public class PlayerController : MonoBehaviour
         } else {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
         }
+
+        intentionalForce = !moveDirection.Equals(Vector3.zero);
+
         rigid.AddForce(moveDirection.normalized * acceleration * Time.deltaTime, ForceMode2D.Impulse);
     }
 }

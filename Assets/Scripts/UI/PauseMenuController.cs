@@ -95,6 +95,7 @@ public class PauseMenuController : MonoBehaviour
     {
         Time.timeScale = 1f;
         // implement options menu
+
     }
 
     // load main menu scene (title screen)
