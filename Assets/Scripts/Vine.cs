@@ -7,22 +7,29 @@ using Pubsub;
 public class Vine : MonoBehaviour
 {
     public Animator animator;
+    public BoxCollider2D hazardCollider;
+    public GameObject flower;
 
     // Start is called before the first frame update
     void Start()
     {
         MessageBroker.Instance.WakingSightModeTopic += consumeExampleMessage;
+        hazardCollider = GetComponent<BoxCollider2D>();
     }
 
     private void consumeExampleMessage(object sender, WakingSightModeEventArgs example)
     {
         if (example.ActiveMode == 0)
         {
-            this.gameObject.SetActive(true);
+            hazardCollider.enabled = true;
+            flower.SetActive(false);
+            animator.SetBool("wakingSight", false);
         }
         if (example.ActiveMode == 1)
         {
-            this.gameObject.SetActive(false);
+            hazardCollider.enabled = false;
+            flower.SetActive(true);
+            animator.SetBool("wakingSight", true);
         }
     }
 

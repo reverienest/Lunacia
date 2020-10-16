@@ -8,7 +8,7 @@ public class Flower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        direction = (Vector2)transform.TransformVector(Vector3.up);
+        direction = (Vector2)transform.TransformVector(Vector3.right);
         print(direction);
     }
 

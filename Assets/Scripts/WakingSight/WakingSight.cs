@@ -41,7 +41,7 @@ public class WakingSight : MonoBehaviour
             float scalarStep = maxScale/30;
             if (mode == 0) {
 				
-				animator.SetBool("WakingSightOn", true);
+				animator.SetBool("WakingSightOn", false);
 
                 // Set to max scale and step down
                 // Vector3 scale = new Vector3(maxScale, maxScale, 0);
@@ -54,7 +54,7 @@ public class WakingSight : MonoBehaviour
                 // transform.localScale = Vector3.zero;
             } else if (mode == 1) {
 
-				animator.SetBool("WakingSightOn", false);
+				animator.SetBool("WakingSightOn", true);
 
                 // Set scale to zero and step up
                 // Vector3 scale = Vector3.zero;
