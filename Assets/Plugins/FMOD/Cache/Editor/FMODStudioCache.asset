@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637383124564376464
+  lastModified: 637380193250225064
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -32,7 +32,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637383124564386451
+  lastModified: 637380193250235036
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -50,14 +50,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -8290895629780182231}
-  - {fileID: -8373745938750409255}
+  EditorBanks: []
   EditorEvents: []
   EditorParameters: []
   MasterBanks:
   - {fileID: -8373745938750409255}
   StringsBanks:
   - {fileID: -8290895629780182231}
-  stringsBankWriteTime: 637383124564386451
+  stringsBankWriteTime: 637380193250235036
   cacheVersion: 5

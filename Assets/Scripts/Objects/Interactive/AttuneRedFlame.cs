@@ -19,6 +19,7 @@ public class AttuneRedFlame : MonoBehaviour
             KillPlayer.hasRedFlame = true;
             this.transform.position = player.transform.position;
             this.transform.parent = player.transform;
+            this.transform.localPosition = new Vector3(transform.localPosition.x, -0.38f, transform.localPosition.z); 
         }
     }
     IEnumerator waitToChangeFlameValue() {
