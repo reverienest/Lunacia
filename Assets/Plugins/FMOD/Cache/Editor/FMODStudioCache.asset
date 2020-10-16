@@ -50,9 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -8290895629780182231}
-  - {fileID: -8373745938750409255}
+  EditorBanks: []
   EditorEvents: []
   EditorParameters: []
   MasterBanks:
