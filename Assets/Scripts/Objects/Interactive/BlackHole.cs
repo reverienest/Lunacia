@@ -5,9 +5,9 @@ using Pubsub;
 
 public class BlackHole : MonoBehaviour
 {
-    public float particle_centri_force, particle_angular_speed, particle_radial_speed;
+    public float particle_angular_speed, particle_radial_speed;
     private bool counter_clockwise;
-    public Color normalGlow, wakingGlow;
+    public Gradient normalGlow, wakingGlow;
     public float attraction;
     [HideInInspector]
     public bool inWakingSight;
@@ -21,39 +21,24 @@ public class BlackHole : MonoBehaviour
 
     private ParticleSystem pSystem;
     private ParticleSystem.TrailModule pSystemTrail;
+    private ParticleSystem.ShapeModule pSystemShape;
     private ArrayList attracting;
     private SpriteRenderer blackholeSprite;
-
-    private ParticleSystem.MinMaxGradient NORMAL_GRADIENT, WAKING_GRADIENT;
+    private float P_SYSTEM_SHAPE_RADIUS, P_SYSTEM_SHAPE_RADIUS_INNER;
 
     // Start is called before the first frame update
     void Start()
     {
-        //initialize graphic values
-        GradientAlphaKey[] aKeys = {
-            new GradientAlphaKey(0, 0),
-            new GradientAlphaKey(0.7f, 0.9f),
-            new GradientAlphaKey(0, 1)
-        };
-
-        Gradient nGradRaw = new Gradient();
-        nGradRaw.alphaKeys = aKeys;
-        nGradRaw.colorKeys = new GradientColorKey[]{ new GradientColorKey(normalGlow, 0) };
-
-        Gradient wGradRaw = new Gradient();
-        wGradRaw.alphaKeys = aKeys;
-        wGradRaw.colorKeys = new GradientColorKey[] { new GradientColorKey(wakingGlow, 0) };
-
-        NORMAL_GRADIENT = new ParticleSystem.MinMaxGradient(nGradRaw);
-        WAKING_GRADIENT = new ParticleSystem.MinMaxGradient(wGradRaw);
-
         //connect to graphic components
         pSystem = GetComponent<ParticleSystem>();
         pSystemTrail = pSystem.trails;
-        pSystemTrail.colorOverLifetime = inWakingSight ? WAKING_GRADIENT : NORMAL_GRADIENT;
+        pSystemTrail.colorOverLifetime = inWakingSight ?  wakingGlow : normalGlow;
+        pSystemShape = pSystem.shape;
+        P_SYSTEM_SHAPE_RADIUS = pSystemShape.radius;
+        P_SYSTEM_SHAPE_RADIUS_INNER = P_SYSTEM_SHAPE_RADIUS * pSystemShape.radiusThickness;
 
         blackholeSprite = GetComponent<SpriteRenderer>();
-        blackholeSprite.color = inWakingSight ? wakingGlow : normalGlow;
+        blackholeSprite.color = inWakingSight ? wakingGlow.colorKeys[0].color : normalGlow.colorKeys[1].color;
 
         counter_clockwise = !inWakingSight;
 
@@ -70,15 +55,19 @@ public class BlackHole : MonoBehaviour
                 inWakingSight = true;
                 counter_clockwise = false;
 
-                blackholeSprite.color = wakingGlow;
-                pSystemTrail.colorOverLifetime = WAKING_GRADIENT;
+                blackholeSprite.color = wakingGlow.colorKeys[0].color;
+                pSystemTrail.colorOverLifetime = wakingGlow;
+
+                pSystemShape.radius = P_SYSTEM_SHAPE_RADIUS_INNER;
                 break;
             case 0:
                 inWakingSight = false;
                 counter_clockwise = true;
 
-                blackholeSprite.color = normalGlow;
-                pSystemTrail.colorOverLifetime = NORMAL_GRADIENT;
+                blackholeSprite.color = normalGlow.colorKeys[0].color;
+                pSystemTrail.colorOverLifetime = normalGlow;
+
+                pSystemShape.radius = P_SYSTEM_SHAPE_RADIUS;
                 break;
         }
     }
@@ -108,7 +97,7 @@ public class BlackHole : MonoBehaviour
                     break;
             }
             //print("applying" + force);
-            rigid.AddForce(force);
+            rigid.AddForce((inWakingSight ? -1.0f : 1.0f) * force);
         }
     }
 
@@ -148,7 +137,7 @@ public class BlackHole : MonoBehaviour
             particles[i].velocity = particle_angular_speed * rotateV3(
                 v3FromAngle(angleFromV2(particles[i].position)),
                 (counter_clockwise ? -0.5f * Mathf.PI : 0.5f * Mathf.PI)
-                ) + particle_radial_speed * particles[i].position;
+                ) + (inWakingSight ? -1.0f : 1.0f) * particle_radial_speed * particles[i].position;
         }
 
         pSystem.SetParticles(particles, particles.Length);

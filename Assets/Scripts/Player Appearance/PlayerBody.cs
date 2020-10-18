@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pubsub;
 
 public class PlayerBody : MonoBehaviour
 {
@@ -21,6 +22,18 @@ public class PlayerBody : MonoBehaviour
         controller = GetComponentInParent<PlayerController>();
         renderer_ = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
+
+        MessageBroker.Instance.PlayerDeathTopic += consumePDMessage;
+    }
+
+    private void consumePDMessage(object sender, PlayerDeathEventArguments pdModeChange)
+    {
+        switch (pdModeChange.deathMessage)
+        {
+            default:
+                print("player death message not handled properly");
+                break;
+        }
     }
 
     // Update is called once per frame
