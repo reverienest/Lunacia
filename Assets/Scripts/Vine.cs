@@ -22,13 +22,13 @@ public class Vine : MonoBehaviour
         if (example.ActiveMode == 0)
         {
             hazardCollider.enabled = true;
-            flower.SetActive(false);
+            // flower.SetActive(false);
             animator.SetBool("wakingSight", false);
         }
         if (example.ActiveMode == 1)
         {
             hazardCollider.enabled = false;
-            flower.SetActive(true);
+            // flower.SetActive(true);
             animator.SetBool("wakingSight", true);
         }
     }
