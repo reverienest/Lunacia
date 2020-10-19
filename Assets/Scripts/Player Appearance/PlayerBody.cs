@@ -15,6 +15,11 @@ public class PlayerBody : MonoBehaviour
     private SpriteRenderer renderer_;
     private Animator playerAnimator;
 
+    [HideInInspector]
+    public bool bodyGlowing = false;
+    [HideInInspector]
+    public float playerSpriteAlpha;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +33,8 @@ public class PlayerBody : MonoBehaviour
 
     private void consumePDMessage(object sender, PlayerDeathEventArguments pdModeChange)
     {
-        switch (pdModeChange.deathMessage)
-        {
-            default:
-                print("player death message not handled properly");
-                break;
-        }
+        print("player is killed to death");
+        playerAnimator.SetBool("PendingDeath", true);
     }
 
     // Update is called once per frame
@@ -50,6 +51,7 @@ public class PlayerBody : MonoBehaviour
         }
 
         playerAnimator.SetBool("UnderIntentionalForce", controller.intentionalForce);
+        playerSpriteAlpha = renderer_.color.a;
     }
 }
 
