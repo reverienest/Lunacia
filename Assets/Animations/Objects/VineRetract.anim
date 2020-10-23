@@ -26,7 +26,7 @@ AnimationClip:
       value: {fileID: 3049083952439041344, guid: 6cd77b1562c1ee549bab89bc54b81f0f,
         type: 3}
     attribute: m_Sprite
-    path: Square
+    path: Vine Sprite
     classID: 212
     script: {fileID: 0}
   m_SampleRate: 60
@@ -37,7 +37,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3394203039
+      path: 2518314831
       attribute: 0
       script: {fileID: 0}
       typeID: 212
