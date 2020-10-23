@@ -1,0 +1,1906 @@
+fileFormatVersion: 2
+guid: 7f9bc805aa2533640852102ce3632c87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4467874627429063851
+    second: pageturnbackwards_0
+  - first:
+      213: -6023298304244917895
+    second: pageturnbackwards_1
+  - first:
+      213: 2657713418053986780
+    second: pageturnbackwards_2
+  - first:
+      213: 5079018079557609108
+    second: pageturnbackwards_3
+  - first:
+      213: -4886264330103819513
+    second: pageturnbackwards_4
+  - first:
+      213: -3668974672356887585
+    second: pageturnbackwards_5
+  - first:
+      213: -1499568245226679818
+    second: pageturnbackwards_6
+  - first:
+      213: -5508627285354862706
+    second: pageturnbackwards_7
+  - first:
+      213: 8980067740658248871
+    second: pageturnbackwards_8
+  - first:
+      213: -4606988718800398918
+    second: pageturnbackwards_9
+  - first:
+      213: -8684574804239148085
+    second: pageturnbackwards_10
+  - first:
+      213: -5574147803553558454
+    second: pageturnbackwards_11
+  - first:
+      213: -2086797879426365207
+    second: pageturnbackwards_12
+  - first:
+      213: -660878931955620094
+    second: pageturnbackwards_13
+  - first:
+      213: -6875394224735622306
+    second: pageturnbackwards_14
+  - first:
+      213: -7093862941889654821
+    second: pageturnbackwards_15
+  - first:
+      213: 6524235826855385942
+    second: pageturnbackwards_16
+  - first:
+      213: 2005678214142566752
+    second: pageturnbackwards_17
+  - first:
+      213: -8848833643002988475
+    second: pageturnbackwards_18
+  - first:
+      213: -5600725939865493815
+    second: pageturnbackwards_19
+  - first:
+      213: -8746733071959109837
+    second: pageturnbackwards_20
+  - first:
+      213: 6620132084006396148
+    second: pageturnbackwards_21
+  - first:
+      213: 6883705727564948151
+    second: pageturnbackwards_22
+  - first:
+      213: 1315781390403256768
+    second: pageturnbackwards_23
+  - first:
+      213: -2316117348381565120
+    second: pageturnbackwards_24
+  - first:
+      213: -7312915474630418821
+    second: pageturnbackwards_25
+  - first:
+      213: -9004999729168098525
+    second: pageturnbackwards_26
+  - first:
+      213: 7778557045621582460
+    second: pageturnbackwards_27
+  - first:
+      213: 2301642648201636858
+    second: pageturnbackwards_28
+  - first:
+      213: -4325822225447302909
+    second: pageturnbackwards_29
+  - first:
+      213: -8427533927939921580
+    second: pageturnbackwards_30
+  - first:
+      213: -8052359082014325877
+    second: pageturnbackwards_31
+  - first:
+      213: 2149174558442478931
+    second: pageturnbackwards_32
+  - first:
+      213: -8809840270515558959
+    second: pageturnbackwards_33
+  - first:
+      213: 4831829027151686684
+    second: pageturnbackwards_34
+  - first:
+      213: -2844702534449180751
+    second: pageturnbackwards_35
+  - first:
+      213: -6358399280152861470
+    second: pageturnbackwards_36
+  - first:
+      213: 8115427318850927717
+    second: pageturnbackwards_37
+  - first:
+      213: -7268429182040974266
+    second: pageturnbackwards_38
+  - first:
+      213: 8879675245620787139
+    second: pageturnbackwards_39
+  - first:
+      213: 1429822264456334568
+    second: pageturnbackwards_40
+  - first:
+      213: 814376856944243298
+    second: pageturnbackwards_41
+  - first:
+      213: 3105879669569809740
+    second: pageturnbackwards_42
+  - first:
+      213: -5752846513380122199
+    second: pageturnbackwards_43
+  - first:
+      213: -7882229159240453669
+    second: pageturnbackwards_44
+  - first:
+      213: -56184155285894386
+    second: pageturnbackwards_45
+  - first:
+      213: 4113270485604446495
+    second: pageturnbackwards_46
+  - first:
+      213: 6024300509082752099
+    second: pageturnbackwards_47
+  - first:
+      213: 6456971156100750512
+    second: pageturnbackwards_48
+  - first:
+      213: -4316142208364986075
+    second: pageturnbackwards_49
+  - first:
+      213: 1156392829340437218
+    second: pageturnbackwards_50
+  - first:
+      213: -8050389121029977527
+    second: pageturnbackwards_51
+  - first:
+      213: -505456116044295459
+    second: pageturnbackwards_52
+  - first:
+      213: -6081280224202292076
+    second: pageturnbackwards_53
+  - first:
+      213: 5484978260758757356
+    second: pageturnbackwards_54
+  - first:
+      213: 7627014422133065411
+    second: pageturnbackwards_55
+  - first:
+      213: -1188300817665015316
+    second: pageturnbackwards_56
+  - first:
+      213: 8466737394589345009
+    second: pageturnbackwards_57
+  - first:
+      213: 8175202713078434142
+    second: pageturnbackwards_58
+  - first:
+      213: -5034249463026510768
+    second: pageturnbackwards_59
+  - first:
+      213: -769216354113360999
+    second: pageturnbackwards_60
+  - first:
+      213: -2276861022459203418
+    second: pageturnbackwards_61
+  - first:
+      213: -8050026951443008713
+    second: pageturnbackwards_62
+  - first:
+      213: 4240507433144993134
+    second: pageturnbackwards_63
+  - first:
+      213: -2365648029466838498
+    second: pageturnbackwards_64
+  - first:
+      213: 3297189020387655073
+    second: pageturnbackwards_65
+  - first:
+      213: 3076753304022247141
+    second: pageturnbackwards_66
+  - first:
+      213: -2608738969093058635
+    second: pageturnbackwards_67
+  - first:
+      213: -5627937902902297015
+    second: pageturnbackwards_68
+  - first:
+      213: 3899943855272771174
+    second: pageturnbackwards_69
+  - first:
+      213: -8417246249248263470
+    second: pageturnbackwards_70
+  - first:
+      213: 2639027347637971633
+    second: pageturnbackwards_71
+  - first:
+      213: -783796417101704488
+    second: pageturnbackwards_72
+  - first:
+      213: 3012000266794775879
+    second: pageturnbackwards_73
+  - first:
+      213: -3677816046704192010
+    second: pageturnbackwards_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pageturnbackwards_0
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 15265
+        width: 1044
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5532c1bb2bbeef1c0800000000000000
+      internalID: -4467874627429063851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_1
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 15265
+        width: 1043
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979d447ea12f86ca0800000000000000
+      internalID: -6023298304244917895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_2
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 15265
+        width: 1036
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a5e5c54812e420800000000000000
+      internalID: 2657713418053986780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_3
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 15263
+        width: 1035
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49661d7980c4c7640800000000000000
+      internalID: 5079018079557609108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_4
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 15263
+        width: 1043
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ff75fa70803cb0800000000000000
+      internalID: -4886264330103819513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_5
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 14187
+        width: 1044
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3334c79fe251dc0800000000000000
+      internalID: -3668974672356887585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_6
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 14187
+        width: 1043
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1dec240a6703be0800000000000000
+      internalID: -1499568245226679818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_7
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 14187
+        width: 1036
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8726608bac6d83b0800000000000000
+      internalID: -5508627285354862706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_8
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 14187
+        width: 1035
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac21ec180c9f9c70800000000000000
+      internalID: 8980067740658248871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_9
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 14180
+        width: 1043
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab59bab4b20b010c0800000000000000
+      internalID: -4606988718800398918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_10
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 13103
+        width: 1044
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb94087a313a7780800000000000000
+      internalID: -8684574804239148085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_11
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 13103
+        width: 1043
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409aa31b16a4a2b0800000000000000
+      internalID: -5574147803553558454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_12
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 13103
+        width: 1036
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8c0ce82643a03e0800000000000000
+      internalID: -2086797879426365207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_13
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 13103
+        width: 1035
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207ee35ec1614d6f0800000000000000
+      internalID: -660878931955620094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_14
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 13103
+        width: 1043
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b6cd74161b590a0800000000000000
+      internalID: -6875394224735622306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 12020
+        width: 1044
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf0c5f3d398d8d90800000000000000
+      internalID: -7093862941889654821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_16
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 12020
+        width: 1043
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b979aeaedba8a50800000000000000
+      internalID: 6524235826855385942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_17
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 12020
+        width: 1036
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06125bf85b995db10800000000000000
+      internalID: 2005678214142566752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_18
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 12020
+        width: 1035
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548f7405fa0a23580800000000000000
+      internalID: -8848833643002988475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_19
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 12016
+        width: 1043
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce500e7e693642b0800000000000000
+      internalID: -5600725939865493815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_20
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 10936
+        width: 1044
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f47bcfc9c5d9680800000000000000
+      internalID: -8746733071959109837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_21
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 10936
+        width: 1043
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f02e513e0f6fdb50800000000000000
+      internalID: 6620132084006396148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_22
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 10936
+        width: 1036
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2a4d543e5d78f50800000000000000
+      internalID: 6883705727564948151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_23
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 10936
+        width: 1035
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c14e090438924210800000000000000
+      internalID: 1315781390403256768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_24
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 10929
+        width: 1043
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fd89ffa8f7bdfd0800000000000000
+      internalID: -2316117348381565120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_25
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 9852
+        width: 1044
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e523e0f1e438a90800000000000000
+      internalID: -7312915474630418821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_26
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 9852
+        width: 1043
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b5274f470d70380800000000000000
+      internalID: -9004999729168098525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_27
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 9852
+        width: 1036
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ae261ab6cf2fb60800000000000000
+      internalID: 7778557045621582460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_28
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 9852
+        width: 1035
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afba2fd3bc311ff10800000000000000
+      internalID: 2301642648201636858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_29
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 9845
+        width: 1043
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30949baea9797f3c0800000000000000
+      internalID: -4325822225447302909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_30
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 8768
+        width: 1044
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459a6942b826b0b80800000000000000
+      internalID: -8427533927939921580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_31
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 8768
+        width: 1043
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8345a00416404090800000000000000
+      internalID: -8052359082014325877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_32
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 8768
+        width: 1036
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d5544cfd663dd10800000000000000
+      internalID: 2149174558442478931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_33
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 8765
+        width: 1035
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d52df353f82db580800000000000000
+      internalID: -8809840270515558959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_34
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 8762
+        width: 1043
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c2cca66ea1e0340800000000000000
+      internalID: 4831829027151686684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_35
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 7685
+        width: 1044
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfc086ed169588d0800000000000000
+      internalID: -2844702534449180751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_36
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 7685
+        width: 1043
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4a36efa8d62c7a0800000000000000
+      internalID: -6358399280152861470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_37
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 7685
+        width: 1036
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c3c9c262acf9070800000000000000
+      internalID: 8115427318850927717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_38
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 7685
+        width: 1035
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c5d513b2a512b90800000000000000
+      internalID: -7268429182040974266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_39
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 7678
+        width: 1043
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c77e00e691fa3b70800000000000000
+      internalID: 8879675245620787139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_40
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 6601
+        width: 1044
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec4dd426cfb7d310800000000000000
+      internalID: 1429822264456334568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_41
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 6601
+        width: 1043
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262f577cf6f3d4b00800000000000000
+      internalID: 814376856944243298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_42
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 6601
+        width: 1036
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4de0d39a1d4a1b20800000000000000
+      internalID: 3105879669569809740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_43
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 6601
+        width: 1035
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a122a27398c920b0800000000000000
+      internalID: -5752846513380122199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_44
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 6601
+        width: 1043
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd13f3d6752bc9290800000000000000
+      internalID: -7882229159240453669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_45
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 5517
+        width: 1044
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bcd26fec4683ff0800000000000000
+      internalID: -56184155285894386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_46
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 5517
+        width: 1043
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f113d8fa6b5451930800000000000000
+      internalID: 4113270485604446495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_47
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 5517
+        width: 1036
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3641518156d9a9350800000000000000
+      internalID: 6024300509082752099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_48
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 5517
+        width: 1035
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc14545e05cb9950800000000000000
+      internalID: 6456971156100750512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_49
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 5517
+        width: 1043
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521c556878bf914c0800000000000000
+      internalID: -4316142208364986075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_50
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 4434
+        width: 1044
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea45a5c6255c0010800000000000000
+      internalID: 1156392829340437218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_51
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 4434
+        width: 1043
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ac6594fb5474090800000000000000
+      internalID: -8050389121029977527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_52
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 4435
+        width: 1036
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd291a927524cf8f0800000000000000
+      internalID: -505456116044295459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_53
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 4442
+        width: 1035
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49480d82bd3fa9ba0800000000000000
+      internalID: -6081280224202292076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_54
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 4435
+        width: 1043
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceff341eaae8e1c40800000000000000
+      internalID: 5484978260758757356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_55
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 3358
+        width: 1044
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6c500153998d960800000000000000
+      internalID: 7627014422133065411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_56
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 3358
+        width: 1043
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce145c4c3be428fe0800000000000000
+      internalID: -1188300817665015316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_57
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 3358
+        width: 1036
+        height: 853
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4a30b3dc4ef7570800000000000000
+      internalID: 8466737394589345009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_58
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 3359
+        width: 1035
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5989dfad87247170800000000000000
+      internalID: 8175202713078434142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_59
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 3366
+        width: 1043
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0549a9539c0c22ab0800000000000000
+      internalID: -5034249463026510768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_60
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 2283
+        width: 1044
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99be6a92dc13355f0800000000000000
+      internalID: -769216354113360999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_61
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 2290
+        width: 1043
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0f261a6f6f660e0800000000000000
+      internalID: -2276861022459203418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_62
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 2290
+        width: 1036
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7333be6732f884090800000000000000
+      internalID: -8050026951443008713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_63
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 2290
+        width: 1035
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65c2041b0f49da30800000000000000
+      internalID: 4240507433144993134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_64
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 2291
+        width: 1043
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ab604a6a78b2fd0800000000000000
+      internalID: -2365648029466838498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_65
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1214
+        width: 1044
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad368dd1f7f1cd20800000000000000
+      internalID: 3297189020387655073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_66
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1215
+        width: 1043
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e661c324d2d2ba20800000000000000
+      internalID: 3076753304022247141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_67
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 1222
+        width: 1036
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf4d73bab5ebcbd0800000000000000
+      internalID: -2608738969093058635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_68
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 1222
+        width: 1035
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e3d8f9b4c85e1b0800000000000000
+      internalID: -5627937902902297015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_69
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 1222
+        width: 1043
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e308906426f1630800000000000000
+      internalID: 3899943855272771174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_70
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 146
+        width: 1044
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2719ef12fef2b80800000000000000
+      internalID: -8417246249248263470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_71
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 146
+        width: 1043
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baa088f365bf9420800000000000000
+      internalID: 2639027347637971633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_72
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 146
+        width: 1036
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2dd66bf456f15f0800000000000000
+      internalID: -783796417101704488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_73
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 146
+        width: 1035
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7453fadc846ccc920800000000000000
+      internalID: 3012000266794775879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pageturnbackwards_74
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 146
+        width: 1043
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f517fa9ac5c5fcc0800000000000000
+      internalID: -3677816046704192010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
