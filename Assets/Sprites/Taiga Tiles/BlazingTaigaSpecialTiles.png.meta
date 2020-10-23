@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 1dd1268de41cc134181b01cc0aa3d186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3742580179959038650
+    second: BlazingTaigaSpecialTiles_0
+  - first:
+      213: -4973909847977029806
+    second: BlazingTaigaSpecialTiles_1
+  - first:
+      213: -7521097840210627779
+    second: BlazingTaigaSpecialTiles_2
+  - first:
+      213: 1829110319347466295
+    second: BlazingTaigaSpecialTiles_3
+  - first:
+      213: 1635981724380671351
+    second: BlazingTaigaSpecialTiles_4
+  - first:
+      213: -9015790174037000987
+    second: BlazingTaigaSpecialTiles_5
+  - first:
+      213: 6754949492491855833
+    second: BlazingTaigaSpecialTiles_6
+  - first:
+      213: -1346386937027956022
+    second: BlazingTaigaSpecialTiles_7
+  - first:
+      213: 3572048733312622687
+    second: BlazingTaigaSpecialTiles_8
+  - first:
+      213: 8716746963848246978
+    second: BlazingTaigaSpecialTiles_9
+  - first:
+      213: -786479559921119266
+    second: BlazingTaigaSpecialTiles_10
+  - first:
+      213: 1449088016379734583
+    second: BlazingTaigaSpecialTiles_11
+  - first:
+      213: -3279781166622352837
+    second: BlazingTaigaSpecialTiles_12
+  - first:
+      213: 1826937472222627239
+    second: BlazingTaigaSpecialTiles_13
+  - first:
+      213: 6112357154559095193
+    second: BlazingTaigaSpecialTiles_14
+  - first:
+      213: 3282190474481510197
+    second: BlazingTaigaSpecialTiles_15
+  - first:
+      213: -2930444666020539894
+    second: BlazingTaigaSpecialTiles_16
+  - first:
+      213: 7859049347903720280
+    second: BlazingTaigaSpecialTiles_17
+  - first:
+      213: -6704953799817778071
+    second: BlazingTaigaSpecialTiles_18
+  - first:
+      213: 216961977952778703
+    second: BlazingTaigaSpecialTiles_19
+  - first:
+      213: 1454900191616289296
+    second: BlazingTaigaSpecialTiles_20
+  - first:
+      213: -7613929685796592517
+    second: BlazingTaigaSpecialTiles_21
+  - first:
+      213: -7581942583557715170
+    second: BlazingTaigaSpecialTiles_22
+  - first:
+      213: 4412968779022942804
+    second: BlazingTaigaSpecialTiles_23
+  - first:
+      213: -1377556155888148330
+    second: BlazingTaigaSpecialTiles_24
+  - first:
+      213: 6668636534891180103
+    second: BlazingTaigaSpecialTiles_25
+  - first:
+      213: 8560170533114097961
+    second: BlazingTaigaSpecialTiles_26
+  - first:
+      213: -7998756485302220647
+    second: BlazingTaigaSpecialTiles_27
+  - first:
+      213: 7185021428729244618
+    second: BlazingTaigaSpecialTiles_28
+  - first:
+      213: 7036173140055635298
+    second: BlazingTaigaSpecialTiles_29
+  - first:
+      213: -6383157019138828718
+    second: BlazingTaigaSpecialTiles_30
+  - first:
+      213: 4281366089366352608
+    second: BlazingTaigaSpecialTiles_31
+  - first:
+      213: -8766358746174250200
+    second: BlazingTaigaSpecialTiles_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 214
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f038e985f19fab0800000000000000
+      internalID: -4973909847977029806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 214
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33b941ec51bf9790800000000000000
+      internalID: -7521097840210627779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 214
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73005b7f42e426910800000000000000
+      internalID: 1829110319347466295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 215
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dadb4e5bc24b610800000000000000
+      internalID: 1635981724380671351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 165
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7aeaf26c66ebd50800000000000000
+      internalID: 6754949492491855833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 165
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2f838d63ca05de0800000000000000
+      internalID: -1346386937027956022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 165
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50ab7db567729130800000000000000
+      internalID: 3572048733312622687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 215
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6b3292e2b18f870800000000000000
+      internalID: 8716746963848246978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 165
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfcbc7d10dd515f0800000000000000
+      internalID: -786479559921119266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 165
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ae6909fd13c1410800000000000000
+      internalID: 1449088016379734583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 78
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53724a4c8deac8d20800000000000000
+      internalID: 3282190474481510197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 78
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0258e73a18f457d0800000000000000
+      internalID: -2930444666020539894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 28
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690622e89ffe1ece0800000000000000
+      internalID: -1377556155888148330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlazingTaigaSpecialTiles_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 28
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7407166b891cb8c50800000000000000
+      internalID: 6668636534891180103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
