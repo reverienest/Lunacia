@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pubsub;
 
 public class PlayerBody : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class PlayerBody : MonoBehaviour
     private SpriteRenderer renderer_;
     private Animator playerAnimator;
 
+    [HideInInspector]
+    public bool bodyGlowing = false;
+    [HideInInspector]
+    public float playerSpriteAlpha;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +27,14 @@ public class PlayerBody : MonoBehaviour
         controller = GetComponentInParent<PlayerController>();
         renderer_ = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
+
+        MessageBroker.Instance.PlayerDeathTopic += consumePDMessage;
+    }
+
+    private void consumePDMessage(object sender, PlayerDeathEventArguments pdModeChange)
+    {
+        print("player is killed to death");
+        playerAnimator.SetBool("PendingDeath", true);
     }
 
     // Update is called once per frame
@@ -37,6 +51,7 @@ public class PlayerBody : MonoBehaviour
         }
 
         playerAnimator.SetBool("UnderIntentionalForce", controller.intentionalForce);
+        playerSpriteAlpha = renderer_.color.a;
     }
 }
 
