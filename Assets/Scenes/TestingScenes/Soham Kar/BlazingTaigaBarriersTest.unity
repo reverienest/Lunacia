@@ -200,6 +200,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedFlame (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3576068137396044317, guid: f53d0855ef2ee6241a267cd6654040c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f53d0855ef2ee6241a267cd6654040c7, type: 3}
 --- !u!4 &30240019 stripped
@@ -340,6 +345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlueFlame (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 531124228770807828, guid: ec4318202f66be3478ae6095843acd0d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flame
       objectReference: {fileID: 0}
     - target: {fileID: 531124228770807829, guid: ec4318202f66be3478ae6095843acd0d,
         type: 3}
@@ -1306,6 +1316,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedFlame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3576068137396044317, guid: f53d0855ef2ee6241a267cd6654040c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f53d0855ef2ee6241a267cd6654040c7, type: 3}
 --- !u!4 &1259254750 stripped
@@ -1325,6 +1340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlueFlame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 531124228770807828, guid: ec4318202f66be3478ae6095843acd0d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flame
       objectReference: {fileID: 0}
     - target: {fileID: 531124228770807829, guid: ec4318202f66be3478ae6095843acd0d,
         type: 3}
@@ -1724,6 +1744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueFlame
       objectReference: {fileID: 0}
+    - target: {fileID: 531124228770807828, guid: ec4318202f66be3478ae6095843acd0d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flame
+      objectReference: {fileID: 0}
     - target: {fileID: 531124228770807829, guid: ec4318202f66be3478ae6095843acd0d,
         type: 3}
       propertyPath: player
@@ -1867,6 +1892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RedFlame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576068137396044317, guid: f53d0855ef2ee6241a267cd6654040c7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f53d0855ef2ee6241a267cd6654040c7, type: 3}
