@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hazard
   - WakingSight
+  - Flame
   layers:
   - Default
   - TransparentFX
