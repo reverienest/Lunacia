@@ -5884,6 +5884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceleration: 15
+  intentionalForce: 0
 --- !u!212 &1818469597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6016,6 +6017,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d6225eec4c23b4f976c1140ff8fbce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRB: {fileID: 0}
+  velocityThreshold: 10
+  recoil: 10
+  burst: {fileID: 0}
 --- !u!1 &1843170384
 GameObject:
   m_ObjectHideFlags: 0
