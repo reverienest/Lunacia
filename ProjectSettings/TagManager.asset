@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hazard
   - WakingSight
+  - Flame
   layers:
   - Default
   - TransparentFX
@@ -45,4 +46,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1677636177
+    locked: 0
+  - name: Particles
+    uniqueID: 4118807811
     locked: 0
