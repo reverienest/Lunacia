@@ -8,7 +8,7 @@ namespace TMPro.Examples
 
     public class TMP_TextSelector_A : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
-        private TextMeshPro m_TextMeshPro;
+        private TextMeshProUGUI m_TextMeshPro;
 
         private Camera m_Camera;
 
@@ -19,7 +19,7 @@ namespace TMPro.Examples
 
         void Awake()
         {
-            m_TextMeshPro = gameObject.GetComponent<TextMeshPro>();
+            m_TextMeshPro = gameObject.GetComponent<TextMeshProUGUI>();
             m_Camera = Camera.main;
 
             // Force generation of the text object so we have valid data to work with. This is needed since LateUpdate() will be called before the text object has a chance to generated when entering play mode.

@@ -7,7 +7,7 @@ using Pubsub;
 public class KillPlayer : MonoBehaviour
 {
     public GameObject player;
-    public static Vector2 respawnLocation; // this will always spawn the player at (0,0) when first starting up the scene!
+    public static Vector2 respawnLocation; 
     public static bool hasRedFlame = false;
     public static bool hasBlueFlame = false;
    
