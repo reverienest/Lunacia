@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: f5f340d000038ba49b5fa9a7a55ce0f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2201625194169008567
+    second: FlowerBounce_0
+  - first:
+      213: 9074922606991744093
+    second: FlowerBounce_1
+  - first:
+      213: 3234678837994980173
+    second: FlowerBounce_2
+  - first:
+      213: -5211750611932234486
+    second: FlowerBounce_3
+  - first:
+      213: -6635428246744302576
+    second: FlowerBounce_4
+  - first:
+      213: -8164841407318055857
+    second: FlowerBounce_5
+  - first:
+      213: -6263550859413648124
+    second: FlowerBounce_6
+  - first:
+      213: 640193271800146974
+    second: FlowerBounce_7
+  - first:
+      213: 6499893858106480634
+    second: FlowerBounce_8
+  - first:
+      213: 872857451871261665
+    second: FlowerBounce_9
+  - first:
+      213: 1800275295248182605
+    second: FlowerBounce_10
+  - first:
+      213: -905894474236304781
+    second: FlowerBounce_11
+  - first:
+      213: -2255148898511343345
+    second: FlowerBounce_12
+  - first:
+      213: -6074852869857885793
+    second: FlowerBounce_13
+  - first:
+      213: -2231387517607539256
+    second: FlowerBounce_14
+  - first:
+      213: 1314166550926045322
+    second: FlowerBounce_15
+  - first:
+      213: 8771097980731817145
+    second: FlowerBounce_16
+  - first:
+      213: -8489667430971029620
+    second: FlowerBounce_17
+  - first:
+      213: 5736553703403238233
+    second: FlowerBounce_18
+  - first:
+      213: -5171679700921730860
+    second: FlowerBounce_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlowerBounce_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 144
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b18efa037ebd8e10800000000000000
+      internalID: 2201625194169008567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 322
+        width: 144
+        height: 64
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c97e1b70a90fd70800000000000000
+      internalID: 9074922606991744093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 333
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430a2dd343e3ec20800000000000000
+      internalID: 3234678837994980173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_3
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 322
+        width: 126
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dbad57e642ca7b0800000000000000
+      internalID: -5211750611932234486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_4
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 303
+        width: 96
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c76346a293ae3a0800000000000000
+      internalID: -6635428246744302576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 322
+        width: 110
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44286dcff7a0be80800000000000000
+      internalID: -8164841407318055857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_6
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 306
+        width: 81
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8e08dda56319a0800000000000000
+      internalID: -6263550859413648124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_7
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 322
+        width: 88
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c2e39836c62e800800000000000000
+      internalID: 640193271800146974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_8
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 335
+        width: 144
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71e2aa603443a50800000000000000
+      internalID: 6499893858106480634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_9
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 322
+        width: 148
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3d6565a330d1c00800000000000000
+      internalID: 872857451871261665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ded2fb7dcdbf810800000000000000
+      internalID: 1800275295248182605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 17
+        width: 88
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e72b76cd9d63f0800000000000000
+      internalID: -905894474236304781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f013e9c660a14b0e0800000000000000
+      internalID: -2255148898511343345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_13
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 17
+        width: 126
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91cb553089c1bba0800000000000000
+      internalID: -6074852869857885793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_14
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 4
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd03c800e48801e0800000000000000
+      internalID: -2231387517607539256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_15
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 17
+        width: 88
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80b5abe38bdc3210800000000000000
+      internalID: 1314166550926045322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_16
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 3
+        width: 110
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc7aa7642339b970800000000000000
+      internalID: 8771097980731817145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 17
+        width: 127
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c4c3a374ae2a80800000000000000
+      internalID: -8489667430971029620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_18
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 31
+        width: 144
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9533d4e13355c9f40800000000000000
+      internalID: 5736553703403238233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlowerBounce_19
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 17
+        width: 143
+        height: 57
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8367676b08a38b0800000000000000
+      internalID: -5171679700921730860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

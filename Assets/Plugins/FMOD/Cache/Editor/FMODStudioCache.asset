@@ -1,24 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8373745938750409255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: LunaciaProject/Build/Desktop/Master.bank
-  Name: Master
-  lastModified: 637380193250225064
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-8290895629780182231
+--- !u!114 &-5540575918570510677
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637380193250235036
+  lastModified: 637377719734194591
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -50,12 +32,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
+  EditorBanks:
+  - {fileID: -5540575918570510677}
+  - {fileID: 3875668263147982675}
   EditorEvents: []
   EditorParameters: []
   MasterBanks:
-  - {fileID: -8373745938750409255}
+  - {fileID: 3875668263147982675}
   StringsBanks:
-  - {fileID: -8290895629780182231}
-  stringsBankWriteTime: 637380193250235036
+  - {fileID: -5540575918570510677}
+  stringsBankWriteTime: 637377719734194591
   cacheVersion: 5
+--- !u!114 &3875668263147982675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LunaciaProject/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637377719734194591
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
