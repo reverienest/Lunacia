@@ -57,7 +57,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 2}
+  m_Size: {x: 0.5, y: 3}
   m_EdgeRadius: 0
 --- !u!114 &6516479164795096222
 MonoBehaviour:
@@ -74,6 +74,7 @@ MonoBehaviour:
   playerRB: {fileID: 0}
   velocityThreshold: 6
   recoil: 3
+  burstSpeed: 10
   burst: {fileID: 1700841743376608552}
 --- !u!1001 &6516479164525492848
 PrefabInstance:
@@ -150,12 +151,22 @@ PrefabInstance:
     - target: {fileID: 5617595997300504676, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5617595997300504676, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
         type: 3}
       propertyPath: playOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617595997300504676, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617595997300504677, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.141
       objectReference: {fileID: 0}
     - target: {fileID: 5617595997570520919, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
         type: 3}
@@ -285,12 +296,27 @@ PrefabInstance:
     - target: {fileID: 5617595997570520920, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
         type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5617595997570520920, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
         type: 3}
       propertyPath: ShapeModule.m_Position.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617595997570520920, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
+        type: 3}
+      propertyPath: ShapeModule.angle
+      value: 3.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617595997570520920, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617595997570520920, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5617595997570520921, guid: 9a9d2e7cfc75571459ebaa6bf98afce2,
         type: 3}
