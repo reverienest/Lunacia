@@ -29,6 +29,8 @@ public class PlayerHair : MonoBehaviour
 
     private float nonStaticVelAng;
 
+    private Color hairColor;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +51,7 @@ public class PlayerHair : MonoBehaviour
         bodyScript = GetComponent<PlayerBody>();
         hairBlob = transform.GetChild(0).GetComponent<SpriteRenderer>();
         wd = GetComponentInParent<WindDetector>();
+        hairColor = renderer_.startColor;
 
         hairBlob.color = renderer_.startColor;
         hairBlob.transform.localScale = new Vector3(blobSize, blobSize, blobSize);
@@ -158,12 +161,36 @@ public class PlayerHair : MonoBehaviour
         // draw hair in line renderer
         renderer_.positionCount = num_steps + 1;
         renderer_.SetPositions(spline);
+        if (bodyScript.bodyGlowing)
+        {
+            renderer_.startColor = Color.white;
+            renderer_.endColor = Color.white;
+
+            hairBlob.color = Color.white;
+        }
+        else
+        {
+            renderer_.startColor = hairColor;
+            renderer_.endColor = hairColor;
+
+            hairBlob.color = hairColor;
+        }
+
+        Color cTemp = renderer_.startColor;
+        cTemp.a = bodyScript.playerSpriteAlpha;
+        renderer_.startColor = cTemp;
+        renderer_.endColor = cTemp;
+
+        Color cBlobTemp = hairBlob.color;
+        cBlobTemp.a = bodyScript.playerSpriteAlpha;
+        hairBlob.color = cBlobTemp;
 
         hairBlob.transform.position = blob_pos_temp;
 
         length = temp[0];
         spread = temp[1];
         freq = temp[2];
+
     }
 
     // formula for sine wave for hair strand

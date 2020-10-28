@@ -10,10 +10,12 @@ public class LevelLoader : MonoBehaviour
 	public Slider loadingBar;
 	public Text progressPercentage;
 	public static string nextSceneName;
+	public GameObject player;
 
 	void Awake() 
 	{
 		MessageBroker.Instance.SceneTransitionTopic += consumeSceneTransitionEvent;
+		player.transform.position = KillPlayer.respawnLocation;
 	}
 
 	void OnDestroy() 

@@ -3399,6 +3399,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d6225eec4c23b4f976c1140ff8fbce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRB: {fileID: 0}
+  velocityThreshold: 10
+  recoil: 10
+  burst: {fileID: 0}
 --- !u!19719996 &1166862890
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -4377,6 +4381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d6225eec4c23b4f976c1140ff8fbce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerRB: {fileID: 0}
+  velocityThreshold: 10
+  recoil: 10
+  burst: {fileID: 0}
 --- !u!19719996 &1580446492
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -4829,26 +4837,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Let's say, hypothetically, <b>your mom</b> was wearing a <#FFAA00>yellow</color>
-    raincoat. Now, also in this scenario, there is a man needing to get home. When
-    he sees your mom, he will yell \"taxi, taxi!\". Now, why does he do this? The
-    answer is actually quite simple. Your mom is so fat she is the size of a taxi,
-    and the <#FFAA00>yellow</color> raincoat she is theoretically wearing is the
-    same color as a taxi. Therefore, the man mistakes her for a taxi. \n\nSo, what
-    has this hypothetical scenario shown us? It has shown us that your mom is very,
-    very, fat. Boom! Once again destroyed with facts and logic.\n\n<#FF00FF>Lorem
-    ipsum</color> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut <#FF00FF>enim</color> ad <#FF00FF>minim</color>
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est <#FF00FF>laborum</color>.\n\n<#FF0000>Lorem
-    ipsum</color> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut <#FF0000>enim</color> ad <#FF0000>minim</color>
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est <#00FF00>laborum</color>."
+  m_text: 'I''d just like to interject for a moment. What you''re referring to as
+    <b>Linux</b>, is in fact, <i>GNU/Linux</i>, or as I''ve recently taken to calling
+    it, <b><i>GNU plus Linux</b></i>. Linux is not an operating system unto itself,
+    but rather another free component of a fully functioning <#FF0000>GNU</color>
+    system made useful by the <#00FF00>GNU</color> corelibs, shell utilities and
+    vital system components comprising a full OS as defined by <#0000FF>POSIX</color>.
+
+    
+
+    Many
+    computer users run a modified version of the GNU system every day, without realizing
+    it. Through a peculiar turn of events, the version of GNU which is widely used
+    today is often called "Linux", and many of its users are not aware that it is
+    basically the GNU system, developed by the GNU Project.
+
+    
+
+    There really
+    is a Linux, and these people are using it, but it is just a part of the system
+    they use. Linux is the kernel: the program in the system that allocates the machine''s
+    resources to the other programs that you run. The kernel is an essential part
+    of an operating system, but useless by itself; it can only function in the context
+    of a complete operating system. Linux is normally used in combination with the
+    GNU operating system: the whole system is basically GNU with Linux added, or
+    GNU/Linux. All the so-called "Linux" distributions are really distributions of
+    GNU/Linux.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

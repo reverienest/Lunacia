@@ -11,7 +11,13 @@ public class AttuneBlueFlame : MonoBehaviour
     {
         if (col.gameObject.tag == "Player" && !KillPlayer.hasBlueFlame) {
             if (KillPlayer.hasRedFlame) {
-                GameObject currentFlame = player.transform.GetChild(2).gameObject;
+                Transform currentFlame = null;
+                Transform[] children = player.GetComponentsInChildren<Transform>();
+                foreach (Transform child in children) {
+                    if (child.tag == "Flame") {
+                        currentFlame = child;
+                    }
+                }
                 currentFlame.transform.parent = flameParent.transform;
                 currentFlame.transform.position = this.transform.position;
                 StartCoroutine(waitToChangeFlameValue());
