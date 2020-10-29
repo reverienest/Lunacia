@@ -229,6 +229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingLeft: 0
   headPos: {x: 0, y: 0}
+  bodyGlowing: 0
+  playerSpriteAlpha: 0
 --- !u!95 &8906755459583165527
 Animator:
   serializedVersion: 3
@@ -258,7 +260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 265151225396583759}
   - component: {fileID: 8994537888827853906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +428,7 @@ GameObject:
   - component: {fileID: 8346268092361463219}
   - component: {fileID: 1493353675722625561}
   - component: {fileID: 1625275723748101743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TestPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -500,6 +502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 10
   intentionalForce: 0
+  boost: {x: 0, y: 0}
 --- !u!114 &1493353675722625561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,7 +539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8346268092521405559}
   - component: {fileID: 8346268092521405558}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +623,7 @@ GameObject:
   - component: {fileID: 8346268094116034787}
   - component: {fileID: 8346268094116034786}
   - component: {fileID: 857091896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
