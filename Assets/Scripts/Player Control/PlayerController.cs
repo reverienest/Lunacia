@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public bool intentionalForce; //as opposed to unintentional force like gales & black holes
 
-    // [HideInInspector]
+    [HideInInspector]
     public Vector2 boost;
 
     // Start is called before the first frame update
