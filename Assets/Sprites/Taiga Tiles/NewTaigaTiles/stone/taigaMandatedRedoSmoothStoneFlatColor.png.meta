@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: c25d8d5771080394d8d9fc376bbf848c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 872285388358609395
+    second: taigaMandatedRedoSmoothStoneFlatColor_0
+  - first:
+      213: 3507997615371615516
+    second: taigaMandatedRedoSmoothStoneFlatColor_1
+  - first:
+      213: 4281443444408676160
+    second: taigaMandatedRedoSmoothStoneFlatColor_2
+  - first:
+      213: -1244407966661104729
+    second: taigaMandatedRedoSmoothStoneFlatColor_3
+  - first:
+      213: -7906089325177435895
+    second: taigaMandatedRedoSmoothStoneFlatColor_4
+  - first:
+      213: -2946289888517085504
+    second: taigaMandatedRedoSmoothStoneFlatColor_5
+  - first:
+      213: -8764650697989228029
+    second: taigaMandatedRedoSmoothStoneFlatColor_6
+  - first:
+      213: 2203469214397562971
+    second: taigaMandatedRedoSmoothStoneFlatColor_7
+  - first:
+      213: -5986427530746961167
+    second: taigaMandatedRedoSmoothStoneFlatColor_8
+  - first:
+      213: 7895148964248921853
+    second: taigaMandatedRedoSmoothStoneFlatColor_9
+  - first:
+      213: 4199616371854180267
+    second: taigaMandatedRedoSmoothStoneFlatColor_10
+  - first:
+      213: -4234687967704351773
+    second: taigaMandatedRedoSmoothStoneFlatColor_11
+  - first:
+      213: 3977752682563522164
+    second: taigaMandatedRedoSmoothStoneFlatColor_12
+  - first:
+      213: 5190738204367603829
+    second: taigaMandatedRedoSmoothStoneFlatColor_13
+  - first:
+      213: 5573955739878949830
+    second: taigaMandatedRedoSmoothStoneFlatColor_14
+  - first:
+      213: 4453657893524226981
+    second: taigaMandatedRedoSmoothStoneFlatColor_15
+  - first:
+      213: 6816664699369137597
+    second: taigaMandatedRedoSmoothStoneFlatColor_16
+  - first:
+      213: -7882000881021355688
+    second: taigaMandatedRedoSmoothStoneFlatColor_17
+  - first:
+      213: -4506546744823885553
+    second: taigaMandatedRedoSmoothStoneFlatColor_18
+  - first:
+      213: -8630963735226698705
+    second: taigaMandatedRedoSmoothStoneFlatColor_19
+  - first:
+      213: -8289675576129370712
+    second: taigaMandatedRedoSmoothStoneFlatColor_20
+  - first:
+      213: -7942721291522615055
+    second: taigaMandatedRedoSmoothStoneFlatColor_21
+  - first:
+      213: -6365492986900404102
+    second: taigaMandatedRedoSmoothStoneFlatColor_22
+  - first:
+      213: -8014196680102720804
+    second: taigaMandatedRedoSmoothStoneFlatColor_23
+  - first:
+      213: -1414569179394606942
+    second: taigaMandatedRedoSmoothStoneFlatColor_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9e0eb60fafa1c00800000000000000
+      internalID: 872285388358609395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d7429be39eea030800000000000000
+      internalID: 3507997615371615516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f67ede02eba6b30800000000000000
+      internalID: 4281443444408676160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b500da5739b449e10800000000000000
+      internalID: 2203469214397562971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f26534d0efebeca0800000000000000
+      internalID: -5986427530746961167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6a9d61724319d60800000000000000
+      internalID: 7895148964248921853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb7c5ecabd5b35c0800000000000000
+      internalID: -4234687967704351773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e4e806df0d33730800000000000000
+      internalID: 3977752682563522164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c30c3d963baa5d40800000000000000
+      internalID: 5573955739878949830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a340a6f1429ecd30800000000000000
+      internalID: 4453657893524226981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5a7d68d68a99e50800000000000000
+      internalID: 6816664699369137597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01541fbc978571c0800000000000000
+      internalID: -4506546744823885553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taigaMandatedRedoSmoothStoneFlatColor_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24b88c2638a83880800000000000000
+      internalID: -8630963735226698705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
