@@ -4,21 +4,11 @@ using UnityEngine;
 
 public class GaleScript : MonoBehaviour
 {
-    public int speed;
-    public GameObject player;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public ParticleSystem burst;
 
-    // Update is called once per frame
-    void Update()
-    {
-        print(player.GetComponent<Rigidbody2D>().velocity);
-    }
-
-    void OnTriggerEnter2D() {
-        print("hello");
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Player") {
+            burst.Play();
+        }
     }
 }
