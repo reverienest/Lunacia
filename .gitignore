@@ -58,3 +58,18 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# FMOD Misc Files
+/LunaciaProject/**.unsaved
+/LunaciaProject/**.user
+/LunaciaProject/**.restore
+/LunaciaProject/**.cache
+fmod.log
+fmod_editor.log
+FMODStudioCache.asset
+
+#FMOD Plugin Files
+/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
+/Assets/StreamingAssets/**/*.bank
+/Assets/StreamingAssets/**/*.bank.meta
+

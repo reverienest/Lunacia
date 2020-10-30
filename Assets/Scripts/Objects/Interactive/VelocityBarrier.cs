@@ -7,40 +7,45 @@ using UnityEngine.Tilemaps;
 public class VelocityBarrier : MonoBehaviour
 {
 
-    private TilemapCollider2D barriers;
+    private BoxCollider2D collider;
+    private Vector2 direction;
+    public Rigidbody2D playerRB;
+    public float velocityThreshold = 10;
+    public float recoil = 10;
+    public float burstSpeed = 10f;
+    public ParticleSystem burst;
 
     // Start is called before the first frame update
     void Start()
     {
-        barriers = GetComponent<TilemapCollider2D>();
+        collider = GetComponent<BoxCollider2D>();
+        playerRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        direction = (Vector2)transform.TransformVector(Vector2.right);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!barriers.enabled)
-        {
-            StartCoroutine(TurnOnCollider());
+        if (Mathf.Abs(Vector2.Dot(playerRB.velocity, direction)) > velocityThreshold) {
+            collider.isTrigger = true;
+        } else if (collider.isTrigger) {
+            collider.isTrigger = false;
         }
     }
 
-    IEnumerator TurnOnCollider()
-    {
-        yield return new WaitForSeconds(1);
-        barriers.enabled = true;
-        yield break;
-    }
-
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if(other.gameObject.tag == "Player")
         {
-            if(other.relativeVelocity.magnitude > 2)
-            {
-                barriers.enabled = false;
+            float dotProd = Vector2.Dot(playerRB.velocity,direction);
+            playerRB.AddForce(-recoil * direction * Mathf.Sign(dotProd), ForceMode2D.Impulse);
+            var main = burst.main;
+            if (dotProd > 0) {
+                main.startSpeed = burstSpeed;
             } else {
-                barriers.enabled = true;
+                main.startSpeed = -burstSpeed;
             }
+            burst.Play();
         }
     }
 }

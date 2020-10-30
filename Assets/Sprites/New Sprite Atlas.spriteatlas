@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: f1d4f0d2adcca884fb985f1ccf2a676b, type: 3}
+    - {fileID: 2800000, guid: ac05710c086ea96439684c3365096a98, type: 3}
+    totalSpriteSurfaceArea: 25000
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1891354933733735533, guid: f1d4f0d2adcca884fb985f1ccf2a676b, type: 3}
+  - {fileID: -2580510989013929580, guid: f1d4f0d2adcca884fb985f1ccf2a676b, type: 3}
+  - {fileID: 2878575224023623009, guid: f1d4f0d2adcca884fb985f1ccf2a676b, type: 3}
+  - {fileID: -3912658768739299246, guid: f1d4f0d2adcca884fb985f1ccf2a676b, type: 3}
+  - {fileID: -3436606895411150827, guid: f1d4f0d2adcca884fb985f1ccf2a676b, type: 3}
+  - {fileID: 2264537779191544490, guid: ac05710c086ea96439684c3365096a98, type: 3}
+  - {fileID: -91293262243919890, guid: ac05710c086ea96439684c3365096a98, type: 3}
+  - {fileID: 5690504079167596189, guid: ac05710c086ea96439684c3365096a98, type: 3}
+  - {fileID: 3813626604577531108, guid: ac05710c086ea96439684c3365096a98, type: 3}
+  - {fileID: -9165739003309010747, guid: ac05710c086ea96439684c3365096a98, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - glade_tree_trunks_4
+  - glade_tree_trunks_5
+  - glade_tree_trunks_0
+  - glade_tree_trunks_1
+  - glade_tree_trunks_2
+  - glade_canopy_tiles_dark_5
+  - glade_canopy_tiles_dark_4
+  - glade_canopy_tiles_dark_2
+  - glade_canopy_tiles_dark_1
+  - glade_canopy_tiles_dark_0
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

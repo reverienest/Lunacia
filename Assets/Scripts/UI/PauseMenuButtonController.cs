@@ -8,7 +8,6 @@ public class PauseMenuButtonController : MonoBehaviour
 {
     //related to hover animations
     private int frame = 0;
-    private string prefix = "";
 
     private bool onEntry = true, onExit = false, onHover;
 
@@ -21,17 +20,17 @@ public class PauseMenuButtonController : MonoBehaviour
     private Transform text;
     public double textSizeMin, textSizeMax;
 
-    UnityEngine.UI.Image renderer;
+    UnityEngine.UI.Image renderer_;
 
     // Start is called before the first frame update
     void Start()
     {
-        renderer = GetComponent<UnityEngine.UI.Image>();
+        renderer_ = GetComponent<UnityEngine.UI.Image>();
 
         //get sprite name prefix
         //ex. for "a_b_1", the prefix is "a_b_"
-        int lastI = renderer.sprite.name.LastIndexOf("_");
-        string prefix = renderer.sprite.name.Substring(0, lastI);
+        int lastI = renderer_.sprite.name.LastIndexOf("_");
+        string prefix = renderer_.sprite.name.Substring(0, lastI);
         //print(prefix);
         UnityEngine.Object[] spriteList = Resources.LoadAll(prefix);
         sprites = new Sprite[60];
@@ -51,7 +50,7 @@ public class PauseMenuButtonController : MonoBehaviour
         }
 
         //replace sprite with overrideSprite, the latter is controled dynamically by this script
-        renderer.overrideSprite = renderer.sprite;
+        renderer_.overrideSprite = renderer_.sprite;
 
         frame = dormantFrame;
 
@@ -87,8 +86,8 @@ public class PauseMenuButtonController : MonoBehaviour
     {
         //print(hovering);
         int img_num = Int16.Parse(
-            renderer.sprite.name.Substring(
-                renderer.overrideSprite.name.LastIndexOf("_")+1
+            renderer_.sprite.name.Substring(
+                renderer_.overrideSprite.name.LastIndexOf("_")+1
             )
         ); //take the last item in the name (the number)
 
@@ -142,11 +141,11 @@ public class PauseMenuButtonController : MonoBehaviour
         {
             if (frame < startingFrame)
             {
-                renderer.overrideSprite = sprites[startingFrame];
+                renderer_.overrideSprite = sprites[startingFrame];
             }
             else
             {
-                renderer.overrideSprite = sprites[frame];
+                renderer_.overrideSprite = sprites[frame];
             }
         }
 
