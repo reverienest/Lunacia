@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScrollController
+  m_Controller: {fileID: 9100000, guid: 9f901bb0d9235fe42a4f905b96824d77, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b342d3e8686875d469580cc9590ab19b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c264a6660f4b8cd49b01d9fb5452a0a2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: aab5dfd467bc2ff489c7f9c360473497, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ca674d78ea562641ac9fdb6f14f2878, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5d295b4e0bce360409097fa4b2c20e57, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4ca21ca4540742d4cbdfc340203d0e74, type: 2}
