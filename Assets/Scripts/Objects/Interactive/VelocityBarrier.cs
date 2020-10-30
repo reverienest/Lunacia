@@ -12,6 +12,7 @@ public class VelocityBarrier : MonoBehaviour
     public Rigidbody2D playerRB;
     public float velocityThreshold = 10;
     public float recoil = 10;
+    public float burstSpeed = 10f;
     public ParticleSystem burst;
 
     // Start is called before the first frame update
@@ -40,9 +41,9 @@ public class VelocityBarrier : MonoBehaviour
             playerRB.AddForce(-recoil * direction * Mathf.Sign(dotProd), ForceMode2D.Impulse);
             var main = burst.main;
             if (dotProd > 0) {
-                main.startSpeed = 5f;
+                main.startSpeed = burstSpeed;
             } else {
-                main.startSpeed = -5f;
+                main.startSpeed = -burstSpeed;
             }
             burst.Play();
         }
