@@ -42,13 +42,7 @@ public class BookManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))// || Input.GetButtonDown("Fire1"))
-        {
-            if (openedScrollText != null && !openedScrollText.TrySkipText())
-            {
-                CloseScroll();
-            }
-        }
+        // book
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (openedPages != null && openedPages[currentPage].gameObject.activeInHierarchy)
@@ -61,6 +55,14 @@ public class BookManager : MonoBehaviour
             if (openedPages != null && openedPages[currentPage].gameObject.activeInHierarchy)
             {
                 TurnNextPage();
+            }
+        }
+        // scroll
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (openedScrollText != null && !openedScrollText.TrySkipText())
+            {
+                CloseScroll();
             }
         }
     }
@@ -223,6 +225,7 @@ public class BookManager : MonoBehaviour
             return;
         }
         openedScrollText = textObj;
+        openedScrollText.gameObject.SetActive(true);
         scrollDisplayPanel.SetActive(true);
         openedScrollTextContainer = textContainer;
         openedScrollTextContainer.SetActive(true);
