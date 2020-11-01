@@ -45,4 +45,8 @@ public class Vine : MonoBehaviour
             animator.SetBool("nearPlayer", false);
         }
     }
+
+    void OnDestroy() {
+        MessageBroker.Instance.WakingSightModeTopic -= consumeExampleMessage;
+    }
 }
