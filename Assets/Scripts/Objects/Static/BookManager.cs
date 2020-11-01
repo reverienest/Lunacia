@@ -43,14 +43,14 @@ public class BookManager : MonoBehaviour
     void Update()
     {
         // book
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetButtonDown("Fire1"))
         {
             if (openedPages != null && openedPages[currentPage].gameObject.activeInHierarchy)
             {
                 TurnPageLeft();
             }
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.A) || Input.GetButtonDown("Fire2"))
         {
             if (openedPages != null && openedPages[currentPage].gameObject.activeInHierarchy)
             {
@@ -58,7 +58,7 @@ public class BookManager : MonoBehaviour
             }
         }
         // scroll
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetButtonDown("Fire1"))
         {
             if (openedScrollText != null && !openedScrollText.TrySkipText())
             {
