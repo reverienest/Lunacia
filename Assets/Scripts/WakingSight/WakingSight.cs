@@ -10,6 +10,8 @@ public class WakingSight : MonoBehaviour
     private bool changingMode = false;
 	private Animator animator;
 
+    public SpriteRenderer sprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,9 +38,10 @@ public class WakingSight : MonoBehaviour
             changingMode = true;
 			MessageBroker.Instance.Raise(new WakingSightModeEventArgs(mode));
             activeMode = mode;
+            float scalarStep = maxScale/30;
             if (mode == 0) {
 				
-				animator.SetBool("WakingSightOn", true);
+				animator.SetBool("WakingSightOn", false);
 
                 // Set to max scale and step down
                 // Vector3 scale = new Vector3(maxScale, maxScale, 0);
@@ -51,7 +54,7 @@ public class WakingSight : MonoBehaviour
                 // transform.localScale = Vector3.zero;
             } else if (mode == 1) {
 
-				animator.SetBool("WakingSightOn", false);
+				animator.SetBool("WakingSightOn", true);
 
                 // Set scale to zero and step up
                 // Vector3 scale = Vector3.zero;
@@ -66,5 +69,9 @@ public class WakingSight : MonoBehaviour
 			yield return null;
             changingMode = false;
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        
     }
 }

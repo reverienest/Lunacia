@@ -65,6 +65,7 @@ crashlytics-build.properties
 /LunaciaProject/**.cache
 fmod.log
 fmod_editor.log
+FMODStudioCache.asset
 
 #FMOD Plugin Files
 /Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
