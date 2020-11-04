@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRB: {fileID: 0}
-  velocityThreshold: 6
+  velocityThreshold: 10
   recoil: 3
   burstSpeed: 10
   burst: {fileID: 1700841743376608552}
