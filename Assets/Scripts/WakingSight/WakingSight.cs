@@ -47,10 +47,6 @@ public class WakingSight : MonoBehaviour
         if (other.tag == "NullZone")
         {
             inNZ = true;
-            if (activeMode == 1)
-            {
-                StartCoroutine(changeMode(1));
-            }
             print("hi");
         }
     }
