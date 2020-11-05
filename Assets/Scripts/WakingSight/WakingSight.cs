@@ -9,6 +9,8 @@ public class WakingSight : MonoBehaviour
     public float maxScale = 10f;
     private bool changingMode = false;
 	private Animator animator;
+    public Rigidbody2D player;
+    public bool inNZ = false;
 
     public SpriteRenderer sprite;
 
@@ -16,19 +18,50 @@ public class WakingSight : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetButtonDown("Fire2") && !changingMode) {
+        if (Input.GetButtonDown("Fire2") && !changingMode && inNZ == false) {
             // Toggle through modes
-            if (activeMode == 0) {
+            if (activeMode == 0)
+            {
                 StartCoroutine(changeMode(1));
-            } else if (activeMode == 1) {
+            }
+            else if (activeMode == 1)
+            {
                 StartCoroutine(changeMode(0));
             }
+        }
+        else if (activeMode == 1 && inNZ == true) {
+            StartCoroutine(changeMode(0));
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            inNZ = true;
+            if (activeMode == 1)
+            {
+                StartCoroutine(changeMode(1));
+            }
+            print("hi");
+            animator.SetBool("inNZ", true);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            inNZ = false;
+            print("bye");
+            animator.SetBool("inNZ", false);
         }
     }
 
@@ -71,7 +104,7 @@ public class WakingSight : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        
-    }
+//    void OnTriggerEnter2D(Collider2D other) {
+//       
+ //   }
 }
