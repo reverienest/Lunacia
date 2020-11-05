@@ -6,7 +6,7 @@ using TMPro;
 public class TextObject : MonoBehaviour
 {
     // - = - for some reason having content fitter enabled on preffered breaks the TypeString() function
-    [Header("** use content size fitter to make sure text fits in rect transform **")]
+    //[Header("** use content size fitter to make sure text fits in rect transform **")]
     [Header("** ADD THIS SCRIPT TO TEXT WITH TEXT MESH PRO **")]
     // settings
     public bool invisibleAtStart = true;
@@ -30,10 +30,13 @@ public class TextObject : MonoBehaviour
             Debug.LogWarning("TextMeshPro script not found!");
         // force characters to load
         m_TextMeshPro.ForceMeshUpdate();
+    }
 
-        // potentially move to Start()?
+    private void Start()
+    {
         if (invisibleAtStart)
         {
+            m_TextMeshPro.ForceMeshUpdate();
             SetTextAlphaZero();
         }
         finishedTyping = !invisibleAtStart;
@@ -209,6 +212,7 @@ public class TextObject : MonoBehaviour
             Debug.Log("Already finished typing");
             return;
         }
+        SetTextAlphaZero();
         if (fadeTextIn)
             coroutine = TypeStringFadeIn();
         else
