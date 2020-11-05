@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 8346268092361463219}
   - component: {fileID: 1493353675722625561}
   - component: {fileID: 1625275723748101743}
+  - component: {fileID: 107898259}
   m_Layer: 8
   m_Name: TestPlayer
   m_TagString: Player
@@ -529,6 +530,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 8346268092361463229}
+--- !u!114 &107898259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346268092361463229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdee02de4b265446bb81cd88414d00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeMode: 0
+  maxScale: 10
+  circleAnimator: {fileID: 857091896}
 --- !u!1 &8346268092521405556
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +637,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8346268094116034784}
   - component: {fileID: 8346268094116034787}
-  - component: {fileID: 8346268094116034786}
   - component: {fileID: 857091896}
   m_Layer: 8
   m_Name: Circle
@@ -696,21 +711,6 @@ SpriteMask:
   m_BackSortingOrder: -1
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
---- !u!114 &8346268094116034786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8346268094116034785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fdee02de4b265446bb81cd88414d00f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeMode: 0
-  maxScale: 10
-  sprite: {fileID: 0}
 --- !u!95 &857091896
 Animator:
   serializedVersion: 3
