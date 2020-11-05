@@ -1820,26 +1820,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1278883336}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &107898263
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107898257}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 15bfbeb356cbba548a5d4ea9a3d35dd2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &107898264
+--- !u!114 &107898259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1853,14 +1834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeMode: 0
   maxScale: 10
-  nullzone: {fileID: 0}
-  sprite: {fileID: 500436450}
---- !u!212 &500436450 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 8994537888827853906, guid: a166746ae8c708344a7a1969e5dc27e0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1278883336}
-  m_PrefabAsset: {fileID: 0}
+  circleAnimator: {fileID: 1260393769}
 --- !u!1 &1111718897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2059,6 +2033,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &1260393769 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 857091896, guid: a166746ae8c708344a7a1969e5dc27e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1278883336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1278883336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2146,7 +2126,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestPlayer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8346268094116034786, guid: a166746ae8c708344a7a1969e5dc27e0,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8346268094116034786, guid: a166746ae8c708344a7a1969e5dc27e0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a166746ae8c708344a7a1969e5dc27e0, type: 3}
 --- !u!1 &1372391352
 GameObject:
@@ -2227,11 +2213,11 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -2283,7 +2269,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
