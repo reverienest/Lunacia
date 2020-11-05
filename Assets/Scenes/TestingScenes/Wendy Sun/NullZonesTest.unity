@@ -1814,6 +1814,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &107898257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8346268092361463229, guid: a166746ae8c708344a7a1969e5dc27e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1278883336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &107898263
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107898257}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15bfbeb356cbba548a5d4ea9a3d35dd2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &107898264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107898257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdee02de4b265446bb81cd88414d00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeMode: 0
+  maxScale: 10
+  nullzone: {fileID: 0}
+  sprite: {fileID: 500436450}
+--- !u!212 &500436450 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8994537888827853906, guid: a166746ae8c708344a7a1969e5dc27e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1278883336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1111718897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2158,11 +2205,9 @@ GameObject:
   - component: {fileID: 1635217082}
   - component: {fileID: 1635217081}
   - component: {fileID: 1635217080}
-  - component: {fileID: 1635217083}
-  - component: {fileID: 1635217084}
   m_Layer: 0
   m_Name: NullZone
-  m_TagString: Untagged
+  m_TagString: NullZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2258,42 +2303,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1635217083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635217079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fdee02de4b265446bb81cd88414d00f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeMode: 0
-  maxScale: 10
-  player: {fileID: 1929131518}
-  inNZ: 0
-  sprite: {fileID: 0}
---- !u!95 &1635217084
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635217079}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 15bfbeb356cbba548a5d4ea9a3d35dd2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1692471739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,9 +2510,3 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!50 &1929131518 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 8346268092361463231, guid: a166746ae8c708344a7a1969e5dc27e0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1278883336}
-  m_PrefabAsset: {fileID: 0}

@@ -9,8 +9,8 @@ public class WakingSight : MonoBehaviour
     public float maxScale = 10f;
     private bool changingMode = false;
 	private Animator animator;
-    public Rigidbody2D player;
-    public bool inNZ = false;
+    public Rigidbody2D nullzone;
+    private bool inNZ = false;
 
     public SpriteRenderer sprite;
 
@@ -18,7 +18,7 @@ public class WakingSight : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        nullzone = GameObject.FindGameObjectWithTag("NullZone").GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -36,14 +36,15 @@ public class WakingSight : MonoBehaviour
                 StartCoroutine(changeMode(0));
             }
         }
-        else if (activeMode == 1 && inNZ == true) {
+        else if (activeMode == 1 && inNZ == true && !changingMode) {
+            print(":)");
             StartCoroutine(changeMode(0));
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "NullZone")
         {
             inNZ = true;
             if (activeMode == 1)
@@ -51,17 +52,15 @@ public class WakingSight : MonoBehaviour
                 StartCoroutine(changeMode(1));
             }
             print("hi");
-            animator.SetBool("inNZ", true);
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "NullZone")
         {
             inNZ = false;
             print("bye");
-            animator.SetBool("inNZ", false);
         }
     }
 
