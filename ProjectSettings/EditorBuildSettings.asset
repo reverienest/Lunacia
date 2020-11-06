@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SettingsMenu 1.unity
     guid: 94d7db4be412c675481cdd9ecc53ea4b
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Juliet Baldwin/Credits.unity
+    guid: cd006f80fa3bb29419a7d54d7e9d9020
   m_configObjects: {}
