@@ -13,12 +13,10 @@ public class FogEffect : MonoBehaviour {
     public float xOrg;
     public float yOrg;
 
-    // How fast the fog moves relative to the player
-    public float MovementDilation;
 
     // The number of cycles of the basic noise pattern that are repeated
     // over the width and height of the texture.
-    public float scale = 1.0F;
+    public float scale;
 
     private Texture2D noiseTex;
     private Color[] pix;
@@ -27,7 +25,7 @@ public class FogEffect : MonoBehaviour {
 	public float intensity;
 	private Material material;
 
-    private float timer = 0;
+    private float timer = 0.0f;
 
     // Creates a private material used to the effect
     void Awake ()
@@ -79,24 +77,27 @@ public class FogEffect : MonoBehaviour {
 
     private float perlin3D(float x, float y, float z)
     {
+        // for best quality (or perhaps most "authentic"), use the divide by 6 version
+        // but the shrunken version looks fine and should be faster
         return (Mathf.PerlinNoise(x, y)
             + Mathf.PerlinNoise(x, z)
-            + Mathf.PerlinNoise(y, x)
-            + Mathf.PerlinNoise(y, z)) / 3;
+            + Mathf.PerlinNoise(y, x)) / 3;
+            //+ Mathf.PerlinNoise(y, z)
             //+ Mathf.PerlinNoise(z, x)
             //+ Mathf.PerlinNoise(z, y)); / 6;
     }
 
     void Update()
     {
-        timer += Time.deltaTime;
         CalcNoise();
         setIntensity();
+
+        timer += Time.deltaTime;
     }
 
     float lerp (float x)
     {
-        return x * x * x * (x * (x * 6 - 15) + 10);
+        return x < 0.5 ? 4 * x * x * x : 1 - Mathf.Pow(-2 * x + 2, 3) / 2;
     }
 	
 	// Postprocess the image
