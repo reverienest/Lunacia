@@ -172,11 +172,6 @@ PrefabInstance:
       propertyPath: ShapeModule.alignToDirection
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1299091742275183813, guid: 7f36eceb91c13874fb899e3a92763a00,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 1299091742275183815, guid: 7f36eceb91c13874fb899e3a92763a00,
         type: 3}
       propertyPath: m_Name

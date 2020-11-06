@@ -9,8 +9,20 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/UI/LoadingScreen.unity
-    guid: a8b724502e6310e489ad1bab18904b94
+    path: Assets/Scenes/TestingScenes/Juliet Baldwin/TitleScreen.unity
+    guid: 29f41720fb62c2e4b8041dce03d786b0
+  - enabled: 1
+    path: Assets/Scenes/Glade/GladeMap1.unity
+    guid: 5a8fc991868172441be47a0061931609
+  - enabled: 1
+    path: Assets/Scenes/Glade/GladeMap2.unity
+    guid: 0f8017e9bb2eaa743bd7df0f5cf82a46
+  - enabled: 1
+    path: Assets/Scenes/Glade/GladeMap4.unity
+    guid: 66a671c51e1436048a70dc9ffde57a69
+  - enabled: 1
+    path: Assets/Scenes/Glade/GladeMap5.unity
+    guid: db492e613480d474598835d5adf484d8
   - enabled: 1
     path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaiga1.unity
     guid: ea9eb164ee0ffd14a822294914b57348
@@ -26,4 +38,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaigaSidePath2.unity
     guid: 5b50f33ec76dc7445861fdd2aaae8b42
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Jonathan McLatcher/PauseMenu.unity
+    guid: 3558b3ae367dc1342aa7a0b8f3a54b7c
+  - enabled: 1
+    path: Assets/Scenes/UI/LoadingScreen.unity
+    guid: a8b724502e6310e489ad1bab18904b94
+  - enabled: 1
+    path: Assets/Scenes/SettingsMenu 1.unity
+    guid: 94d7db4be412c675481cdd9ecc53ea4b
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Juliet Baldwin/Credits.unity
+    guid: cd006f80fa3bb29419a7d54d7e9d9020
   m_configObjects: {}

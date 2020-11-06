@@ -6,10 +6,10 @@ using Pubsub;
 public class BookObject : MonoBehaviour
 {
     public BookManager bookManager;
-    [Tooltip("Usually the scrollrect")]
-    public GameObject textContainer; // TODO: seperate if want dif backgrounds for normal/WS books
-    public TextObject textObjectNormal;
-    public TextObject textObjectWS;
+    public GameObject normalTextContainer;
+    public TextObject[] textObjectNormal;
+    public GameObject WSTextContainer;
+    public TextObject[] textObjectWS;
 
     private SpriteRenderer sprite;
     public Sprite spriteWSOn;
@@ -44,14 +44,14 @@ public class BookObject : MonoBehaviour
     public void OpenBook()
     {
         if (isWSEnabled)
-            bookManager.OpenBook(textObjectWS, textContainer);
+            bookManager.OpenBook(textObjectWS, WSTextContainer);
         else
-            bookManager.OpenBook(textObjectNormal, textContainer);
+            bookManager.OpenBook(textObjectNormal, normalTextContainer);
     }
 
     public void CloseBook()
     {
-        bookManager.CloseBook();
+        bookManager.CloseScroll();
     }
 
     public void SetWakingSight(bool isEnabled)
