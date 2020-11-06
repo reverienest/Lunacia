@@ -23,8 +23,9 @@ public class FogEffect : MonoBehaviour {
 	public float intensity;
 	private Material material;
 
-	// Creates a private material used to the effect
-	void Awake ()
+
+    // Creates a private material used to the effect
+    void Awake ()
 	{
         // Set up the texture and a Color array to hold pixels during processing.
         noiseTex = new Texture2D(pixWidth, pixHeight);
@@ -32,6 +33,16 @@ public class FogEffect : MonoBehaviour {
 
 		material = new Material( Shader.Find("Hidden/FogShader") );
 	}
+
+    void setIntensity()
+    {
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<WakingSight>().inNZ) {
+            intensity = 1;
+        }
+        else if (!GameObject.FindGameObjectWithTag("Player").GetComponent<WakingSight>().inNZ) {
+            intensity = 0;
+        }
+    }
 
     void CalcNoise()
     {
@@ -60,6 +71,7 @@ public class FogEffect : MonoBehaviour {
     void Update()
     {
         CalcNoise();
+        setIntensity();
     }
 	
 	// Postprocess the image
