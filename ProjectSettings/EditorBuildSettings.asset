@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaigaSidePath2.unity
     guid: 5b50f33ec76dc7445861fdd2aaae8b42
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Jonathan McLatcher/PauseMenu.unity
+    guid: 3558b3ae367dc1342aa7a0b8f3a54b7c
+  - enabled: 1
+    path: Assets/Scenes/SettingsMenu 1.unity
+    guid: 94d7db4be412c675481cdd9ecc53ea4b
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Juliet Baldwin/TitleScreen.unity
+    guid: 29f41720fb62c2e4b8041dce03d786b0
   m_configObjects: {}

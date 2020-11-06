@@ -9,7 +9,7 @@ public class WakingSight : MonoBehaviour {
 	private bool changingMode = false;
 	[SerializeField]
 	private Animator circleAnimator;
-	private bool inNZ = false;
+	public bool inNZ = false;
 
 
 
