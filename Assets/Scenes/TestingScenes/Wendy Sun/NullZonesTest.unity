@@ -1831,7 +1831,7 @@ MonoBehaviour:
   pixHeight: 512
   xOrg: 0
   yOrg: 0
-  scale: 1
+  scale: 10
   intensity: 0
 --- !u!1 &1111718897
 GameObject:
