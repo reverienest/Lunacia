@@ -9,7 +9,7 @@ public class WakingSight : MonoBehaviour {
 	private bool changingMode = false;
 	[SerializeField]
 	private Animator circleAnimator;
-	private bool inNZ = false;
+	public bool inNZ = false;
 
 
 
@@ -37,7 +37,6 @@ public class WakingSight : MonoBehaviour {
 			} else if (inNZ == true && activeMode == 0) {
 				// Trying to activate ws in a nz, do nothing. time permitting, add an "you can't do that!!" vfx. #TODO
 			} else {
-				print("" + inNZ + activeMode);
 			}
 		}
 	}

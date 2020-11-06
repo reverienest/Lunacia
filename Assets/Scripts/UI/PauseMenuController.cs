@@ -95,7 +95,17 @@ public class PauseMenuController : MonoBehaviour
     {
         Time.timeScale = 1f;
         // implement options menu
+        string settingsSceneName = "SettingsMenu 1";
+        Scene currentPausedScene = SceneManager.GetActiveScene();
+        SceneManager.sceneLoaded += SceneLoaded;
 
+        // deactivate audio listener
+        GameObject mCam = GameObject.FindGameObjectWithTag("MainCamera");
+        AudioListener aList = mCam.GetComponent<AudioListener>();
+        aList.enabled = false;
+
+        // load settings scene
+        SceneManager.LoadScene(settingsSceneName, LoadSceneMode.Additive);
     }
 
     // load main menu scene (title screen)
@@ -117,5 +127,16 @@ public class PauseMenuController : MonoBehaviour
         {
             yield return null;
         }
+    }
+
+    //this is only run when the settings scene is loaded, after running, it removes itself from SceneManager
+    private void SceneLoaded(Scene s, LoadSceneMode l)
+    {
+        if(l == LoadSceneMode.Additive)
+        {
+
+        }
+
+        SceneManager.sceneLoaded -= SceneLoaded;
     }
 }
