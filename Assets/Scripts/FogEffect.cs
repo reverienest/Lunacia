@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Runtime.Remoting.Messaging;
 
 [ExecuteInEditMode]
 public class FogEffect : MonoBehaviour {
@@ -12,6 +13,9 @@ public class FogEffect : MonoBehaviour {
     public float xOrg;
     public float yOrg;
 
+    // How fast the fog moves relative to the player
+    public float MovementDilation;
+
     // The number of cycles of the basic noise pattern that are repeated
     // over the width and height of the texture.
     public float scale = 1.0F;
@@ -23,6 +27,7 @@ public class FogEffect : MonoBehaviour {
 	public float intensity;
 	private Material material;
 
+    private float timer = 0;
 
     // Creates a private material used to the effect
     void Awake ()
@@ -30,17 +35,20 @@ public class FogEffect : MonoBehaviour {
         // Set up the texture and a Color array to hold pixels during processing.
         noiseTex = new Texture2D(pixWidth, pixHeight);
         pix = new Color[noiseTex.width * noiseTex.height];
-
 		material = new Material( Shader.Find("Hidden/FogShader") );
 	}
 
     void setIntensity()
     {
-        if (GameObject.FindGameObjectWithTag("Player").GetComponent<WakingSight>().inNZ) {
-            intensity = 1;
+        bool inNZ = GameObject.FindGameObjectWithTag("Player").GetComponent<WakingSight>().inNZ;
+
+        if (inNZ && intensity < 1)
+        {
+            intensity = Mathf.Min(1.0f, intensity + Time.deltaTime);
         }
-        else if (!GameObject.FindGameObjectWithTag("Player").GetComponent<WakingSight>().inNZ) {
-            intensity = 0;
+        else if (!inNZ && intensity > 0)
+        {
+            intensity = Mathf.Max(0.0f, intensity - Time.deltaTime);
         }
     }
 
@@ -56,7 +64,8 @@ public class FogEffect : MonoBehaviour {
             {
                 float xCoord = xOrg + x / noiseTex.width * scale;
                 float yCoord = yOrg + y / noiseTex.height * scale;
-                float sample = Mathf.PerlinNoise(xCoord, yCoord);
+
+                float sample = perlin3D(xCoord, yCoord, timer);
                 pix[(int)y * noiseTex.width + (int)x] = new Color(sample, sample, sample);
                 x++;
             }
@@ -68,10 +77,26 @@ public class FogEffect : MonoBehaviour {
         noiseTex.Apply();
     }
 
+    private float perlin3D(float x, float y, float z)
+    {
+        return (Mathf.PerlinNoise(x, y)
+            + Mathf.PerlinNoise(x, z)
+            + Mathf.PerlinNoise(y, x)
+            + Mathf.PerlinNoise(y, z)) / 3;
+            //+ Mathf.PerlinNoise(z, x)
+            //+ Mathf.PerlinNoise(z, y)); / 6;
+    }
+
     void Update()
     {
+        timer += Time.deltaTime;
         CalcNoise();
         setIntensity();
+    }
+
+    float lerp (float x)
+    {
+        return x * x * x * (x * (x * 6 - 15) + 10);
     }
 	
 	// Postprocess the image
@@ -83,7 +108,7 @@ public class FogEffect : MonoBehaviour {
 			return;
 		}
 
-		material.SetFloat("_bwBlend", intensity);
+		material.SetFloat("_bwBlend", lerp(intensity));
         material.SetTexture("_FogTex", noiseTex);
 		Graphics.Blit (source, destination, material);
 	}

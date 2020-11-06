@@ -6,6 +6,7 @@ ShaderImporter:
   - _MainTex: {instanceID: 0}
   - _FogTex: {fileID: 2800000, guid: d5ed3d46566ab91438ce9328bb431ede, type: 3}
   - _GradTex: {fileID: 2800000, guid: 7e1ec19bb1463fa43971148236ded570, type: 3}
+  - _SpreadTex: {fileID: 2800000, guid: c5b364e052d655c42a84232d9aa44efb, type: 3}
   nonModifiableTextures: []
   userData: 
   assetBundleName: 
