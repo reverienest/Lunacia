@@ -41,11 +41,7 @@ MonoBehaviour:
   - {fileID: 3875668263147982675}
   StringsBanks:
   - {fileID: -5540575918570510677}
-<<<<<<< HEAD
-  stringsBankWriteTime: 637380193250235036
-=======
   stringsBankWriteTime: 637377853394240657
->>>>>>> reverienest-master
   cacheVersion: 5
 --- !u!114 &3875668263147982675
 MonoBehaviour:

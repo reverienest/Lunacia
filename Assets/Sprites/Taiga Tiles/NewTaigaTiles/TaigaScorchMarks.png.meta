@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: b8b49ad4097616d4fb0c9e1218e610b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 361895184324122393
+    second: TaigaScorchMarks_0
+  - first:
+      213: 1250363479954295858
+    second: TaigaScorchMarks_1
+  - first:
+      213: 7044206596733779812
+    second: TaigaScorchMarks_2
+  - first:
+      213: 2833166259692358979
+    second: TaigaScorchMarks_3
+  - first:
+      213: -982559739141370434
+    second: TaigaScorchMarks_4
+  - first:
+      213: 5407912817436562930
+    second: TaigaScorchMarks_5
+  - first:
+      213: 1967414333877001171
+    second: TaigaScorchMarks_6
+  - first:
+      213: -956375061770151597
+    second: TaigaScorchMarks_7
+  - first:
+      213: 259855562791537
+    second: TaigaScorchMarks_8
+  - first:
+      213: 972493125672562263
+    second: TaigaScorchMarks_9
+  - first:
+      213: 2128856635152897651
+    second: TaigaScorchMarks_10
+  - first:
+      213: -7508495791201313047
+    second: TaigaScorchMarks_11
+  - first:
+      213: -1129859280443154949
+    second: TaigaScorchMarks_12
+  - first:
+      213: 1320864626481991349
+    second: TaigaScorchMarks_13
+  - first:
+      213: -2634197545642375407
+    second: TaigaScorchMarks_14
+  - first:
+      213: -5671266512676780034
+    second: TaigaScorchMarks_15
+  - first:
+      213: 7832717571270719770
+    second: TaigaScorchMarks_16
+  - first:
+      213: -6504822429871605415
+    second: TaigaScorchMarks_17
+  - first:
+      213: -2462235780644399322
+    second: TaigaScorchMarks_18
+  - first:
+      213: -3765048401445345467
+    second: TaigaScorchMarks_19
+  - first:
+      213: -2510448258897036816
+    second: TaigaScorchMarks_20
+  - first:
+      213: -3023189230644583087
+    second: TaigaScorchMarks_21
+  - first:
+      213: -7636467016237457476
+    second: TaigaScorchMarks_22
+  - first:
+      213: 8181169819879284553
+    second: TaigaScorchMarks_23
+  - first:
+      213: 6340493663703688698
+    second: TaigaScorchMarks_24
+  - first:
+      213: -8802125383363123573
+    second: TaigaScorchMarks_25
+  - first:
+      213: -7738491896516117554
+    second: TaigaScorchMarks_26
+  - first:
+      213: -8634514509950232713
+    second: TaigaScorchMarks_27
+  - first:
+      213: -4889599264212348915
+    second: TaigaScorchMarks_28
+  - first:
+      213: -7961805410810565328
+    second: TaigaScorchMarks_29
+  - first:
+      213: -3069750782837061824
+    second: TaigaScorchMarks_30
+  - first:
+      213: 5276064819479731168
+    second: TaigaScorchMarks_31
+  - first:
+      213: -7086789142941435401
+    second: TaigaScorchMarks_32
+  - first:
+      213: -1950307257590396132
+    second: TaigaScorchMarks_33
+  - first:
+      213: -6691027361715786569
+    second: TaigaScorchMarks_34
+  - first:
+      213: -5015909081200498485
+    second: TaigaScorchMarks_35
+  - first:
+      213: 5133181198622892697
+    second: TaigaScorchMarks_36
+  - first:
+      213: -5127371800856050883
+    second: TaigaScorchMarks_37
+  - first:
+      213: -9210979715623822388
+    second: TaigaScorchMarks_38
+  - first:
+      213: 542331639236594388
+    second: TaigaScorchMarks_39
+  - first:
+      213: 4643560481927104173
+    second: TaigaScorchMarks_40
+  - first:
+      213: -7256589068670130436
+    second: TaigaScorchMarks_41
+  - first:
+      213: 6375452409650077230
+    second: TaigaScorchMarks_42
+  - first:
+      213: 807448822783451646
+    second: TaigaScorchMarks_43
+  - first:
+      213: -7337795705269663937
+    second: TaigaScorchMarks_44
+  - first:
+      213: 8007189068526428635
+    second: TaigaScorchMarks_45
+  - first:
+      213: -5126896090327194450
+    second: TaigaScorchMarks_46
+  - first:
+      213: 4027918399586177757
+    second: TaigaScorchMarks_47
+  - first:
+      213: 4567814438248616660
+    second: TaigaScorchMarks_48
+  - first:
+      213: -1748373220089706177
+    second: TaigaScorchMarks_49
+  - first:
+      213: -1949310589898749265
+    second: TaigaScorchMarks_50
+  - first:
+      213: 5311701856895553581
+    second: TaigaScorchMarks_51
+  - first:
+      213: -1804814190007528469
+    second: TaigaScorchMarks_52
+  - first:
+      213: 8071055644573114569
+    second: TaigaScorchMarks_53
+  - first:
+      213: 1495840812470506607
+    second: TaigaScorchMarks_54
+  - first:
+      213: -8791006497019453024
+    second: TaigaScorchMarks_55
+  - first:
+      213: -7681771256936958504
+    second: TaigaScorchMarks_56
+  - first:
+      213: 2273135145708674334
+    second: TaigaScorchMarks_57
+  - first:
+      213: 8670341839781444047
+    second: TaigaScorchMarks_58
+  - first:
+      213: 1250670281055158608
+    second: TaigaScorchMarks_59
+  - first:
+      213: -2578413321887386327
+    second: TaigaScorchMarks_60
+  - first:
+      213: -2533893900210589740
+    second: TaigaScorchMarks_61
+  - first:
+      213: 524127712044685385
+    second: TaigaScorchMarks_62
+  - first:
+      213: 8310929863173713167
+    second: TaigaScorchMarks_63
+  - first:
+      213: -4217624469006387972
+    second: TaigaScorchMarks_64
+  - first:
+      213: 5654664649606426704
+    second: TaigaScorchMarks_65
+  - first:
+      213: 8146028117381111463
+    second: TaigaScorchMarks_66
+  - first:
+      213: -3124811515678627297
+    second: TaigaScorchMarks_67
+  - first:
+      213: -6769144081241473038
+    second: TaigaScorchMarks_68
+  - first:
+      213: 4174388915327724369
+    second: TaigaScorchMarks_69
+  - first:
+      213: -2001211046586487985
+    second: TaigaScorchMarks_70
+  - first:
+      213: -7878497923260390813
+    second: TaigaScorchMarks_71
+  - first:
+      213: -2570270696189914858
+    second: TaigaScorchMarks_72
+  - first:
+      213: 8256650714100218888
+    second: TaigaScorchMarks_73
+  - first:
+      213: -2082743982225916150
+    second: TaigaScorchMarks_74
+  - first:
+      213: -2302143371144878201
+    second: TaigaScorchMarks_75
+  - first:
+      213: 7773572650030676716
+    second: TaigaScorchMarks_76
+  - first:
+      213: 3017712923775911877
+    second: TaigaScorchMarks_77
+  - first:
+      213: -5167670004487361119
+    second: TaigaScorchMarks_78
+  - first:
+      213: -1732043078238584530
+    second: TaigaScorchMarks_79
+  - first:
+      213: -4032364526897155117
+    second: TaigaScorchMarks_80
+  - first:
+      213: -1045797573028791694
+    second: TaigaScorchMarks_81
+  - first:
+      213: 3930446100539928057
+    second: TaigaScorchMarks_82
+  - first:
+      213: -2824024509944401038
+    second: TaigaScorchMarks_83
+  - first:
+      213: -8375704365362542329
+    second: TaigaScorchMarks_84
+  - first:
+      213: -6995106653513270050
+    second: TaigaScorchMarks_85
+  - first:
+      213: -4556917761864586670
+    second: TaigaScorchMarks_86
+  - first:
+      213: 2617735640118384267
+    second: TaigaScorchMarks_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TaigaScorchMarks_16
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 363
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193d8da12763bc60800000000000000
+      internalID: 7832717571270719770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_17
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 377
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959728cc67a3ab5a0800000000000000
+      internalID: -6504822429871605415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_19
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 371
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547a2bd4d6cdfbbc0800000000000000
+      internalID: -3765048401445345467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_21
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 375
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155a4aa89697b06d0800000000000000
+      internalID: -3023189230644583087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_30
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 322
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04705006ded0665d0800000000000000
+      internalID: -3069750782837061824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_31
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 327
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb5601eff8583940800000000000000
+      internalID: 5276064819479731168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_33
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 321
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4574e1ed1fe4e0800000000000000
+      internalID: -1950307257590396132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_35
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 325
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8636d1449e36ab0800000000000000
+      internalID: -5015909081200498485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_44
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 265
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37c301fea9ea2a90800000000000000
+      internalID: -7337795705269663937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_46
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 272
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea465b75b2b99d8b0800000000000000
+      internalID: -5126896090327194450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_47
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 257
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2189f817a06e730800000000000000
+      internalID: 4027918399586177757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_48
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 270
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d295bfb703246f30800000000000000
+      internalID: 4567814438248616660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_49
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 268
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f394fb1d1d78cb7e0800000000000000
+      internalID: -1748373220089706177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_54
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 223
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6416db2b4b42c410800000000000000
+      internalID: 1495840812470506607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_55
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 219
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1210fea22100680800000000000000
+      internalID: -8791006497019453024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_57
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 218
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ddb661f5ccb8f10800000000000000
+      internalID: 2273135145708674334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_58
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 217
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9316147fd335870800000000000000
+      internalID: 8670341839781444047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_61
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 162
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df2b634cecc5dcd0800000000000000
+      internalID: -2533893900210589740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 171
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9489c5d8063164700800000000000000
+      internalID: 524127712044685385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_63
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 172
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0da7a76daa565370800000000000000
+      internalID: 8310929863173713167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_64
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 191
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f0e034ecf775c0800000000000000
+      internalID: -4217624469006387972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaScorchMarks_65
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 160
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050ffb30a87697e40800000000000000
+      internalID: 5654664649606426704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
