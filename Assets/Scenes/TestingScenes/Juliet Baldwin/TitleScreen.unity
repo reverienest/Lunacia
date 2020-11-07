@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf7c2c39c218c164095d67bf8d08c9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startGameScene: Milestone1
+  startGameScene: GladeMap1
   creditsScene: Credits
 --- !u!1 &1846419947
 GameObject:
