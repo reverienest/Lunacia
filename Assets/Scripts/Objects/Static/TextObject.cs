@@ -6,7 +6,7 @@ using TMPro;
 public class TextObject : MonoBehaviour
 {
     // - = - for some reason having content fitter enabled on preffered breaks the TypeString() function
-    [Header("** use content size fitter to make sure text fits in rect transform **")]
+    //[Header("** use content size fitter to make sure text fits in rect transform **")]
     [Header("** ADD THIS SCRIPT TO TEXT WITH TEXT MESH PRO **")]
     // settings
     public bool invisibleAtStart = true;
@@ -21,6 +21,7 @@ public class TextObject : MonoBehaviour
     private int startingCharacterIndex = 0; // for fade in
 
     private IEnumerator coroutine;
+    public bool finishedTyping;
 
     void Awake()
     {
@@ -29,12 +30,16 @@ public class TextObject : MonoBehaviour
             Debug.LogWarning("TextMeshPro script not found!");
         // force characters to load
         m_TextMeshPro.ForceMeshUpdate();
+    }
 
+    private void Start()
+    {
         if (invisibleAtStart)
         {
+            m_TextMeshPro.ForceMeshUpdate();
             SetTextAlphaZero();
         }
-
+        finishedTyping = !invisibleAtStart;
     }
 
     #region - SETTING TEXT STUFF -
@@ -94,6 +99,7 @@ public class TextObject : MonoBehaviour
         }
 
         coroutine = null;
+        finishedTyping = true;
     }
 
     private IEnumerator TypeStringFadeIn()
@@ -150,6 +156,7 @@ public class TextObject : MonoBehaviour
         }
 
         coroutine = null;
+        finishedTyping = true;
     }
 
     private void SetCharacterColor(TMP_TextInfo textInfo, Color32 c, int ind)
@@ -193,12 +200,19 @@ public class TextObject : MonoBehaviour
             StopCoroutine(coroutine);
             coroutine = null;
         }
+        finishedTyping = true;
     }
 
     #endregion
 
     public void StartTyping()
     {
+        if (finishedTyping)
+        {
+            Debug.Log("Already finished typing");
+            return;
+        }
+        SetTextAlphaZero();
         if (fadeTextIn)
             coroutine = TypeStringFadeIn();
         else

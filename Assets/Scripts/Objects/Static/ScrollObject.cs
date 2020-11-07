@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pubsub;
 
-public class BookObject : MonoBehaviour
+public class ScrollObject : MonoBehaviour
 {
     public BookManager bookManager;
-    public GameObject normalTextContainer;
-    public TextObject[] textObjectNormal;
-    public GameObject WSTextContainer;
-    public TextObject[] textObjectWS;
+    [Tooltip("Usually the scrollrect")]
+    public GameObject textContainer; // TODO: seperate if want dif backgrounds for normal/WS books
+    public TextObject textObjectNormal;
+    public TextObject textObjectWS;
 
     private SpriteRenderer sprite;
     public Sprite spriteWSOn;
@@ -41,15 +41,15 @@ public class BookObject : MonoBehaviour
         //}
     }
 
-    public void OpenBook()
+    public void OpenScroll()
     {
         if (isWSEnabled)
-            bookManager.OpenBook(textObjectWS, WSTextContainer);
+            bookManager.OpenScroll(textObjectWS, textContainer);
         else
-            bookManager.OpenBook(textObjectNormal, normalTextContainer);
+            bookManager.OpenScroll(textObjectNormal, textContainer);
     }
 
-    public void CloseBook()
+    public void CloseScroll()
     {
         bookManager.CloseScroll();
     }
