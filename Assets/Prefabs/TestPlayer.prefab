@@ -650,6 +650,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 8346268092361463229}
+  playerBody: {fileID: 6551541452173466265}
+  transition: {fileID: 7184899625231668875}
 --- !u!114 &107898259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,6 +667,7 @@ MonoBehaviour:
   activeMode: 0
   maxScale: 10
   circleAnimator: {fileID: 857091896}
+  inNZ: 0
 --- !u!1 &8346268092521405556
 GameObject:
   m_ObjectHideFlags: 0
