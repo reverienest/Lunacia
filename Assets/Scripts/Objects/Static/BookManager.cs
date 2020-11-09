@@ -89,7 +89,7 @@ public class BookManager : MonoBehaviour
         openedBookTextContainer.SetActive(true);
         bookAnimator.SetBool("isOpen", true); // requires panel to be active :)
 
-        //  animation stuff or delay here
+        //  disable player movement here
 
         currentPage = 0;
         //EnableCurrentPage(); // -> called in animation
@@ -99,6 +99,7 @@ public class BookManager : MonoBehaviour
     public void CloseBook()
     {
         bookAnimator.SetBool("isOpen", false);
+        //  enable player movement here
         // DisableBook();
     }
 
