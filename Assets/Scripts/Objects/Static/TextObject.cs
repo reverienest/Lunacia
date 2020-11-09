@@ -212,7 +212,9 @@ public class TextObject : MonoBehaviour
             Debug.Log("Already finished typing");
             return;
         }
-        SetTextAlphaZero();
+        SetTextAlphaZero(); // TEMP bug fix because first character is skipped when typing
+        charIndex = 0;
+        startingCharacterIndex = 0; // also temp but maybe these arent as bad
         if (fadeTextIn)
             coroutine = TypeStringFadeIn();
         else
