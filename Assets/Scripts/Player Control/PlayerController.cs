@@ -40,6 +40,6 @@ public class PlayerController : MonoBehaviour
         force += Mathf.Clamp(Vector2.Dot(force.normalized, boost), 0, Mathf.Infinity) * force.normalized;
 
         rigid.AddForce(force * Time.deltaTime, ForceMode2D.Impulse);
-        print(rigid.velocity.magnitude);
+        // print(rigid.velocity.magnitude);
     }
 }
