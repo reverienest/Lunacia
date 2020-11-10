@@ -33,7 +33,7 @@ public class WakingSight : MonoBehaviour {
 						print("a");
 						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
 						changeMode(1);
-					} else if (activeMode == 1) {
+					} else if (activeMode == 0) {
 						print("b");
 						SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
 						changeMode(0);
