@@ -3487,7 +3487,6 @@ GameObject:
   - component: {fileID: 1315048581}
   - component: {fileID: 1315048584}
   - component: {fileID: 1315048582}
-  - component: {fileID: 1315048585}
   m_Layer: 0
   m_Name: Track Checkpoint
   m_TagString: Untagged
@@ -3608,20 +3607,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1315048585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315048580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dec928fd4d95b5d47864d755e29c35f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emitter: {fileID: 0}
-  direction: {x: 0, y: 0}
 --- !u!1 &1371154929
 GameObject:
   m_ObjectHideFlags: 0
