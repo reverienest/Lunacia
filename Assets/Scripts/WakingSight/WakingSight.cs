@@ -19,6 +19,13 @@ public class WakingSight : MonoBehaviour {
 
 	// Start is called before the first frame update
 	void Start() {
+		GameObject fManager = GameObject.Find("TrackManager");
+
+		if (fManager) {
+			Debug.Log(fManager.name);
+        } else {
+			Debug.Log("No TrackManager found!");
+        }
 	}
 
 	// Update is called once per frame
@@ -28,13 +35,10 @@ public class WakingSight : MonoBehaviour {
 				if (inNZ == false) {
 					// Toggle through modes
 					if (activeMode == 0) {
+						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
 						changeMode(1);
 					} else if (activeMode == 1) {
 						print("a");
-						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
-						changeMode(1);
-					} else if (activeMode == 0) {
-						print("b");
 						SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
 						changeMode(0);
 					}
