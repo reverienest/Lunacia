@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class BookManager : MonoBehaviour
 {
@@ -13,6 +14,12 @@ public class BookManager : MonoBehaviour
     public float fastSpeed = 0f;
     public float mediumSpeed = 0.025f;
     public float slowSpeed = 0.05f;
+
+    [Header("TextAnimation")]
+    public AnimationCurve alphaSpectrum = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
+    public AnimationCurve colorSpectrum = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(1f, 1f));
+    public Color visibleColor;
+    public Color fadeOutColor;
 
     [Header("References")]
     public GameObject bookDisplayPanel;
@@ -82,7 +89,7 @@ public class BookManager : MonoBehaviour
         openedBookTextContainer.SetActive(true);
         bookAnimator.SetBool("isOpen", true); // requires panel to be active :)
 
-        //  animation stuff or delay here
+        //  disable player movement here
 
         currentPage = 0;
         //EnableCurrentPage(); // -> called in animation
@@ -92,6 +99,7 @@ public class BookManager : MonoBehaviour
     public void CloseBook()
     {
         bookAnimator.SetBool("isOpen", false);
+        //  enable player movement here
         // DisableBook();
     }
 
@@ -108,7 +116,82 @@ public class BookManager : MonoBehaviour
     private IEnumerator EnablePageAfterDelay(float seconds)
     {
         yield return new WaitForSeconds(seconds);
+        if (openedPages[currentPage].finishedTyping)
+            StartCoroutine(FadeTextOutIn(false));
+        else
+            SetTextDefault(); // temporary
         EnableCurrentPage();
+    }
+
+    private IEnumerator DisablePageAfterDelay(float seconds)
+    {
+        int cp = currentPage;
+        yield return new WaitForSeconds(seconds);
+        openedPages[cp].gameObject.SetActive(false);
+        if (cp + 1 < openedPages.Length)
+            openedPages[cp + 1].gameObject.SetActive(false);
+    }
+
+    private IEnumerator TriggerAnimatorAfterDelay(string val, float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        bookAnimator.SetTrigger(val);
+    }
+
+    private IEnumerator FadeTextOutIn(bool fadeTextOut)
+    {
+        bool hasSecondPage = currentPage + 1 < openedPages.Length;
+        TextMeshProUGUI firstPage = openedPages[currentPage].GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI secondPage = hasSecondPage ? openedPages[currentPage + 1].GetComponent<TextMeshProUGUI>() : null;
+        Color c;
+
+        float t = 0;
+        float endTime = alphaSpectrum.keys[1].time;
+        if (!fadeTextOut)
+        {
+            t = alphaSpectrum.keys[1].time;
+            endTime = 0;
+        }
+
+        while ((fadeTextOut && t < endTime) || (!fadeTextOut && t > endTime))
+        {
+            if (fadeTextOut)
+                t += Time.deltaTime;
+            else
+                t -= Time.deltaTime;
+
+            c = visibleColor * colorSpectrum.Evaluate(t) + fadeOutColor * (1 - colorSpectrum.Evaluate(t));
+            c.a = alphaSpectrum.Evaluate(t);
+            firstPage.color = c;
+            if (hasSecondPage)
+                secondPage.color = c;
+
+            yield return null;
+        }
+
+        if (fadeTextOut)
+            t = endTime;
+        else
+            t = 0;
+
+        c = visibleColor * colorSpectrum.Evaluate(t) + fadeOutColor * (1 - colorSpectrum.Evaluate(t));
+        c.a = alphaSpectrum.Evaluate(t);
+        firstPage.color = c;
+        if (hasSecondPage)
+            secondPage.color = c;
+    }
+
+    private void SetTextDefault()
+    {
+        bool hasSecondPage = currentPage + 1 < openedPages.Length;
+        TextMeshProUGUI firstPage = openedPages[currentPage].GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI secondPage = hasSecondPage ? openedPages[currentPage + 1].GetComponent<TextMeshProUGUI>() : null;
+
+        Color c = visibleColor * colorSpectrum.Evaluate(0) + fadeOutColor * (1 - colorSpectrum.Evaluate(0));
+        c.a = alphaSpectrum.Evaluate(0);
+        firstPage.color = c;
+        if (hasSecondPage)
+            secondPage.color = c;
     }
 
     public void TurnPageLeft()
@@ -117,11 +200,15 @@ public class BookManager : MonoBehaviour
         {
             return;
         }
-        DisableCurrentPage();
+        //DisableCurrentPage();
+        StartCoroutine(DisablePageAfterDelay(alphaSpectrum[1].time));
+        StartCoroutine(FadeTextOutIn(true));
         currentPage -= 2;
-        bookAnimator.SetTrigger("turnLeft");
+        SetTextDefault();
+        //bookAnimator.SetTrigger("turnLeft");
+        StartCoroutine(TriggerAnimatorAfterDelay("turnLeft", .2f));
         //EnableCurrentPage();
-        StartCoroutine(EnablePageAfterDelay(1.2f));
+        StartCoroutine(EnablePageAfterDelay(1f));
     }
 
     public void TurnPageRight()
@@ -131,11 +218,14 @@ public class BookManager : MonoBehaviour
         {
             return;
         }
-        DisableCurrentPage();
+        //DisableCurrentPage();
+        StartCoroutine(DisablePageAfterDelay(alphaSpectrum[1].time));
+        StartCoroutine(FadeTextOutIn(true));
         currentPage += 2;
-        bookAnimator.SetTrigger("turnRight");
+        //bookAnimator.SetTrigger("turnRight");
+        StartCoroutine(TriggerAnimatorAfterDelay("turnRight", .2f));
         //EnableCurrentPage();
-        StartCoroutine(EnablePageAfterDelay(1.2f));
+        StartCoroutine(EnablePageAfterDelay(1f));
     }
 
     public void TurnNextPage()
