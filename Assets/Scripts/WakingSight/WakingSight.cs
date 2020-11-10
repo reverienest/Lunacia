@@ -7,9 +7,13 @@ public class WakingSight : MonoBehaviour {
 	public int activeMode = 0;
 	public float maxScale = 10f;
 	private bool changingMode = false;
+
 	[SerializeField]
 	private Animator circleAnimator;
 	public bool inNZ = false;
+
+	[SerializeField]
+	private FMODUnity.StudioEventEmitter emitter;
 
 
 
@@ -25,9 +29,11 @@ public class WakingSight : MonoBehaviour {
 					// Toggle through modes
 					if (activeMode == 0) {
 						print("a");
+						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
 						changeMode(1);
 					} else if (activeMode == 1) {
 						print("b");
+						SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
 						changeMode(0);
 					}
 				}
@@ -92,6 +98,11 @@ public class WakingSight : MonoBehaviour {
 			changingMode = false;
 		}
 	}
+	void SetParameter(FMOD.Studio.EventInstance e, string name, float value)
+	{
+		e.setParameterByName(name, value);
+	}
+
 
 	//    void OnTriggerEnter2D(Collider2D other) {
 	//       
