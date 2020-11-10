@@ -28,6 +28,8 @@ public class WakingSight : MonoBehaviour {
 				if (inNZ == false) {
 					// Toggle through modes
 					if (activeMode == 0) {
+						changeMode(1);
+					} else if (activeMode == 1) {
 						print("a");
 						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
 						changeMode(1);
@@ -38,7 +40,6 @@ public class WakingSight : MonoBehaviour {
 					}
 				}
 			} else if (inNZ == true && activeMode == 1) {
-				print(":)");
 				changeMode(0);
 			} else if (inNZ == true && activeMode == 0) {
 				// Trying to activate ws in a nz, do nothing. time permitting, add an "you can't do that!!" vfx. #TODO
@@ -50,14 +51,12 @@ public class WakingSight : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.tag == "NullZone") {
 			inNZ = true;
-			print("hi");
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (other.tag == "NullZone") {
 			inNZ = false;
-			print("bye");
 		}
 	}
 

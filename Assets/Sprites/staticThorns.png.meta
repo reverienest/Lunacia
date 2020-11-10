@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 7f8fe0e3ab464704b9dd5353396b2cc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 457088895978984141
+    second: staticThorns_0
+  - first:
+      213: 4818916622208512158
+    second: staticThorns_1
+  - first:
+      213: 2733456398035091142
+    second: staticThorns_2
+  - first:
+      213: -9028074290968209385
+    second: staticThorns_3
+  - first:
+      213: 3716847542011715175
+    second: staticThorns_4
+  - first:
+      213: 8278727474062645466
+    second: staticThorns_5
+  - first:
+      213: 7506332262663106390
+    second: staticThorns_6
+  - first:
+      213: 5209169160212150913
+    second: staticThorns_7
+  - first:
+      213: 5957391556049119328
+    second: staticThorns_8
+  - first:
+      213: -2618492535172648812
+    second: staticThorns_9
+  - first:
+      213: -7448225637811454035
+    second: staticThorns_10
+  - first:
+      213: -2029125300261231340
+    second: staticThorns_11
+  - first:
+      213: 5143304860956674792
+    second: staticThorns_12
+  - first:
+      213: -2987423280452319914
+    second: staticThorns_13
+  - first:
+      213: 4659205452400448370
+    second: staticThorns_14
+  - first:
+      213: -4127914713636908202
+    second: staticThorns_15
+  - first:
+      213: 2316973978384659954
+    second: staticThorns_16
+  - first:
+      213: -1110258226806364754
+    second: staticThorns_17
+  - first:
+      213: -3176199886717074980
+    second: staticThorns_18
+  - first:
+      213: 3692402969095002233
+    second: staticThorns_19
+  - first:
+      213: -1018829046098840190
+    second: staticThorns_20
+  - first:
+      213: 6758294854010688688
+    second: staticThorns_21
+  - first:
+      213: -3469779139117084259
+    second: staticThorns_22
+  - first:
+      213: 8146919586811400724
+    second: staticThorns_23
+  - first:
+      213: -8316293215293468846
+    second: staticThorns_24
+  - first:
+      213: 406082774531223749
+    second: staticThorns_25
+  - first:
+      213: 3012606279421586637
+    second: staticThorns_26
+  - first:
+      213: -5595660324687874222
+    second: staticThorns_27
+  - first:
+      213: -2560540187894350686
+    second: staticThorns_28
+  - first:
+      213: -4501534973995606137
+    second: staticThorns_29
+  - first:
+      213: -392689573747678338
+    second: staticThorns_30
+  - first:
+      213: 3391470546675777364
+    second: staticThorns_31
+  - first:
+      213: 3871993777336316277
+    second: staticThorns_32
+  - first:
+      213: -5252999774253060044
+    second: staticThorns_33
+  - first:
+      213: 5514244567906818150
+    second: staticThorns_34
+  - first:
+      213: -2284777905752525244
+    second: staticThorns_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: staticThorns_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc25a9bdde7e75600800000000000000
+      internalID: 457088895978984141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90b6fcd22b30e240800000000000000
+      internalID: 4818916622208512158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce76ed8c103fe520800000000000000
+      internalID: 2733456398035091142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718d001e346d5b280800000000000000
+      internalID: -9028074290968209385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e54e19525e49330800000000000000
+      internalID: 3716847542011715175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad855cb66c2f3e270800000000000000
+      internalID: 8278727474062645466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fa6123c69db2860800000000000000
+      internalID: 7506332262663106390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a7d5970cfaa4840800000000000000
+      internalID: 5209169160212150913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: staticThorns_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068283e7e08eca250800000000000000
+      internalID: 5957391556049119328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

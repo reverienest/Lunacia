@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: 659bb57986877424d9b726a1edb32716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7121480388295843771
+    second: TaigaCustomTiles_0
+  - first:
+      213: -6939474894406574437
+    second: TaigaCustomTiles_1
+  - first:
+      213: 2492653427633333707
+    second: TaigaCustomTiles_2
+  - first:
+      213: -8230192137591489309
+    second: TaigaCustomTiles_3
+  - first:
+      213: -1832612610000460269
+    second: TaigaCustomTiles_4
+  - first:
+      213: -3545210617563675248
+    second: TaigaCustomTiles_5
+  - first:
+      213: 4863492471914644262
+    second: TaigaCustomTiles_6
+  - first:
+      213: -8269371207540262139
+    second: TaigaCustomTiles_7
+  - first:
+      213: -7095520793094064928
+    second: TaigaCustomTiles_8
+  - first:
+      213: 7461407101394830191
+    second: TaigaCustomTiles_9
+  - first:
+      213: 8393052596343168506
+    second: TaigaCustomTiles_10
+  - first:
+      213: -7802123052540277883
+    second: TaigaCustomTiles_11
+  - first:
+      213: -6584679139873233061
+    second: TaigaCustomTiles_12
+  - first:
+      213: 7235885147588669310
+    second: TaigaCustomTiles_13
+  - first:
+      213: 5226296746502548146
+    second: TaigaCustomTiles_14
+  - first:
+      213: 6086477286615203647
+    second: TaigaCustomTiles_15
+  - first:
+      213: -2578981374291682258
+    second: TaigaCustomTiles_16
+  - first:
+      213: -1735149452158024090
+    second: TaigaCustomTiles_17
+  - first:
+      213: 9073626858455887987
+    second: TaigaCustomTiles_18
+  - first:
+      213: -1359277522064297075
+    second: TaigaCustomTiles_19
+  - first:
+      213: -4798616412961875749
+    second: TaigaCustomTiles_20
+  - first:
+      213: -430112424520608096
+    second: TaigaCustomTiles_21
+  - first:
+      213: 2882868162920374855
+    second: TaigaCustomTiles_22
+  - first:
+      213: -4425830200356910822
+    second: TaigaCustomTiles_23
+  - first:
+      213: 7008621460372046328
+    second: TaigaCustomTiles_24
+  - first:
+      213: 8127924292207493008
+    second: TaigaCustomTiles_25
+  - first:
+      213: 4665178824890684835
+    second: TaigaCustomTiles_26
+  - first:
+      213: 495177586941662079
+    second: TaigaCustomTiles_27
+  - first:
+      213: 2732015605539475613
+    second: TaigaCustomTiles_28
+  - first:
+      213: 445326353439336387
+    second: TaigaCustomTiles_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TaigaCustomTiles_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 214
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ae36f51fa79220800000000000000
+      internalID: 2492653427633333707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 214
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec75a53bdb78cd80800000000000000
+      internalID: -8230192137591489309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 214
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31665027a804196e0800000000000000
+      internalID: -1832612610000460269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 179
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4fa3fae65a78d90800000000000000
+      internalID: -7095520793094064928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 179
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63473bf93e3c8760800000000000000
+      internalID: 7461407101394830191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 179
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd543a3edc1a7470800000000000000
+      internalID: 8393052596343168506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576eeb95358e94a0800000000000000
+      internalID: -6584679139873233061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f2c8154370b6460800000000000000
+      internalID: 7235885147588669310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fbe2a38d2877450800000000000000
+      internalID: 6086477286615203647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cdef6aa1e953cd0800000000000000
+      internalID: -2578981374291682258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66648e734c28be7e0800000000000000
+      internalID: -1735149452158024090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370f4babd8ffbed70800000000000000
+      internalID: 9073626858455887987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d833f22ab40e22de0800000000000000
+      internalID: -1359277522064297075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_20
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 64
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd85c0cebc3e76db0800000000000000
+      internalID: -4798616412961875749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_21
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 16
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a697fa570fe70af0800000000000000
+      internalID: -430112424520608096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_22
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 16
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742e621f151020820800000000000000
+      internalID: 2882868162920374855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 14
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1c7aeb510a34160800000000000000
+      internalID: 7008621460372046328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 14
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fbb4684103cc070800000000000000
+      internalID: 8127924292207493008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 14
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5984f8c6b0eb040800000000000000
+      internalID: 4665178824890684835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 14
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73946a44693fd600800000000000000
+      internalID: 495177586941662079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 14
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d901109e7b11ae520800000000000000
+      internalID: 2732015605539475613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TaigaCustomTiles_29
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 14
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c72fd185fd1e2600800000000000000
+      internalID: 445326353439336387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

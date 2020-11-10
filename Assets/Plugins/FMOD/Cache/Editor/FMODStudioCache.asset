@@ -1,5 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+
+--- !u!114 &-3355032676713116091
 --- !u!114 &-8412886441426315048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
+  lastModified: 637380193250235036
   lastModified: 637397499228532609
   LoadResult: 0
   FileSizes:
@@ -200,6 +203,17 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+  - {fileID: -3355032676713116091}
+  - {fileID: 1054619125921721549}
+  EditorEvents: []
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 1054619125921721549}
+  StringsBanks:
+  - {fileID: -3355032676713116091}
+  stringsBankWriteTime: 637380193250235036
+  cacheVersion: 5
+--- !u!114 &1054619125921721549
   - {fileID: -5043611751896458141}
   - {fileID: -8271143296246828535}
   EditorEvents:
@@ -329,7 +343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637377853394230690
+  lastModified: 637380193250225064
   LoadResult: 0
   FileSizes: []
   Exists: 1
