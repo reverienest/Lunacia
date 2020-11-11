@@ -7,14 +7,25 @@ public class WakingSight : MonoBehaviour {
 	public int activeMode = 0;
 	public float maxScale = 10f;
 	private bool changingMode = false;
+
 	[SerializeField]
 	private Animator circleAnimator;
 	public bool inNZ = false;
+
+	[SerializeField]
+	private FMODUnity.StudioEventEmitter emitter;
 
 
 
 	// Start is called before the first frame update
 	void Start() {
+		GameObject fManager = GameObject.Find("TrackManager");
+
+		if (fManager) {
+			Debug.Log(fManager.name);
+        } else {
+			Debug.Log("No TrackManager found!");
+        }
 	}
 
 	// Update is called once per frame
@@ -24,8 +35,10 @@ public class WakingSight : MonoBehaviour {
 				if (inNZ == false) {
 					// Toggle through modes
 					if (activeMode == 0) {
+						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
 						changeMode(1);
 					} else if (activeMode == 1) {
+						SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
 						changeMode(0);
 					}
 				}
@@ -87,6 +100,11 @@ public class WakingSight : MonoBehaviour {
 			changingMode = false;
 		}
 	}
+	void SetParameter(FMOD.Studio.EventInstance e, string name, float value)
+	{
+		e.setParameterByName(name, value);
+	}
+
 
 	//    void OnTriggerEnter2D(Collider2D other) {
 	//       
