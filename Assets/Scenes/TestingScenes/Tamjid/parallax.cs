@@ -1,21 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pubsub;
 
 public class parallax : MonoBehaviour
 {
-    public GameObject player;
+    private Spawnpoint spawn;
     public Transform[] backgrounds;     //list of back and foregrounds to be parallaxed
     private float[] parallaxScalesX;     //proportion of the camera's X movement to move the backgrounds by
     private float[] parallaxScalesY;     //proportion of the camera's Y movement to move the backgrounds by
-    private float backgroundTargetPosX;
-    private float backgroundTargetPosY;
-    private float parallaxX;
-    private float parallaxY;
     public float smoothing = 1f;        // how smooth the parallax is going to be. Set above 0.
 
-    private Spawnpoint spawn;
     private Transform cam;              //reference to main camera's transform
     private Vector3 previousCamPos;     //position of the camera in previous frame
 
@@ -24,12 +18,6 @@ public class parallax : MonoBehaviour
     {
         //set up camera reference 
         cam = Camera.main.transform;
-        MessageBroker.Instance.PlayerDeathTopic += consumeDeathMessage;
-    }
-    private void consumeDeathMessage(object sender, PlayerDeathEventArguments deathArgs) {
-        print("Imagine dying in a platformer LMAOOOOO.");
-        backgroundTargetPosX = spawn.respawnPoint.x + parallaxX;
-        backgroundTargetPosY = spawn.respawnPoint.x + parallaxY;
     }
     // Start is called before the first frame update. Use for initialization
     void Start()
@@ -55,13 +43,13 @@ public class parallax : MonoBehaviour
         for (int i = 0; i < backgrounds.Length; i++) {
             /*the parallax is the opposite of the camera movement 
             because the previous frame multiplied by the scale */
-            parallaxX = (previousCamPos.x - cam.position.x) * parallaxScalesX[i];
-            parallaxY = (previousCamPos.y - cam.position.y) * parallaxScalesY[i];
+            float parallaxX = (previousCamPos.x - cam.position.x) * parallaxScalesX[i];
+            float parallaxY = (previousCamPos.y - cam.position.y) * parallaxScalesY[i];
 
             /*set a target x position which is the 
             current position + the parallax*/
-            backgroundTargetPosX = backgrounds[i].position.x + parallaxX;
-            backgroundTargetPosY = backgrounds[i].position.y + parallaxY;
+            float backgroundTargetPosX = backgrounds[i].position.x + parallaxX;
+            float backgroundTargetPosY = backgrounds[i].position.y + parallaxY;
 
             /* create a target position which is 
              * the background's current position 
