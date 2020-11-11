@@ -26,6 +26,10 @@ public class WakingSight : MonoBehaviour {
         } else {
 			Debug.Log("No TrackManager found!");
         }
+
+		if(emitter == null) {
+			Debug.LogWarning("No fmod emitter found, audio will not play.");
+		}
 	}
 
 	// Update is called once per frame
