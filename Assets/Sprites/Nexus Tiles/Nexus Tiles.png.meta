@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 4bb2c30ca1c4df34a95c3540ac2329b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 101556918124081057
+    second: Nexus Tiles_0
+  - first:
+      213: 2443744789592484634
+    second: Nexus Tiles_1
+  - first:
+      213: 6612344400117643115
+    second: Nexus Tiles_2
+  - first:
+      213: 2597231107799632956
+    second: Nexus Tiles_3
+  - first:
+      213: 5505512375562234144
+    second: Nexus Tiles_4
+  - first:
+      213: -5824305340117581758
+    second: Nexus Tiles_5
+  - first:
+      213: -5207615601173084321
+    second: Nexus Tiles_6
+  - first:
+      213: -5949886617731839379
+    second: Nexus Tiles_7
+  - first:
+      213: -1710429731878653040
+    second: Nexus Tiles_8
+  - first:
+      213: 3647760656259857533
+    second: Nexus Tiles_9
+  - first:
+      213: 2925915468556497165
+    second: Nexus Tiles_10
+  - first:
+      213: -129485742681453995
+    second: Nexus Tiles_11
+  - first:
+      213: -8418830408264989684
+    second: Nexus Tiles_12
+  - first:
+      213: 2744858809467967055
+    second: Nexus Tiles_13
+  - first:
+      213: -719247012793261696
+    second: Nexus Tiles_14
+  - first:
+      213: 5376690430291699617
+    second: Nexus Tiles_15
+  - first:
+      213: -8386557309178761215
+    second: Nexus Tiles_16
+  - first:
+      213: -2488723197156258060
+    second: Nexus Tiles_17
+  - first:
+      213: 1982867585598025382
+    second: Nexus Tiles_18
+  - first:
+      213: -6044297524630440323
+    second: Nexus Tiles_19
+  - first:
+      213: 5507659764444289871
+    second: Nexus Tiles_20
+  - first:
+      213: -5081943850226713103
+    second: Nexus Tiles_21
+  - first:
+      213: 3223337954242628965
+    second: Nexus Tiles_22
+  - first:
+      213: 5793160450604137766
+    second: Nexus Tiles_23
+  - first:
+      213: -3973186225141000284
+    second: Nexus Tiles_24
+  - first:
+      213: -298176157946817701
+    second: Nexus Tiles_25
+  - first:
+      213: -5855387959506968555
+    second: Nexus Tiles_26
+  - first:
+      213: 3537391156325200908
+    second: Nexus Tiles_27
+  - first:
+      213: 4418739444005151476
+    second: Nexus Tiles_28
+  - first:
+      213: 5520638216235188420
+    second: Nexus Tiles_29
+  - first:
+      213: 8573021395183627635
+    second: Nexus Tiles_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 49
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nexus Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 215
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afe44d9a7dc86100800000000000000
+      internalID: 101556918124081057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b2f5940fce9e120800000000000000
+      internalID: 2443744789592484634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 165
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b673e8db234c3cb50800000000000000
+      internalID: 6612344400117643115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 215
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ccdfb8ee73b0420800000000000000
+      internalID: 2597231107799632956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 215
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02967eb0652876c40800000000000000
+      internalID: 5505512375562234144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 215
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24081e2d629eb2fa0800000000000000
+      internalID: -5824305340117581758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 215
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57cb4da335dab7b0800000000000000
+      internalID: -5207615601173084321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 215
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a4e3025a1cd6da0800000000000000
+      internalID: -5949886617731839379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 165
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0933b1a98355348e0800000000000000
+      internalID: -1710429731878653040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 165
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cb30e7df27f9230800000000000000
+      internalID: 3647760656259857533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d017122dd90fa9820800000000000000
+      internalID: 2925915468556497165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a8eff2769f33ef0800000000000000
+      internalID: -129485742681453995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04cb1b395e4a2b80800000000000000
+      internalID: -8418830408264989684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4690f85b82b71620800000000000000
+      internalID: 2744858809467967055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08162b017a8b406f0800000000000000
+      internalID: -719247012793261696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 165
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a767cc9577dd9a40800000000000000
+      internalID: 5376690430291699617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100b1f9af86fc9b80800000000000000
+      internalID: -8386557309178761215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 66
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe0a312077467dd0800000000000000
+      internalID: -2488723197156258060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 16
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aee43c309f848b10800000000000000
+      internalID: 1982867585598025382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 66
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7631a7ec675e1ca0800000000000000
+      internalID: -6044297524630440323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 16
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bd96bff532f6c40800000000000000
+      internalID: 5507659764444289871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 66
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd71c65efe4979b0800000000000000
+      internalID: -5081943850226713103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 16
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d8aa99ac89bbc20800000000000000
+      internalID: 3223337954242628965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62df9118cb0756050800000000000000
+      internalID: 5793160450604137766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7def7dd286cd8c0800000000000000
+      internalID: -3973186225141000284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d6193d5aacdbf0800000000000000
+      internalID: -298176157946817701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nexus Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510ec7b8cab7dbea0800000000000000
+      internalID: -5855387959506968555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
