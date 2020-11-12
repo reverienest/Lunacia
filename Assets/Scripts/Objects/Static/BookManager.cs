@@ -29,8 +29,7 @@ public class BookManager : MonoBehaviour
     public GameObject scrollDisplayPanel;
     private TextObject openedScrollText;
     private GameObject openedScrollTextContainer;
-
-
+    public GameObject player;
     public Animator bookAnimator;
     public Animator scrollAnimator;
 
@@ -89,7 +88,8 @@ public class BookManager : MonoBehaviour
         openedBookTextContainer.SetActive(true);
         bookAnimator.SetBool("isOpen", true); // requires panel to be active :)
 
-        //  disable player movement here
+        player.GetComponent<PlayerController>().enabled = false;
+        player.GetComponent<WakingSight>().enabled = false;
 
         currentPage = 0;
         //EnableCurrentPage(); // -> called in animation
@@ -99,7 +99,8 @@ public class BookManager : MonoBehaviour
     public void CloseBook()
     {
         bookAnimator.SetBool("isOpen", false);
-        //  enable player movement here
+        player.GetComponent<PlayerController>().enabled = true;
+        player.GetComponent<WakingSight>().enabled = true;
         // DisableBook();
     }
 
