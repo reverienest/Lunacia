@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Pubsub;
-
+using WakingSightNS;
 
 public class Vine : MonoBehaviour
 {
@@ -17,15 +17,16 @@ public class Vine : MonoBehaviour
         hazardCollider = GetComponent<BoxCollider2D>();
     }
 
-    private void consumeExampleMessage(object sender, WakingSightModeEventArgs example)
+    private void consumeExampleMessage(object sender, WakingSightModeEventArgs wsArgs)
     {
-        if (example.ActiveMode == 0)
+        print(wsArgs.PickupLevel);
+		if (wsArgs.ActiveMode == 0)
         {
             hazardCollider.enabled = true;
             // flower.SetActive(false);
             animator.SetBool("wakingSight", false);
         }
-        if (example.ActiveMode == 1)
+        if (wsArgs.ActiveMode == 1 && wsArgs.PickupLevel >= WSPickupLevel.Glade)
         {
             hazardCollider.enabled = false;
             // flower.SetActive(true);
@@ -37,7 +38,7 @@ public class Vine : MonoBehaviour
         if (other.tag == "Player") {
             animator.SetBool("nearPlayer", true);
         }
-        print(other.tag);
+        // print(other.tag);
     }
 
     void OnTriggerExit2D(Collider2D other) {
