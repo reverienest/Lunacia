@@ -6,7 +6,7 @@ using Pubsub;
 
 public class KillPlayer : MonoBehaviour
 {
-    public Transform[] backgrounds;
+    public parallax ps;
     public GameObject player;
     public static Vector2 respawnLocation; 
     public static bool hasRedFlame = false;
@@ -16,8 +16,8 @@ public class KillPlayer : MonoBehaviour
         MessageBroker.Instance.PlayerDeathTopic += consumePlayerDeathEvent;
         player.transform.position = respawnLocation;
         //added this so that the background spawns at respawn location
-        for (int i = 0; i < backgrounds.Length; i++) {
-            backgrounds[i].transform.position = respawnLocation;
+        for (int i = 0; i < ps.backgrounds.Length; i++) {
+            ps.backgrounds[i].transform.position = respawnLocation;
         }
     }
     static void consumePlayerDeathEvent(object sender, PlayerDeathEventArguments death) {
