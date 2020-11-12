@@ -13,14 +13,14 @@ public class Vine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MessageBroker.Instance.WakingSightModeTopic += consumeExampleMessage;
+        MessageBroker.Instance.WakingSightModeTopic += consumeWakingSightActiveEvent;
         hazardCollider = GetComponent<BoxCollider2D>();
     }
 
-    private void consumeExampleMessage(object sender, WakingSightModeEventArgs wsArgs)
+    private void consumeWakingSightActiveEvent(object sender, WakingSightModeEventArgs wsArgs)
     {
         print(wsArgs.PickupLevel);
-		if (wsArgs.ActiveMode == 0)
+		if (wsArgs.ActiveMode == 0 || wsArgs.PickupLevel < WSPickupLevel.Glade)
         {
             hazardCollider.enabled = true;
             // flower.SetActive(false);
@@ -48,6 +48,6 @@ public class Vine : MonoBehaviour
     }
 
     void OnDestroy() {
-        MessageBroker.Instance.WakingSightModeTopic -= consumeExampleMessage;
+        MessageBroker.Instance.WakingSightModeTopic -= consumeWakingSightActiveEvent;
     }
 }

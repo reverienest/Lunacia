@@ -53,4 +53,8 @@ public class DynamicFlameBarrier : MonoBehaviour {
 			}
 		}
 	}
+
+	void OnDestroy() {
+		MessageBroker.Instance.WakingSightModeTopic -= consumeWakingSightActiveEvent;
+	}
 }
