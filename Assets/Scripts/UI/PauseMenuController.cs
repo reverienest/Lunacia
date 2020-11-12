@@ -97,7 +97,7 @@ public class PauseMenuController : MonoBehaviour
         // deactivate audio listener
         GameObject mCam = GameObject.FindGameObjectWithTag("MainCamera");
         AudioListener aList = mCam.GetComponent<AudioListener>();
-        aList.enabled = false;
+        if (aList) aList.enabled = false;
 
         // load settings scene
         SceneManager.LoadScene(settingsSceneName, LoadSceneMode.Additive);
