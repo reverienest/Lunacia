@@ -19,13 +19,13 @@ public class TestBlackholeRespondance : MonoBehaviour
         if (!broadcasted && timer > 5.0f)
         {
             print("waking sight on");
-            MessageBroker.Instance.Raise(new WakingSightModeEventArgs(1));
+            MessageBroker.Instance.Raise(new WakingSightModeEventArgs(1, 0));
             broadcasted = true;
         }
         if (!broadcasted2 && timer > 10.0f)
         {
             print("waking sight off");
-            MessageBroker.Instance.Raise(new WakingSightModeEventArgs(0));
+            MessageBroker.Instance.Raise(new WakingSightModeEventArgs(0, 0));
             broadcasted2 = true;
         }
     }
