@@ -269,7 +269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8737083917011881761
 RectTransform:
   m_ObjectHideFlags: 0
@@ -649,6 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9866f15748fdb14ab552ad7f18c868b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgrounds: []
   player: {fileID: 8346268092361463229}
   playerBody: {fileID: 6551541452173466265}
   transition: {fileID: 7184899625231668875}
