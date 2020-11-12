@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Pubsub;
-
+using WakingSightNS;
 
 public class Vine : MonoBehaviour
 {
@@ -13,19 +13,20 @@ public class Vine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MessageBroker.Instance.WakingSightModeTopic += consumeExampleMessage;
+        MessageBroker.Instance.WakingSightModeTopic += consumeWakingSightActiveEvent;
         hazardCollider = GetComponent<BoxCollider2D>();
     }
 
-    private void consumeExampleMessage(object sender, WakingSightModeEventArgs example)
+    private void consumeWakingSightActiveEvent(object sender, WakingSightModeEventArgs wsArgs)
     {
-        if (example.ActiveMode == 0)
+        print(wsArgs.PickupLevel);
+		if (wsArgs.ActiveMode == 0 || wsArgs.PickupLevel < WSPickupLevel.Glade)
         {
             hazardCollider.enabled = true;
             // flower.SetActive(false);
             animator.SetBool("wakingSight", false);
         }
-        if (example.ActiveMode == 1)
+        if (wsArgs.ActiveMode == 1 && wsArgs.PickupLevel >= WSPickupLevel.Glade)
         {
             hazardCollider.enabled = false;
             // flower.SetActive(true);
@@ -37,7 +38,7 @@ public class Vine : MonoBehaviour
         if (other.tag == "Player") {
             animator.SetBool("nearPlayer", true);
         }
-        print(other.tag);
+        // print(other.tag);
     }
 
     void OnTriggerExit2D(Collider2D other) {
@@ -47,6 +48,6 @@ public class Vine : MonoBehaviour
     }
 
     void OnDestroy() {
-        MessageBroker.Instance.WakingSightModeTopic -= consumeExampleMessage;
+        MessageBroker.Instance.WakingSightModeTopic -= consumeWakingSightActiveEvent;
     }
 }
