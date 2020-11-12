@@ -18,6 +18,7 @@ public class parallax : MonoBehaviour
     {
         //set up camera reference 
         cam = Camera.main.transform;
+
     }
     // Start is called before the first frame update. Use for initialization
     void Start()
