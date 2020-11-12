@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using WakingSightNS;
 
 public class MainMenu : MonoBehaviour {
 	public string startGameScene = "GladeMap1";
@@ -12,6 +13,9 @@ public class MainMenu : MonoBehaviour {
 	// load save (or new game)
 	public void Play_Game() {
 		Debug.Log("Start game! Scene \"" + startGameScene + "\" now loading...");
+
+		PresistentData.pickupLevel = WSPickupLevel.None;
+
 		if (!startGameScene.Equals("")) {
 			SceneManager.LoadScene(startGameScene);
 		}
