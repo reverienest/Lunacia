@@ -18,10 +18,7 @@ public class WindDetector : MonoBehaviour
         DreamCurrents dc = other.GetComponent<DreamCurrents>();
         if (dc != null)
         {
-            //the collided object is a dream current
-            AreaEffector2D ae2d = other.GetComponent<AreaEffector2D>();
-            float ang = (ae2d.forceAngle / 180.0f * Mathf.PI);
-            wind += ae2d.forceMagnitude * new Vector2(Mathf.Cos(ang), Mathf.Sin(ang));
+            wind += dc.direction * dc.force;
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -29,10 +26,7 @@ public class WindDetector : MonoBehaviour
         DreamCurrents dc = other.GetComponent<DreamCurrents>();
         if (dc != null)
         {
-            //the collided object is a dream current
-            AreaEffector2D ae2d = other.GetComponent<AreaEffector2D>();
-            float ang = (ae2d.forceAngle / 180.0f * Mathf.PI);
-            wind -= ae2d.forceMagnitude * new Vector2(Mathf.Cos(ang), Mathf.Sin(ang));
+            wind -= dc.direction * dc.force;
         }
     }
 
