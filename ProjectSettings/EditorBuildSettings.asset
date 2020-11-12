@@ -24,23 +24,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Glade/GladeMap4.unity
     guid: db492e613480d474598835d5adf484d8
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaiga1.unity
+    path: Assets/Scenes/Taiga/BlazingTaiga1.unity
     guid: ea9eb164ee0ffd14a822294914b57348
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaiga2.unity
+    path: Assets/Scenes/Taiga/BlazingTaiga2.unity
     guid: a9f27708f924ff440a2171b3595560a5
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaiga3.unity
+    path: Assets/Scenes/Taiga/BlazingTaiga3.unity
     guid: 43abb025039996240a1ac4678dd33959
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaigaSidePath1.unity
+    path: Assets/Scenes/Taiga/BlazingTaigaSidePath1.unity
     guid: 604087dd7782f6845adf648aae64fd18
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Soham Kar/BlazingTaiga/BlazingTaigaSidePath2.unity
+    path: Assets/Scenes/Taiga/BlazingTaigaSidePath2.unity
     guid: 5b50f33ec76dc7445861fdd2aaae8b42
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/Jonathan McLatcher/PauseMenu.unity
+    path: Assets/Scenes/PauseMenu.unity
     guid: 3558b3ae367dc1342aa7a0b8f3a54b7c
+  - enabled: 1
+    path: Assets/Scenes/TestingScenes/Yoon Lee/Nexus.unity
+    guid: 42b5d11be7e23884995e8cd19e7cbac5
   - enabled: 1
     path: Assets/Scenes/UI/LoadingScreen.unity
     guid: a8b724502e6310e489ad1bab18904b94
