@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class ClearPlayerFlame : MonoBehaviour
 {
+    private bool active = true;
+    
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player" && (KillPlayer.hasBlueFlame || KillPlayer.hasRedFlame)) {
+        if (active && col.gameObject.tag == "Player" && (KillPlayer.hasBlueFlame || KillPlayer.hasRedFlame)) {
             GameObject currentFlame = null;
             Transform[] children = col.gameObject.GetComponentsInChildren<Transform>();
             foreach (Transform child in children) {
@@ -16,7 +18,8 @@ public class ClearPlayerFlame : MonoBehaviour
             }
             Destroy(currentFlame);
             KillPlayer.hasBlueFlame = false;  
-            KillPlayer.hasRedFlame = false;  
+            KillPlayer.hasRedFlame = false;
+            active = false;  
         }
     }
 }

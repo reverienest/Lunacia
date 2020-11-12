@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+    totalSpriteSurfaceArea: 67450
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -5207615601173084321, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -5949886617731839379, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 5505512375562234144, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -5824305340117581758, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 6612344400117643115, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 2597231107799632956, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 101556918124081057, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 2443744789592484634, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -1710429731878653040, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 3647760656259857533, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -3973186225141000284, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -298176157946817701, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -5855387959506968555, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 5507659764444289871, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -5081943850226713103, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 3223337954242628965, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 5793160450604137766, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 5376690430291699617, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -719247012793261696, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -2488723197156258060, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -8386557309178761215, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -129485742681453995, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 2925915468556497165, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 2744858809467967055, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -8418830408264989684, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: -6044297524630440323, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 1982867585598025382, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Nexus Tiles_6
+  - Nexus Tiles_7
+  - Nexus Tiles_4
+  - Nexus Tiles_5
+  - Nexus Tiles_2
+  - Nexus Tiles_3
+  - Nexus Tiles_0
+  - Nexus Tiles_1
+  - Nexus Tiles_8
+  - Nexus Tiles_9
+  - Nexus Tiles_24
+  - Nexus Tiles_25
+  - Nexus Tiles_26
+  - Nexus Tiles_20
+  - Nexus Tiles_21
+  - Nexus Tiles_22
+  - Nexus Tiles_23
+  - Nexus Tiles_15
+  - Nexus Tiles_14
+  - Nexus Tiles_17
+  - Nexus Tiles_16
+  - Nexus Tiles_11
+  - Nexus Tiles_10
+  - Nexus Tiles_13
+  - Nexus Tiles_12
+  - Nexus Tiles_19
+  - Nexus Tiles_18
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

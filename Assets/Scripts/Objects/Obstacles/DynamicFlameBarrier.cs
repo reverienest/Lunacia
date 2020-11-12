@@ -17,10 +17,10 @@ public class DynamicFlameBarrier : MonoBehaviour
     }
    void consumeWakingSightActiveEvent(object sender, WakingSightModeEventArgs wakingSightState) {
        print(wakingSightState.ActiveMode);
-       if (wakingSightState.ActiveMode == 0) {
+       if (wakingSightState.ActiveMode == 1) {
            isRedFlame = false;
            isBlueFlame = true;
-       } else if (wakingSightState.ActiveMode == 1) {
+       } else if (wakingSightState.ActiveMode == 0) {
            isRedFlame = true;
            isBlueFlame = false;
        }

@@ -1,0 +1,3946 @@
+fileFormatVersion: 2
+guid: 545dfbb225633ba4697c001e632ace6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 302912390883917892
+    second: BTBricks_0
+  - first:
+      213: 6444004703061247409
+    second: BTBricks_1
+  - first:
+      213: 7744095774410992071
+    second: BTBricks_2
+  - first:
+      213: 7547865358226969843
+    second: BTBricks_3
+  - first:
+      213: 8395972719622145897
+    second: BTBricks_4
+  - first:
+      213: 6556867497716542685
+    second: BTBricks_5
+  - first:
+      213: -3691205605198798930
+    second: BTBricks_6
+  - first:
+      213: 2615946224159717883
+    second: BTBricks_7
+  - first:
+      213: 7182113720619221912
+    second: BTBricks_8
+  - first:
+      213: -625540098101723935
+    second: BTBricks_9
+  - first:
+      213: -7300777608598862468
+    second: BTBricks_10
+  - first:
+      213: 2739060559656806341
+    second: BTBricks_11
+  - first:
+      213: 5415110417899453402
+    second: BTBricks_12
+  - first:
+      213: -210076568540336116
+    second: BTBricks_13
+  - first:
+      213: 6391459702659832918
+    second: BTBricks_14
+  - first:
+      213: 7996509527032987953
+    second: BTBricks_15
+  - first:
+      213: -5986022019081142520
+    second: BTBricks_16
+  - first:
+      213: -6537535538532575894
+    second: BTBricks_17
+  - first:
+      213: -748177155382356210
+    second: BTBricks_18
+  - first:
+      213: 7906934881224258599
+    second: BTBricks_19
+  - first:
+      213: 7931126320879127780
+    second: BTBricks_20
+  - first:
+      213: -8301617397050961609
+    second: BTBricks_21
+  - first:
+      213: 6169442534590365388
+    second: BTBricks_22
+  - first:
+      213: 2409968882991875164
+    second: BTBricks_23
+  - first:
+      213: 334549129837846752
+    second: BTBricks_24
+  - first:
+      213: 1610570596141251672
+    second: BTBricks_25
+  - first:
+      213: -8150658289725660057
+    second: BTBricks_26
+  - first:
+      213: -8716363510525690805
+    second: BTBricks_27
+  - first:
+      213: 8302995870202044893
+    second: BTBricks_28
+  - first:
+      213: -8099033675196712336
+    second: BTBricks_29
+  - first:
+      213: 8135690750051502554
+    second: BTBricks_30
+  - first:
+      213: 3486805032733856621
+    second: BTBricks_31
+  - first:
+      213: -8885272133117023946
+    second: BTBricks_32
+  - first:
+      213: -8134817532637234624
+    second: BTBricks_33
+  - first:
+      213: 3177580168667908362
+    second: BTBricks_34
+  - first:
+      213: 3983277006089289899
+    second: BTBricks_35
+  - first:
+      213: 7388148372883369106
+    second: BTBricks_36
+  - first:
+      213: -2313000646018522609
+    second: BTBricks_37
+  - first:
+      213: -5126612431666611120
+    second: BTBricks_38
+  - first:
+      213: 3739107360526248189
+    second: BTBricks_39
+  - first:
+      213: -6755825764725804136
+    second: BTBricks_40
+  - first:
+      213: 463501756983141438
+    second: BTBricks_41
+  - first:
+      213: -8491828011315066609
+    second: BTBricks_42
+  - first:
+      213: 5228348018962545021
+    second: BTBricks_43
+  - first:
+      213: 1556685486190285353
+    second: BTBricks_44
+  - first:
+      213: 2394967131945373527
+    second: BTBricks_45
+  - first:
+      213: -4032892374560627615
+    second: BTBricks_46
+  - first:
+      213: -7561549142657833355
+    second: BTBricks_47
+  - first:
+      213: 6417597109881117777
+    second: BTBricks_48
+  - first:
+      213: 5951934209261810920
+    second: BTBricks_49
+  - first:
+      213: 3795477552144386155
+    second: BTBricks_50
+  - first:
+      213: -776993803567221420
+    second: BTBricks_51
+  - first:
+      213: 4092418386717904763
+    second: BTBricks_52
+  - first:
+      213: 6509028518161503350
+    second: BTBricks_53
+  - first:
+      213: -6757715997200295682
+    second: BTBricks_54
+  - first:
+      213: -938625602413956915
+    second: BTBricks_55
+  - first:
+      213: -7161484283873779399
+    second: BTBricks_56
+  - first:
+      213: 3613476688510138245
+    second: BTBricks_57
+  - first:
+      213: 7984333599099138511
+    second: BTBricks_58
+  - first:
+      213: -2794407241914476954
+    second: BTBricks_59
+  - first:
+      213: 4320386422057062245
+    second: BTBricks_60
+  - first:
+      213: 4246026217116503524
+    second: BTBricks_61
+  - first:
+      213: 8951779377760826625
+    second: BTBricks_62
+  - first:
+      213: 5450695525182008276
+    second: BTBricks_63
+  - first:
+      213: -2106206587663055008
+    second: BTBricks_64
+  - first:
+      213: 3341082692050058074
+    second: BTBricks_65
+  - first:
+      213: 6334263078908580351
+    second: BTBricks_66
+  - first:
+      213: -537972788970972807
+    second: BTBricks_67
+  - first:
+      213: -4810125151498828505
+    second: BTBricks_68
+  - first:
+      213: -3456692437562239459
+    second: BTBricks_69
+  - first:
+      213: -7410596953633295244
+    second: BTBricks_70
+  - first:
+      213: -2128467288614436850
+    second: BTBricks_71
+  - first:
+      213: -7242121083086054211
+    second: BTBricks_72
+  - first:
+      213: -7601866319115246030
+    second: BTBricks_73
+  - first:
+      213: 9135997029727553585
+    second: BTBricks_74
+  - first:
+      213: -2462750019040805002
+    second: BTBricks_75
+  - first:
+      213: 5034971928401608457
+    second: BTBricks_76
+  - first:
+      213: -6697517617043270845
+    second: BTBricks_77
+  - first:
+      213: 4482268382828898814
+    second: BTBricks_78
+  - first:
+      213: 3589423063273171161
+    second: BTBricks_79
+  - first:
+      213: 8280608688076206367
+    second: BTBricks_80
+  - first:
+      213: 8437195043671077784
+    second: BTBricks_81
+  - first:
+      213: -6993599313017740345
+    second: BTBricks_82
+  - first:
+      213: 7754779353032085409
+    second: BTBricks_83
+  - first:
+      213: 8695030852129246074
+    second: BTBricks_84
+  - first:
+      213: -7868250176358208006
+    second: BTBricks_85
+  - first:
+      213: 1180848251853278740
+    second: BTBricks_86
+  - first:
+      213: -8909086028950723732
+    second: BTBricks_87
+  - first:
+      213: -2005779529794612409
+    second: BTBricks_88
+  - first:
+      213: -65476515299525622
+    second: BTBricks_89
+  - first:
+      213: 1910658454018101365
+    second: BTBricks_90
+  - first:
+      213: -6343819688450389651
+    second: BTBricks_91
+  - first:
+      213: 2503292079932639289
+    second: BTBricks_92
+  - first:
+      213: -6365564973155824253
+    second: BTBricks_93
+  - first:
+      213: 5525329470067069448
+    second: BTBricks_94
+  - first:
+      213: 379132079610452550
+    second: BTBricks_95
+  - first:
+      213: -8902045205781382198
+    second: BTBricks_96
+  - first:
+      213: -4878584269888643059
+    second: BTBricks_97
+  - first:
+      213: -2990493827112316
+    second: BTBricks_98
+  - first:
+      213: -5254005432443233481
+    second: BTBricks_99
+  - first:
+      213: -235657759215706515
+    second: BTBricks_100
+  - first:
+      213: 7245178221286117011
+    second: BTBricks_101
+  - first:
+      213: -4748349121611862206
+    second: BTBricks_102
+  - first:
+      213: 2612150247860592052
+    second: BTBricks_103
+  - first:
+      213: 4466099978078543054
+    second: BTBricks_104
+  - first:
+      213: -3341958176578622748
+    second: BTBricks_105
+  - first:
+      213: -3236952654599569581
+    second: BTBricks_106
+  - first:
+      213: -1816350370575545957
+    second: BTBricks_107
+  - first:
+      213: 6719739512664866081
+    second: BTBricks_108
+  - first:
+      213: -6923583882088011818
+    second: BTBricks_109
+  - first:
+      213: -8216454466095458964
+    second: BTBricks_110
+  - first:
+      213: 4211054267595326835
+    second: BTBricks_111
+  - first:
+      213: -2591206771961808768
+    second: BTBricks_112
+  - first:
+      213: -98304450532320756
+    second: BTBricks_113
+  - first:
+      213: 6281375820017435169
+    second: BTBricks_114
+  - first:
+      213: -4474755125057955131
+    second: BTBricks_115
+  - first:
+      213: 8950993684428549157
+    second: BTBricks_116
+  - first:
+      213: -7990606600836249345
+    second: BTBricks_117
+  - first:
+      213: -7863519051982355375
+    second: BTBricks_118
+  - first:
+      213: 228159503223777344
+    second: BTBricks_119
+  - first:
+      213: 5577509063678527510
+    second: BTBricks_120
+  - first:
+      213: -4540390612570312034
+    second: BTBricks_121
+  - first:
+      213: 3157750345989699560
+    second: BTBricks_122
+  - first:
+      213: 8033531924927214836
+    second: BTBricks_123
+  - first:
+      213: 953304024986408382
+    second: BTBricks_124
+  - first:
+      213: 1586490522110858180
+    second: BTBricks_125
+  - first:
+      213: -8399787216211406622
+    second: BTBricks_126
+  - first:
+      213: -6797394349391589356
+    second: BTBricks_127
+  - first:
+      213: 8369185611628634832
+    second: BTBricks_128
+  - first:
+      213: 8181493351794778945
+    second: BTBricks_129
+  - first:
+      213: -9047075401544159711
+    second: BTBricks_130
+  - first:
+      213: -4255664983597308388
+    second: BTBricks_131
+  - first:
+      213: 2138323583268347487
+    second: BTBricks_132
+  - first:
+      213: 2920906679069223754
+    second: BTBricks_133
+  - first:
+      213: 2639837743528890728
+    second: BTBricks_134
+  - first:
+      213: 6639783173865004465
+    second: BTBricks_135
+  - first:
+      213: -7011287597369387508
+    second: BTBricks_136
+  - first:
+      213: -5268204574308555313
+    second: BTBricks_137
+  - first:
+      213: -9021183585757196915
+    second: BTBricks_138
+  - first:
+      213: 3260917325824296945
+    second: BTBricks_139
+  - first:
+      213: 909546833967908196
+    second: BTBricks_140
+  - first:
+      213: 8872951118496599243
+    second: BTBricks_141
+  - first:
+      213: -2923894243384525114
+    second: BTBricks_142
+  - first:
+      213: -4999743802324139030
+    second: BTBricks_143
+  - first:
+      213: -7910434233947569869
+    second: BTBricks_144
+  - first:
+      213: -847085132734652144
+    second: BTBricks_145
+  - first:
+      213: 7084175092997070626
+    second: BTBricks_146
+  - first:
+      213: 5096568226508885477
+    second: BTBricks_147
+  - first:
+      213: -8638428831763548125
+    second: BTBricks_148
+  - first:
+      213: 2669125944018941031
+    second: BTBricks_149
+  - first:
+      213: -4484975320774660731
+    second: BTBricks_150
+  - first:
+      213: 6444185096514559960
+    second: BTBricks_151
+  - first:
+      213: -2702696944477999492
+    second: BTBricks_152
+  - first:
+      213: 8107286701918604723
+    second: BTBricks_153
+  - first:
+      213: 1784674143720023799
+    second: BTBricks_154
+  - first:
+      213: 3035518175305311482
+    second: BTBricks_155
+  - first:
+      213: -4245588715462175965
+    second: BTBricks_156
+  - first:
+      213: 7160357005480271220
+    second: BTBricks_157
+  - first:
+      213: -2049295991773060734
+    second: BTBricks_158
+  - first:
+      213: 2791915546160464499
+    second: BTBricks_159
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BTBricks_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 384
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44043b0f639243400800000000000000
+      internalID: 302912390883917892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b589e8b224bd6950800000000000000
+      internalID: 6444004703061247409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 384
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9ee5ca31e887b60800000000000000
+      internalID: 7744095774410992071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 384
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f458919d876fb860800000000000000
+      internalID: 7547865358226969843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967c2f864bc748470800000000000000
+      internalID: 8395972719622145897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddce2b8df3caefa50800000000000000
+      internalID: 6556867497716542685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafd1351f0436ccc0800000000000000
+      internalID: -3691205605198798930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf970922b35bd4420800000000000000
+      internalID: 2615946224159717883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893c7fd506efba360800000000000000
+      internalID: 7182113720619221912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec32e35892a157f0800000000000000
+      internalID: -625540098101723935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75c657327d6eaa90800000000000000
+      internalID: -7300777608598862468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c760ac1119130620800000000000000
+      internalID: 2739060559656806341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbf96e0c36562b40800000000000000
+      internalID: 5415110417899453402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0035845978a51df0800000000000000
+      internalID: -210076568540336116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c53457cb603b850800000000000000
+      internalID: 6391459702659832918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_15
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13104d92c0f49fe60800000000000000
+      internalID: 7996509527032987953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f700f50b06deca0800000000000000
+      internalID: -5986022019081142520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_17
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651647a0120645a0800000000000000
+      internalID: -6537535538532575894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_18
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e075f5857d0fd95f0800000000000000
+      internalID: -748177155382356210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_19
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 334
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7247489b1631bbd60800000000000000
+      internalID: 7906934881224258599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec40c03e55011e60800000000000000
+      internalID: 7931126320879127780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731139316fabacc80800000000000000
+      internalID: -8301617397050961609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceb1705c434e9550800000000000000
+      internalID: 6169442534590365388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54c9763eede17120800000000000000
+      internalID: 2409968882991875164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_24
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0a6eb39ae84a400800000000000000
+      internalID: 334549129837846752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c30bc8c65e95610800000000000000
+      internalID: 1610570596141251672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_26
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7642f43387b03ee80800000000000000
+      internalID: -8150658289725660057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c70f58191490780800000000000000
+      internalID: -8716363510525690805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_28
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1ade6b0ca2a3370800000000000000
+      internalID: 8302995870202044893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_29
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a39fd68c37a9f80800000000000000
+      internalID: -8099033675196712336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94047e1a7c7e070800000000000000
+      internalID: 8135690750051502554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_31
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63552114be936030800000000000000
+      internalID: 3486805032733856621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_32
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639e1e4321c21b480800000000000000
+      internalID: -8885272133117023946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_33
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ab98edd825b1f80800000000000000
+      internalID: -8134817532637234624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c6cee358091c20800000000000000
+      internalID: 3177580168667908362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_35
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba00fed2551774730800000000000000
+      internalID: 3983277006089289899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_36
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ce7911dc9f78660800000000000000
+      internalID: 7388148372883369106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_37
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0221d0da2296efd0800000000000000
+      internalID: -2313000646018522609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 284
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cf865c72d9ad8b0800000000000000
+      internalID: -5126612431666611120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df82731755af3e330800000000000000
+      internalID: 3739107360526248189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8933619c24c7e32a0800000000000000
+      internalID: -6755825764725804136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34efb96460be6600800000000000000
+      internalID: 463501756983141438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f098ad35a67f62a80800000000000000
+      internalID: -8491828011315066609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_43
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79316082d2de8840800000000000000
+      internalID: 5228348018962545021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922d067b3357a9510800000000000000
+      internalID: 1556685486190285353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f075cdae1ac3120800000000000000
+      internalID: 2394967131945373527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164aee4a0c94808c0800000000000000
+      internalID: -4032892374560627615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_47
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57668381e1bff0790800000000000000
+      internalID: -7561549142657833355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_48
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c990ec192ef0950800000000000000
+      internalID: 6417597109881117777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4bb8de0a4899250800000000000000
+      internalID: 5951934209261810920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_50
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68098079be3ca430800000000000000
+      internalID: 3795477552144386155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_51
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45532b990409735f0800000000000000
+      internalID: -776993803567221420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_52
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f099417d03bc830800000000000000
+      internalID: 4092418386717904763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_53
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67457e173f6b45a50800000000000000
+      internalID: 6509028518161503350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_54
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d6edba15c732a0800000000000000
+      internalID: -6757715997200295682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_55
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc07707dcf459f2f0800000000000000
+      internalID: -938625602413956915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_56
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931292bacfb4d9c90800000000000000
+      internalID: -7161484283873779399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_57
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5873dc637e5a52230800000000000000
+      internalID: 3613476688510138245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_58
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc135860b1d0ece60800000000000000
+      internalID: 7984333599099138511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_59
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66698eb3b654839d0800000000000000
+      internalID: -2794407241914476954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_60
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fc12b7f8815fb30800000000000000
+      internalID: 4320386422057062245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_61
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 234
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed893a195aecea30800000000000000
+      internalID: 4246026217116503524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f91f5aeb1b3c70800000000000000
+      internalID: 8951779377760826625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe84d73b2c4ab40800000000000000
+      internalID: 5450695525182008276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06781c6844045c2e0800000000000000
+      internalID: -2106206587663055008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b79d0b109ed5e20800000000000000
+      internalID: 3341082692050058074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1d73cb5b2d7e750800000000000000
+      internalID: 6334263078908580351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_67
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9791f86499cb888f0800000000000000
+      internalID: -537972788970972807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7258dbbe8a00f3db0800000000000000
+      internalID: -4810125151498828505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_69
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d259da8c5700d0800000000000000
+      internalID: -3456692437562239459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_70
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474781d6555482990800000000000000
+      internalID: -7410596953633295244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_71
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e000912374a2672e0800000000000000
+      internalID: -2128467288614436850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_72
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcd94ece31de7b90800000000000000
+      internalID: -7242121083086054211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_73
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2362123fbdeb08690800000000000000
+      internalID: -7601866319115246030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_74
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1384fe9d4e499ce70800000000000000
+      internalID: 9135997029727553585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_75
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f7c78e7ed82ddd0800000000000000
+      internalID: -2462750019040805002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_76
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff07eda40dfd540800000000000000
+      internalID: 5034971928401608457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_77
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34317375633ad03a0800000000000000
+      internalID: -6697517617043270845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_78
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef92b7a9857343e30800000000000000
+      internalID: 4482268382828898814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_79
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8edfa224130d130800000000000000
+      internalID: 3589423063273171161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_80
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11bbc0bab1aae270800000000000000
+      internalID: 8280608688076206367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_81
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89373b6a030f61570800000000000000
+      internalID: 8437195043671077784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_82
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3692e7a7eb1fe90800000000000000
+      internalID: -6993599313017740345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_83
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afc2092cb28e9b60800000000000000
+      internalID: 7754779353032085409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_84
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 184
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc934ed74faa870800000000000000
+      internalID: 8695030852129246074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_85
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afda342072c5ec290800000000000000
+      internalID: -7868250176358208006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_86
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e0b598a37336010800000000000000
+      internalID: 1180848251853278740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_87
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c632ff285719c5480800000000000000
+      internalID: -8909086028950723732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74397dc052a0a24e0800000000000000
+      internalID: -2005779529794612409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_89
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cf07cc471671ff0800000000000000
+      internalID: -65476515299525622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_90
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57098d6adb5048a10800000000000000
+      internalID: 1910658454018101365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_91
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6909c6ba9936f7a0800000000000000
+      internalID: -6343819688450389651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_92
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9380f6932ea7db220800000000000000
+      internalID: 2503292079932639289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_93
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dc0641268f8a7a0800000000000000
+      internalID: -6365564973155824253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_94
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802585ae0e9edac40800000000000000
+      internalID: 5525329470067069448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_95
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ad2202e92f24500800000000000000
+      internalID: 379132079610452550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_96
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb7ee6ec05957480800000000000000
+      internalID: -8902045205781382198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_97
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00aa725479cb4cb0800000000000000
+      internalID: -4878584269888643059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_98
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4826bb5692065fff0800000000000000
+      internalID: -2990493827112316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_99
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b9f3765e50617b0800000000000000
+      internalID: -5254005432443233481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_100
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e126d3486cabcf0800000000000000
+      internalID: -235657759215706515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_101
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ec726a43b0c8460800000000000000
+      internalID: 7245178221286117011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_102
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f69c8b1a97a1eb0800000000000000
+      internalID: -4748349121611862206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_103
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bddda78fc8304420800000000000000
+      internalID: 2612150247860592052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_104
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc50c48446cafd30800000000000000
+      internalID: 4466099978078543054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_105
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaa1deaebafe91d0800000000000000
+      internalID: -3341958176578622748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_106
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fb5d3f5b80413d0800000000000000
+      internalID: -3236952654599569581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_107
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99023e16f60bc6e0800000000000000
+      internalID: -1816350370575545957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_108
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 134
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dbb8beb7f414d50800000000000000
+      internalID: 6719739512664866081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_109
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d72687542d7aef90800000000000000
+      internalID: -6923583882088011818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_110
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65553b123a49fd80800000000000000
+      internalID: -8216454466095458964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_111
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37589e59b8ba07a30800000000000000
+      internalID: 4211054267595326835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_112
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08831a17b2f2a0cd0800000000000000
+      internalID: -2591206771961808768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_113
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a5e228f90c2aef0800000000000000
+      internalID: -98304450532320756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_114
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1220ed4370eeb2750800000000000000
+      internalID: 6281375820017435169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_115
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cadf0a0ce976e1c0800000000000000
+      internalID: -4474755125057955131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_116
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ce023e451583c70800000000000000
+      internalID: 8950993684428549157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_117
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88341f1a9ab1190800000000000000
+      internalID: -7990606600836249345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_118
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154431eb51b2fd290800000000000000
+      internalID: -7863519051982355375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_119
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04868cdfbd59a2300800000000000000
+      internalID: 228159503223777344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_120
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618841841fa476d40800000000000000
+      internalID: 5577509063678527510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_121
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e927a3c3bca4df0c0800000000000000
+      internalID: -4540390612570312034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_122
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7351e853592db20800000000000000
+      internalID: 3157750345989699560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_123
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4fb05e8b6dc7f60800000000000000
+      internalID: 8033531924927214836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_124
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5d34cb5f0da3d00800000000000000
+      internalID: 953304024986408382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_125
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c311f969b8540610800000000000000
+      internalID: 1586490522110858180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_126
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e01ad4e706fd6b80800000000000000
+      internalID: -8399787216211406622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_127
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41054467addcaa1a0800000000000000
+      internalID: -6797394349391589356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_128
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26f60d8f1552470800000000000000
+      internalID: 8369185611628634832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_129
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a2f52bd08a8170800000000000000
+      internalID: 8181493351794778945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_130
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e29c21bd4527280800000000000000
+      internalID: -9047075401544159711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_131
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162d91be37d0f4c0800000000000000
+      internalID: -4255664983597308388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_132
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5edc8b38f9dcad10800000000000000
+      internalID: 2138323583268347487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_133
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 84
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bacf32625298820800000000000000
+      internalID: 2920906679069223754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86155b7f07692a420800000000000000
+      internalID: 2639837743528890728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_135
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdd6d71e9f352c50800000000000000
+      internalID: 6639783173865004465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_136
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0612bcd317e2be90800000000000000
+      internalID: -7011287597369387508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_137
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc520401ad393e6b0800000000000000
+      internalID: -5268204574308555313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_138
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d8b5533515ec280800000000000000
+      internalID: -9021183585757196915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_139
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f78cafd70b114d20800000000000000
+      internalID: 3260917325824296945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_140
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4650d39c60c5f9c00800000000000000
+      internalID: 909546833967908196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_141
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc0567080e032b70800000000000000
+      internalID: 8872951118496599243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_142
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce71465dad3c67d0800000000000000
+      internalID: -2923894243384525114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_143
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3428660875d9ab0800000000000000
+      internalID: -4999743802324139030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_144
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331477ab9fd783290800000000000000
+      internalID: -7910434233947569869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_145
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01126d05f8c8e34f0800000000000000
+      internalID: -847085132734652144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_146
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f92c8a6bb005260800000000000000
+      internalID: 7084175092997070626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_147
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edca9a9cc5aab640800000000000000
+      internalID: 5096568226508885477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_148
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328bd31feb22e1880800000000000000
+      internalID: -8638428831763548125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_149
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764370a87e3aa0520800000000000000
+      internalID: 2669125944018941031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_150
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d25da45ba22c1c0800000000000000
+      internalID: -4484975320774660731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_151
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfdd98d3385e6950800000000000000
+      internalID: 6444185096514559960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_152
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eead0d2771e7ad0800000000000000
+      internalID: -2702696944477999492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_153
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd4b181d4ed28070800000000000000
+      internalID: 8107286701918604723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_154
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6a1489daf64c810800000000000000
+      internalID: 1784674143720023799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_155
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4a05492b3502a20800000000000000
+      internalID: 3035518175305311482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_156
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3235870be83a415c0800000000000000
+      internalID: -4245588715462175965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_157
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d91a062c2be5360800000000000000
+      internalID: 7160357005480271220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_158
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2812cb237207f83e0800000000000000
+      internalID: -2049295991773060734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTBricks_159
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 34
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37209c3a560eeb620800000000000000
+      internalID: 2791915546160464499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,14 +7,29 @@ public class WakingSight : MonoBehaviour {
 	public int activeMode = 0;
 	public float maxScale = 10f;
 	private bool changingMode = false;
+
 	[SerializeField]
 	private Animator circleAnimator;
 	public bool inNZ = false;
+
+	[SerializeField]
+	private FMODUnity.StudioEventEmitter emitter;
 
 
 
 	// Start is called before the first frame update
 	void Start() {
+		GameObject fManager = GameObject.Find("TrackManager");
+
+		if (fManager) {
+			Debug.Log(fManager.name);
+		} else {
+			Debug.Log("No TrackManager found!");
+		}
+
+		if (emitter == null) {
+			Debug.LogWarning("No fmod emitter found, audio will not play.");
+		}
 	}
 
 	// Update is called once per frame
@@ -24,15 +39,18 @@ public class WakingSight : MonoBehaviour {
 				if (inNZ == false) {
 					// Toggle through modes
 					if (activeMode == 0) {
-						print("a");
+						if (emitter != null) {
+							SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
+						}
 						changeMode(1);
 					} else if (activeMode == 1) {
-						print("b");
+						if (emitter != null) {
+							SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
+						}
 						changeMode(0);
 					}
 				}
 			} else if (inNZ == true && activeMode == 1) {
-				print(":)");
 				changeMode(0);
 			} else if (inNZ == true && activeMode == 0) {
 				// Trying to activate ws in a nz, do nothing. time permitting, add an "you can't do that!!" vfx. #TODO
@@ -44,14 +62,12 @@ public class WakingSight : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.tag == "NullZone") {
 			inNZ = true;
-			print("hi");
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (other.tag == "NullZone") {
 			inNZ = false;
-			print("bye");
 		}
 	}
 
@@ -92,6 +108,10 @@ public class WakingSight : MonoBehaviour {
 			changingMode = false;
 		}
 	}
+	void SetParameter(FMOD.Studio.EventInstance e, string name, float value) {
+		e.setParameterByName(name, value);
+	}
+
 
 	//    void OnTriggerEnter2D(Collider2D other) {
 	//       

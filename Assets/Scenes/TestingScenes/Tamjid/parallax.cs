@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class parallax : MonoBehaviour
 {
+    private Spawnpoint spawn;
     public Transform[] backgrounds;     //list of back and foregrounds to be parallaxed
     private float[] parallaxScalesX;     //proportion of the camera's X movement to move the backgrounds by
     private float[] parallaxScalesY;     //proportion of the camera's Y movement to move the backgrounds by
@@ -54,9 +55,6 @@ public class parallax : MonoBehaviour
              * the background's current position 
              * with it's target x position */
             Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX, backgroundTargetPosY, backgrounds[i].position.z);
-
-            /*fade between current position and 
-             * the target position using lurp*/
             backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, backgroundTargetPos, smoothing * Time.deltaTime);
         }
         //set the previousCamPos to the camera's position at the end of the frame
