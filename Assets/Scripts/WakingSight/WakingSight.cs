@@ -23,11 +23,11 @@ public class WakingSight : MonoBehaviour {
 
 		if (fManager) {
 			Debug.Log(fManager.name);
-        } else {
+		} else {
 			Debug.Log("No TrackManager found!");
-        }
+		}
 
-		if(emitter == null) {
+		if (emitter == null) {
 			Debug.LogWarning("No fmod emitter found, audio will not play.");
 		}
 	}
@@ -39,10 +39,14 @@ public class WakingSight : MonoBehaviour {
 				if (inNZ == false) {
 					// Toggle through modes
 					if (activeMode == 0) {
-						SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
+						if (emitter != null) {
+							SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
+						}
 						changeMode(1);
 					} else if (activeMode == 1) {
-						SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
+						if (emitter != null) {
+							SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
+						}
 						changeMode(0);
 					}
 				}
@@ -104,8 +108,7 @@ public class WakingSight : MonoBehaviour {
 			changingMode = false;
 		}
 	}
-	void SetParameter(FMOD.Studio.EventInstance e, string name, float value)
-	{
+	void SetParameter(FMOD.Studio.EventInstance e, string name, float value) {
 		e.setParameterByName(name, value);
 	}
 

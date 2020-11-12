@@ -356,6 +356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: fg
       objectReference: {fileID: 0}
+    - target: {fileID: 2836825029930534606, guid: fbfcdb95f9c4a9b439528d37ead09ae6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
     - target: {fileID: 5329634108132759571, guid: fbfcdb95f9c4a9b439528d37ead09ae6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -411,6 +416,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5357823054623512950, guid: fbfcdb95f9c4a9b439528d37ead09ae6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbfcdb95f9c4a9b439528d37ead09ae6, type: 3}
 --- !u!4 &964280373 stripped
@@ -433,7 +443,7 @@ GameObject:
   - component: {fileID: 1038953822}
   m_Layer: 0
   m_Name: Tilemap (1)
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

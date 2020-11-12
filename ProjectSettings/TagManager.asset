@@ -51,3 +51,6 @@ TagManager:
   - name: Particles
     uniqueID: 4118807811
     locked: 0
+  - name: Waking Sight
+    uniqueID: 3350583401
+    locked: 0
