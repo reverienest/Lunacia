@@ -1496,6 +1496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startGameScene: GladeMap1
   creditsScene: Credits
+  settingsMenu: SettingsMenu 1
 --- !u!1 &1846419947
 GameObject:
   m_ObjectHideFlags: 0
