@@ -13,9 +13,9 @@ public class PauseMenuController : MonoBehaviour
     public Slider timeSlider;
     private bool canPause = true;
 
-    private Transform optionsButton;
-    private Transform resumeButton;
-    private Transform menuButton;
+    public Transform optionsButton;
+    public Transform resumeButton;
+    public Transform menuButton;
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +26,6 @@ public class PauseMenuController : MonoBehaviour
         animator = pauseShade.GetComponent<Animator>();
         // set "timeScale" to 1 at start
         timeSlider.value = 1f;
-
-        // import buttons into the menu
-        optionsButton = transform.Find("Shade/Buttons/Options");
-        menuButton = transform.Find("Shade/Buttons/MainMenu");
-        resumeButton = transform.Find("Shade/Buttons/Resume");
     }
 
     // Update is called once per frame

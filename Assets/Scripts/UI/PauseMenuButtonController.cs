@@ -72,6 +72,7 @@ public class PauseMenuButtonController : MonoBehaviour
 
     public void StartHover()
     {
+        Debug.Log("startHover");
         onHover = true;
     }
 
