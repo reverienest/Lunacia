@@ -14,9 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637407160053761225
+  lastModified: 637407204885249120
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &-8528625568703974344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Final Area
+  m_EditorClassIdentifier: 
+  Name: Final Area
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8091917913817770231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 1
+  m_EditorClassIdentifier: 
+  Name: Area 1
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-6600003499457101401
 MonoBehaviour:
@@ -32,11 +72,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637406367920525451
+  lastModified: 637406318856344940
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 1050
+  Exists: 1
+--- !u!114 &-5920843657193030649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 4
+  m_EditorClassIdentifier: 
+  Name: Area 4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-4151857363469436142
 MonoBehaviour:
@@ -121,7 +181,7 @@ MonoBehaviour:
   - {fileID: -8915841722509743759}
   StringsBanks:
   - {fileID: -6600003499457101401}
-  stringsBankWriteTime: 637406367920525451
+  stringsBankWriteTime: 637406318856344940
   cacheVersion: 5
 --- !u!114 &63904753915764203
 MonoBehaviour:
@@ -136,6 +196,26 @@ MonoBehaviour:
   m_Name: parameter:/GladeTheme/Area 3
   m_EditorClassIdentifier: 
   Name: Area 3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &296858461229019095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/NexusWav/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
   Min: 0
   Max: 1
   Default: 0
@@ -183,10 +263,50 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 6193327529088755766}
+  - {fileID: 296858461229019095}
   MinDistance: 0
   MaxDistance: 0
   Length: 101578
+--- !u!114 &4148239516794399192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &5613399694751571354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 3
+  m_EditorClassIdentifier: 
+  Name: Area 3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6193327529088755766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +320,26 @@ MonoBehaviour:
   m_Name: parameter:/NexusWav/Waking Sight
   m_EditorClassIdentifier: 
   Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &6230205277117910837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 2
+  m_EditorClassIdentifier: 
+  Name: Area 2
   Min: 0
   Max: 1
   Default: 0
@@ -247,12 +387,12 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 63904753915764203}
-  - {fileID: 6527445014808501108}
-  - {fileID: -4151857363469436142}
-  - {fileID: -1867349654430960184}
-  - {fileID: 1227044667647466541}
-  - {fileID: -2166423275685739623}
+  - {fileID: 5613399694751571354}
+  - {fileID: 6230205277117910837}
+  - {fileID: 4148239516794399192}
+  - {fileID: -8528625568703974344}
+  - {fileID: -8091917913817770231}
+  - {fileID: -5920843657193030649}
   MinDistance: 0
   MaxDistance: 0
   Length: 126000
