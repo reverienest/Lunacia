@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
+=======
+--- !u!114 &-8575107997952226109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 1
+  m_EditorClassIdentifier: 
+  Name: Area 1
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+>>>>>>> reverienest-master
 --- !u!114 &-8412886441426315048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,6 +60,26 @@ MonoBehaviour:
   lastModified: 637403618633533987
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &-8265632175425029351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/NexusWav/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-6801431980315587658
 MonoBehaviour:
@@ -78,7 +121,25 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
---- !u!114 &-6236669580988145387
+--- !u!114 &-6277709349144339341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: LunaciaProject/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637406353583726052
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5967718826079252744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,16 +149,48 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+<<<<<<< HEAD
   m_Name: parameter:/GladeTheme/Area 1
   m_EditorClassIdentifier: 
   Name: Area 1
   Min: 0
   Max: 1
   Default: 1
+=======
+  m_Name: parameter:/GladeTheme/Area 2
+  m_EditorClassIdentifier: 
+  Name: Area 2
+  Min: 0
+  Max: 1
+  Default: 0
+>>>>>>> reverienest-master
   ID:
     data1: 0
     data2: 0
   Exists: 1
+<<<<<<< HEAD
+=======
+--- !u!114 &-5864165874476643121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: LunaciaProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637406353583786045
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1050
+  Exists: 1
+>>>>>>> reverienest-master
 --- !u!114 &-5540575918570510677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +210,46 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 700
+  Exists: 1
+--- !u!114 &-5474906661836292152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-5240975187535137574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Final Area
+  m_EditorClassIdentifier: 
+  Name: Final Area
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-5043611751896458141
 MonoBehaviour:
@@ -138,6 +271,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1050
   Exists: 1
+<<<<<<< HEAD
+=======
+--- !u!114 &-4869027281419768508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 4
+  m_EditorClassIdentifier: 
+  Name: Area 4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+>>>>>>> reverienest-master
 --- !u!114 &-3355032676713116091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +375,31 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+<<<<<<< HEAD
 --- !u!114 &-1953462924346044461
+=======
+--- !u!114 &-1324335011034037343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 1
+  m_EditorClassIdentifier: 
+  Name: Area 1
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-727762745771840277
+>>>>>>> reverienest-master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,11 +414,20 @@ MonoBehaviour:
   Path: event:/NexusWav
   guid: 2924e2a493c7ee409255ac1d36da2bc2
   Banks:
+<<<<<<< HEAD
   - {fileID: 2500085086416907104}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
+=======
+  - {fileID: -6277709349144339341}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8265632175425029351}
+>>>>>>> reverienest-master
   MinDistance: 0
   MaxDistance: 0
   Length: 101578
@@ -262,6 +451,55 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-558688926059199398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-100543550159686690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GladeTheme
+  m_EditorClassIdentifier: 
+  Path: event:/GladeTheme
+  guid: dd5b97c47438c946aafac6c3b991c271
+  Banks:
+  - {fileID: -6277709349144339341}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4763406745871588968}
+  - {fileID: -5967718826079252744}
+  - {fileID: -5474906661836292152}
+  - {fileID: -5240975187535137574}
+  - {fileID: -1324335011034037343}
+  - {fileID: -4869027281419768508}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 126000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,6 +513,7 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+<<<<<<< HEAD
   - {fileID: 8133861684364362684}
   - {fileID: 2500085086416907104}
   EditorEvents:
@@ -287,6 +526,40 @@ MonoBehaviour:
   - {fileID: 8133861684364362684}
   stringsBankWriteTime: 637407031274329484
   cacheVersion: 5
+=======
+  - {fileID: -5864165874476643121}
+  - {fileID: -6277709349144339341}
+  EditorEvents:
+  - {fileID: -727762745771840277}
+  - {fileID: -100543550159686690}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6277709349144339341}
+  StringsBanks:
+  - {fileID: -5864165874476643121}
+  stringsBankWriteTime: 637406353583786045
+  cacheVersion: 5
+--- !u!114 &702508247522994146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 4
+  m_EditorClassIdentifier: 
+  Name: Area 4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+>>>>>>> reverienest-master
 --- !u!114 &1054619125921721549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,6 +675,7 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+<<<<<<< HEAD
 --- !u!114 &2500085086416907104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,6 +695,9 @@ MonoBehaviour:
   FileSizes: []
   Exists: 1
 --- !u!114 &3703663032134509022
+=======
+--- !u!114 &2250548747055323547
+>>>>>>> reverienest-master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -458,7 +735,11 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+<<<<<<< HEAD
 --- !u!114 &4789771167878154658
+=======
+--- !u!114 &4038851816664281053
+>>>>>>> reverienest-master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,9 +749,55 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+<<<<<<< HEAD
   m_Name: parameter:/GladeTheme/Waking Sight
   m_EditorClassIdentifier: 
   Name: Waking Sight
+=======
+  m_Name: parameter:/GladeTheme/Area 2
+  m_EditorClassIdentifier: 
+  Name: Area 2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4466812124428958017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 3
+  m_EditorClassIdentifier: 
+  Name: Area 3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4763406745871588968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 3
+  m_EditorClassIdentifier: 
+  Name: Area 3
+>>>>>>> reverienest-master
   Min: 0
   Max: 1
   Default: 0

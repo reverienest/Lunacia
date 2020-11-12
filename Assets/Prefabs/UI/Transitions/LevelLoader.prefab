@@ -205,6 +205,7 @@ MonoBehaviour:
   loadingScreen: {fileID: 9109538969280818152}
   loadingBar: {fileID: 9109538969700055429}
   progressPercentage: {fileID: 9109538969174775302}
+  player: {fileID: 0}
 --- !u!1 &9109538969700055435
 GameObject:
   m_ObjectHideFlags: 0
