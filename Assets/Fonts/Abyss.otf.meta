@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 54589018fdd7bc747b2300ddfb456d29
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Abyss
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3c8252e1baa869e4ea8e7e6962e8cb8b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

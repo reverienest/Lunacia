@@ -30,12 +30,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GladeTheme/Area 1
+  m_Name: parameter:/GladeTheme/Area 3
   m_EditorClassIdentifier: 
-  Name: Area 1
+  Name: Area 3
   Min: 0
   Max: 1
-  Default: 1
+  Default: 0
   ID:
     data1: 0
     data2: 0
@@ -70,9 +70,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GladeTheme/Area 2
+  m_Name: parameter:/GladeTheme/Area 3
   m_EditorClassIdentifier: 
-  Name: Area 2
+  Name: Area 3
   Min: 0
   Max: 1
   Default: 0
@@ -128,9 +128,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/NexusWav/Waking Sight
+  m_Name: parameter:/GladeTheme/Area 2
   m_EditorClassIdentifier: 
-  Name: Waking Sight
+  Name: Area 2
   Min: 0
   Max: 1
   Default: 0
@@ -268,9 +268,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GladeTheme/Area 4
+  m_Name: parameter:/GladeTheme/Area 2
   m_EditorClassIdentifier: 
-  Name: Area 4
+  Name: Area 2
   Min: 0
   Max: 1
   Default: 0
@@ -332,12 +332,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GladeTheme/Area 3
+  m_Name: parameter:/GladeTheme/Area 1
   m_EditorClassIdentifier: 
-  Name: Area 3
+  Name: Area 1
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 0
     data2: 0
@@ -1792,7 +1792,7 @@ MonoBehaviour:
   Name: Area 2
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 0
     data2: 0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
   Name: Final Area
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 0
     data2: 0
@@ -2127,7 +2127,7 @@ MonoBehaviour:
   Name: Area 2
   Min: 0
   Max: 1
-  Default: 0
+  Default: 1
   ID:
     data1: 0
     data2: 0

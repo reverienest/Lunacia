@@ -42,12 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Particles
+    uniqueID: 4118807811
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 1677636177
     locked: 0
-  - name: Particles
-    uniqueID: 4118807811
+  - name: Waking Sight
+    uniqueID: 3350583401
     locked: 0
