@@ -8812,6 +8812,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: 42b5d11be7e23884995e8cd19e7cbac5,
         type: 3}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: nextSceneName
+      value: Nexus
+      objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -47853,6 +47858,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: a9f27708f924ff440a2171b3595560a5,
         type: 3}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: nextSceneName
+      value: BlazingTaiga2
+      objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -51705,6 +51715,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: 5b50f33ec76dc7445861fdd2aaae8b42,
         type: 3}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: nextSceneName
+      value: BlazingTaigaSidePath2
+      objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -51985,7 +52000,7 @@ Transform:
   - {fileID: 124191505}
   - {fileID: 1675175791}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1615255994
 GameObject:
@@ -56203,7 +56218,7 @@ Transform:
   - {fileID: 597845196}
   - {fileID: 195882966}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973421339
 GameObject:

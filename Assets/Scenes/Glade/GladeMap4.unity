@@ -95252,7 +95252,7 @@ Transform:
   - {fileID: 1924416270}
   - {fileID: 285052858}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730031626
 GameObject:
@@ -95818,6 +95818,11 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 2130420209}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: nextSceneName
+      value: GladeMap3
+      objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -99406,6 +99411,11 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 2130420209}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: nextSceneName
+      value: Nexus
+      objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -101057,7 +101067,7 @@ Transform:
   - {fileID: 2028021964}
   - {fileID: 1106861269}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1495404555
 GameObject:
@@ -105183,7 +105193,7 @@ Transform:
   - {fileID: 609295694}
   - {fileID: 1705286529}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2028021963
 PrefabInstance:
