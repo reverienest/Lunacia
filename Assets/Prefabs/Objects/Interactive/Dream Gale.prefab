@@ -107,9 +107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
+  CollisionTag: Player
   Event: event:/SFX Events/Boost Noise
-  PlayEvent: 9
+  PlayEvent: 5
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
