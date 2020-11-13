@@ -243,7 +243,7 @@ PrefabInstance:
     - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: nextSceneName
-      value: GladeMap2
+      value: GladeMap3
       objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
