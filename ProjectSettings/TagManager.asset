@@ -8,6 +8,7 @@ TagManager:
   - WakingSight
   - Flame
   - NullZone
+  - TrackManager
   layers:
   - Default
   - TransparentFX

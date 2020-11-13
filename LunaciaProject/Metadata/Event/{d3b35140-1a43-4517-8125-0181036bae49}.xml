@@ -138,6 +138,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{1be72408-a3e4-475d-896e-472463c7984f}" />
 	<object class="MixerBusFader" id="{63861e8b-341f-4d7a-b734-4b91404fd3b4}" />
-	<object class="SFXReverbEffect" id="{d0ad28b6-0dc6-4161-b861-5b6932f46976}" />
+	<object class="SFXReverbEffect" id="{d0ad28b6-0dc6-4161-b861-5b6932f46976}">
+		<property name="decayTime">
+			<value>4800</value>
+		</property>
+		<property name="diffusion">
+			<value>78</value>
+		</property>
+		<property name="wetLevel">
+			<value>-8</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{8f900488-172a-4c40-bb13-0300e7916346}" />
 </objects>
