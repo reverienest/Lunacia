@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings: []
     packingSettings:
       serializedVersion: 2
-      padding: 8
+      padding: 2
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
-    totalSpriteSurfaceArea: 67450
+    totalSpriteSurfaceArea: 69950
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -50,6 +50,7 @@ SpriteAtlas:
   - {fileID: -3973186225141000284, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
   - {fileID: -298176157946817701, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
   - {fileID: -5855387959506968555, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
+  - {fileID: 3537391156325200908, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
   - {fileID: 5507659764444289871, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
   - {fileID: -5081943850226713103, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
   - {fileID: 3223337954242628965, guid: 4bb2c30ca1c4df34a95c3540ac2329b7, type: 3}
@@ -78,6 +79,7 @@ SpriteAtlas:
   - Nexus Tiles_24
   - Nexus Tiles_25
   - Nexus Tiles_26
+  - Nexus Tiles_27
   - Nexus Tiles_20
   - Nexus Tiles_21
   - Nexus Tiles_22
