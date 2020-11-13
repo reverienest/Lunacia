@@ -9,16 +9,16 @@ public class SceneTransitionTrigger : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1.0f;
     public Object loadingScreen;
-    public Object nextScene;
+    public string nextSceneName;
     public Vector3 newSceneCoordinates;
     
     IEnumerator LoadLevel() 
     {
-        transition.SetTrigger("Start");
+		transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
-        LevelLoader.nextSceneName = nextScene.name;
+        FindObjectOfType<LevelLoader>().nextSceneName = nextSceneName;
         KillPlayer.respawnLocation = newSceneCoordinates;
-        MessageBroker.Instance.Raise(new SceneTransitionEventArgs("Transitioning to new scene: " + nextScene.name));
+        MessageBroker.Instance.Raise(new SceneTransitionEventArgs("Transitioning to new scene: " + nextSceneName));
     }
     void OnTriggerEnter2D(Collider2D col)
     {
