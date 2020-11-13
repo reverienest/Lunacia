@@ -15,10 +15,10 @@ public class NonDestroyable : MonoBehaviour
             fManager[1] = null;
             this.exist = true;
             Debug.Log("one");
-        } else if (fManager.Length == 1 && fManager[0].GetComponent<NonDestroyable>().exist == false)
+        } else if (fManager.Length == 1 && !fManager[0].GetComponent<NonDestroyable>().exist)
         {
             this.exist = true;
-            Debug.Log("three");
+            Debug.Log("one");
         }
       
 

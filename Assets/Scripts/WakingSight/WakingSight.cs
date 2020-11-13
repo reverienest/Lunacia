@@ -39,6 +39,7 @@ namespace WakingSightNS {
 
 		// Update is called once per frame
 		void Update() {
+			findTrackManager();
 
 			if (!changingMode) {
 				if (Input.GetButtonDown("Fire2")) {
@@ -120,6 +121,14 @@ namespace WakingSightNS {
 			e.setParameterByName(name, value);
 		}
 
+		void findTrackManager()
+        {
+			if (!fManager)
+            {
+				fManager = GameObject.Find("TrackManager");
+				emitter = fManager.GetComponent<FMODUnity.StudioEventEmitter>();
+			}
+        }
 
 		//    void OnTriggerEnter2D(Collider2D other) {
 		//       
