@@ -18,13 +18,6 @@ public class Parallax : MonoBehaviour {
 	void Awake() {
 		//set up camera reference 
 		cam = Camera.main.transform;
-
-		//assigning corresponding parallaxScales
-		for (int i = 0; i < backgrounds.Length; i++) {
-			// parallaxScalesX[i] = parallaxScalesX[i];
-			// parallaxScalesY[i] = parallaxScalesY[i];
-			// parallaxScalesY[i] = parallaxScalesX[i] / 4;
-		}
 	}
 	// Start is called before the first frame update. Use for initialization
 	void Start() {
