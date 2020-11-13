@@ -923,12 +923,12 @@ PrefabInstance:
     - target: {fileID: 429570774624474444, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.0791955
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429570774624474444, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.158391
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429570774624474446, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
@@ -43537,7 +43537,7 @@ PrefabInstance:
     - target: {fileID: 6516479164795096222, guid: 4c0f4c93a15fde64cb963f5d8daa0633,
         type: 3}
       propertyPath: velocityThreshold
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6516479164795096223, guid: 4c0f4c93a15fde64cb963f5d8daa0633,
         type: 3}
@@ -44149,12 +44149,12 @@ PrefabInstance:
     - target: {fileID: 429570774624474444, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.120892525
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429570774624474444, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.241785
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429570774624474446, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
@@ -49181,12 +49181,12 @@ PrefabInstance:
     - target: {fileID: 429570774624474444, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.094423294
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429570774624474444, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.1888466
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429570774624474446, guid: 675eca7aca46e1844b510985f255cbae,
         type: 3}

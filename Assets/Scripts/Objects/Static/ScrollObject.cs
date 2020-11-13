@@ -67,6 +67,10 @@ public class ScrollObject : MonoBehaviour
         }
     }
 
+    void OnDestroy() {
+		MessageBroker.Instance.WakingSightModeTopic -= consumeExampleMessage;
+	}
+
     private void consumeExampleMessage(object sender, WakingSightModeEventArgs example)
     {
         SetWakingSight(example.ActiveMode == 1);

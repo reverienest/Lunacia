@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using WakingSightNS;
 
 public class MainMenu : MonoBehaviour {
-	public string startGameScene = "GladeMap1";
+	public string startGameScene = "Tutorial1";
 	public string creditsScene = "Credits";
 	public string settingsMenu = "SettingsMenu 1";
 
@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour {
 
 	public void Click_Settings() {
 		if (!settingsMenu.Equals("")) {
-			SceneManager.LoadScene(settingsMenu);
+			SceneManager.LoadScene(settingsMenu, LoadSceneMode.Additive);
 		}
 	}
 
