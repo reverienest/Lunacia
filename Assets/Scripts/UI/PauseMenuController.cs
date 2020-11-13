@@ -11,15 +11,16 @@ public class PauseMenuController : MonoBehaviour
     public string mainMenuSceneName;
     // animatable representation of the current time scale
     public Slider timeSlider;
-    private bool canPause = true;
+    private bool canPause;
 
-    private Transform optionsButton;
-    private Transform resumeButton;
-    private Transform menuButton;
+    public Transform optionsButton;
+    public Transform resumeButton;
+    public Transform menuButton;
 
     // Start is called before the first frame update
     void Start()
     {
+        canPause = false;
         // deactivate the shade on game start
         pauseShade.SetActive(false);
         // setup animator
@@ -27,11 +28,15 @@ public class PauseMenuController : MonoBehaviour
         // set "timeScale" to 1 at start
         timeSlider.value = 1f;
 
-        // import buttons into the menu
-        optionsButton = transform.Find("Shade/Buttons/Options");
-        menuButton = transform.Find("Shade/Buttons/MainMenu");
-        resumeButton = transform.Find("Shade/Buttons/Resume");
+        StartCoroutine(enablePause());
     }
+
+    IEnumerator enablePause()
+    {
+        yield return new WaitForSeconds(2);
+        canPause = true;
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -72,8 +77,8 @@ public class PauseMenuController : MonoBehaviour
     {
 
         animator.Play("Exit");
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         // wait until anim stops - use real time outside of time.timeScale
         canPause = false;
         yield return StartCoroutine(IWaitForRealSeconds(0.8f));
@@ -102,7 +107,7 @@ public class PauseMenuController : MonoBehaviour
         // deactivate audio listener
         GameObject mCam = GameObject.FindGameObjectWithTag("MainCamera");
         AudioListener aList = mCam.GetComponent<AudioListener>();
-        aList.enabled = false;
+        if (aList) aList.enabled = false;
 
         // load settings scene
         SceneManager.LoadScene(settingsSceneName, LoadSceneMode.Additive);
