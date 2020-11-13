@@ -51,14 +51,14 @@ public class BookManager : MonoBehaviour
     void Update()
     {
         // book
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) || Input.GetButtonDown("Fire1"))
         {
             if (openedPages != null && openedPages[currentPage].gameObject.activeInHierarchy)
             {
                 TurnPageLeft();
             }
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.A) || Input.GetButtonDown("Fire2"))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetButtonDown("Fire2"))
         {
             if (openedPages != null && openedPages[currentPage].gameObject.activeInHierarchy)
             {
@@ -66,7 +66,7 @@ public class BookManager : MonoBehaviour
             }
         }
         // scroll
-        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetButtonDown("Fire2"))
         {
             if (openedScrollText != null && !openedScrollText.TrySkipText())
             {
@@ -326,9 +326,12 @@ public class BookManager : MonoBehaviour
         openedScrollTextContainer.SetActive(true);
         scrollAnimator.SetBool("isOpen", true); // requires panel to be active :)
 
+        player.GetComponent<PlayerController>().enabled = false;
+        player.GetComponent<WakingSight>().enabled = false;
         //  animation stuff or delay here
 
-        openedScrollText.StartTyping();
+        //openedScrollText.StartTyping();
+        StartCoroutine(EnableScrollAfterDelay(2));
     }
 
     public void OpenScroll(string _, GameObject gameObj) // probably won't use this, its for event args
@@ -338,6 +341,12 @@ public class BookManager : MonoBehaviour
             OpenScroll(textObj, gameObj);
         else
             Debug.LogWarning("Tried opening scroll when text object does not exist!");
+    }
+
+    private IEnumerator EnableScrollAfterDelay(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        openedScrollText.StartTyping();
     }
 
     public void CloseScroll()
