@@ -12034,7 +12034,7 @@ PrefabInstance:
     - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: nextSceneName
-      value: GladeMap1
+      value: GladeMap2
       objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
@@ -76116,7 +76116,7 @@ Transform:
   - {fileID: 876066777}
   - {fileID: 473260052}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1767865170 stripped
 Transform:
