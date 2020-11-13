@@ -75046,14 +75046,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6025965217635100762, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
         type: 3}
+      propertyPath: backgrounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025965217635100762, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
+        type: 3}
       propertyPath: backgrounds.Array.data[0]
       value: 
       objectReference: {fileID: 1286762860}
     - target: {fileID: 6025965217635100762, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
         type: 3}
       propertyPath: smoothing
-      value: 20
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6025965217635100762, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
+        type: 3}
+      propertyPath: backgrounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 1514783766}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12692a6037deabf4284bc7d1ea6d3cb8, type: 3}
 --- !u!1001 &9101876809427709340

@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class parallax : MonoBehaviour
 {
+    private float parallaxX;
+    private float parallaxY;
     private Spawnpoint spawn;
     public Transform[] backgrounds;     //list of back and foregrounds to be parallaxed
-    private float[] parallaxScalesX;     //proportion of the camera's X movement to move the backgrounds by
-    private float[] parallaxScalesY;     //proportion of the camera's Y movement to move the backgrounds by
+    public float[] parallaxScalesX;     //proportion of the camera's X movement to move the backgrounds by
+    public float[] parallaxScalesY;     //proportion of the camera's Y movement to move the backgrounds by
     public float smoothing = 1f;        // how smooth the parallax is going to be. Set above 0.
 
     private Transform cam;              //reference to main camera's transform
@@ -18,6 +20,7 @@ public class parallax : MonoBehaviour
     {
         //set up camera reference 
         cam = Camera.main.transform;
+
     }
     // Start is called before the first frame update. Use for initialization
     void Start()
@@ -43,8 +46,8 @@ public class parallax : MonoBehaviour
         for (int i = 0; i < backgrounds.Length; i++) {
             /*the parallax is the opposite of the camera movement 
             because the previous frame multiplied by the scale */
-            float parallaxX = (previousCamPos.x - cam.position.x) * parallaxScalesX[i];
-            float parallaxY = (previousCamPos.y - cam.position.y) * parallaxScalesY[i];
+            parallaxX = (previousCamPos.x - cam.position.x) * parallaxScalesX[i];
+            parallaxY = (previousCamPos.y - cam.position.y) * parallaxScalesY[i];
 
             /*set a target x position which is the 
             current position + the parallax*/
