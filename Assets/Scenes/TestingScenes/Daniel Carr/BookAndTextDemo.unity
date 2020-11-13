@@ -1753,7 +1753,7 @@ RectTransform:
   m_Father: {fileID: 78729870}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5088816}
+  m_AnchorMin: {x: 0, y: 0.53511155}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -1945,7 +1945,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.0002746582, y: 0}
-  m_SizeDelta: {x: 900, y: 1323.51}
+  m_SizeDelta: {x: 675, y: 1613.29}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &92724422
 MonoBehaviour:
@@ -2375,7 +2375,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0.0002746582, y: 0}
-  m_SizeDelta: {x: 900, y: 1323.51}
+  m_SizeDelta: {x: 675, y: 1323.51}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &150509593
 MonoBehaviour:
@@ -2631,6 +2631,7 @@ MonoBehaviour:
   fadeOutColor: {r: 0, g: 0.84648275, b: 1, a: 1}
   bookDisplayPanel: {fileID: 91107527}
   scrollDisplayPanel: {fileID: 1912951874}
+  player: {fileID: 557834059}
   bookAnimator: {fileID: 291744609}
   scrollAnimator: {fileID: 978196187}
 --- !u!1 &291744604
@@ -3043,6 +3044,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7867531238011402729, guid: d78f319176244294bb9ab6476b365720, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d78f319176244294bb9ab6476b365720, type: 3}
+--- !u!1 &557834059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8346268092361463229, guid: a166746ae8c708344a7a1969e5dc27e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2008116881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &567768897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7867531238011402733, guid: d78f319176244294bb9ab6476b365720,
@@ -3498,8 +3505,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 78126254}
   m_HandleRect: {fileID: 78126253}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.49111825
+  m_Value: 0.9999999
+  m_Size: 0.46488833
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4075,18 +4082,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978196182}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1443395671}
   m_Father: {fileID: 1912951875}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 40}
+  m_SizeDelta: {x: 1300, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978196184
 MonoBehaviour:
@@ -4207,7 +4214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6815437586108985893, guid: 1ee781351ed08cc468ebe2f0546da551,
+  m_Sprite: {fileID: 6432821072406281728, guid: 7b9ac7f13270d4c44b4f356c82fe7eca,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -4676,7 +4683,7 @@ GameObject:
   - component: {fileID: 1145251537}
   - component: {fileID: 1145251536}
   m_Layer: 0
-  m_Name: BookSprite
+  m_Name: ScrollSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4731,8 +4738,8 @@ MonoBehaviour:
   textContainer: {fileID: 1443395670}
   textObjectNormal: {fileID: 92724423}
   textObjectWS: {fileID: 150509594}
-  spriteWSOn: {fileID: 21300000, guid: dda7a35d5ce5dec41961c9ff98eb7579, type: 3}
-  spriteWSOff: {fileID: 21300000, guid: 998c74123d55af54a991eb192dab09aa, type: 3}
+  spriteWSOn: {fileID: 21300000, guid: 9dac96240631c1f4098306691af16f86, type: 3}
+  spriteWSOff: {fileID: 21300000, guid: 9dac96240631c1f4098306691af16f86, type: 3}
 --- !u!114 &1145251538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4819,8 +4826,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9260b4386b932804498aec30aa9ed545, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9dac96240631c1f4098306691af16f86, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5697,7 +5704,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443395670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5705,11 +5712,11 @@ RectTransform:
   - {fileID: 814160864}
   m_Father: {fileID: 978196183}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 900, y: 650}
+  m_AnchoredPosition: {x: -20, y: 0}
+  m_SizeDelta: {x: 700, y: 750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443395672
 MonoBehaviour:
@@ -5725,7 +5732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Content: {fileID: 92724421}
   m_Horizontal: 0
-  m_Vertical: 1
+  m_Vertical: 0
   m_MovementType: 1
   m_Elasticity: 0.1
   m_Inertia: 1
@@ -7116,6 +7123,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6604061937538658908, guid: a166746ae8c708344a7a1969e5dc27e0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8346268092361463217, guid: a166746ae8c708344a7a1969e5dc27e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7180,6 +7192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737083917011881761, guid: a166746ae8c708344a7a1969e5dc27e0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a166746ae8c708344a7a1969e5dc27e0, type: 3}
