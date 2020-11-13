@@ -1659,6 +1659,11 @@ PrefabInstance:
       propertyPath: Params.Array.data[0].Name
       value: Waking Sight
       objectReference: {fileID: 0}
+    - target: {fileID: 6179599347441270998, guid: a6952c18eebdc1f4ebec4082a0e34673,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6179599347441270999, guid: a6952c18eebdc1f4ebec4082a0e34673,
         type: 3}
       propertyPath: m_Name
