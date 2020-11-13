@@ -9,7 +9,9 @@ public class Parallax : MonoBehaviour {
 	public Transform[] backgrounds;     //list of back and foregrounds to be parallaxed
 	public float[] parallaxScalesX;     //proportion of the camera's X movement to move the backgrounds by
 	public float[] parallaxScalesY;     //proportion of the camera's Y movement to move the backgrounds by
-	public float smoothing = 1f;        // how smooth the parallax is going to be. Set above 0.
+	public float smoothing = 0.5f;        // how smooth the parallax is going to be. Set above 0.
+
+	public Vector3 targetBgPos;
 
 	private Transform cam;              //reference to main camera's transform
 	private Vector3 previousCamPos;     //position of the camera in previous frame
@@ -42,9 +44,9 @@ public class Parallax : MonoBehaviour {
 			/* create a target position which is 
              * the background's current position 
              * with it's target x position */
-			Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX, backgroundTargetPosY, backgrounds[i].position.z);
-			backgrounds[i].position = backgroundTargetPos;
-			// backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, backgroundTargetPos, smoothing * Time.deltaTime);
+			targetBgPos = new Vector3(backgroundTargetPosX, backgroundTargetPosY, backgrounds[i].position.z);
+			// backgrounds[i].position = targetBgPos;
+			backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, targetBgPos, smoothing);
 		}
 		//set the previousCamPos to the camera's position at the end of the frame
 		previousCamPos = cam.position;
