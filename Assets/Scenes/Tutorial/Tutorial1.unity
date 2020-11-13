@@ -237,8 +237,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 1113864326}
   slides:
-  - {fileID: 21300000, guid: 1ec22e294987b15418db66e5fec4a203, type: 3}
-  - {fileID: 21300000, guid: 01a6f7374e5d3064cb928b857e25a826, type: 3}
+  - {fileID: 21300000, guid: aed7a306ade7ae1428263f6523168ea4, type: 3}
+  - {fileID: 21300000, guid: e8b3dfe6c3782a442a315b90b5bf4ca8, type: 3}
+  - {fileID: 21300000, guid: ef770745870a6c84c8c13a78ab880695, type: 3}
+  - {fileID: 21300000, guid: a2f7376e0b25a9346a86a211f6bedbe9, type: 3}
   currentSlide: 0
   nextScene: GladeMap1
 --- !u!1001 &576706364
@@ -367,7 +369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ec22e294987b15418db66e5fec4a203, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aed7a306ade7ae1428263f6523168ea4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
