@@ -19,7 +19,8 @@ public class KillPlayer : MonoBehaviour
         player.transform.position = respawnLocation;
         //added this so that the background spawns at respawn location
         for (int i = 0; i < ps.backgrounds.Length; i++) {
-            ps.backgrounds[i].transform.position = respawnLocation;
+            ps.backgrounds[i].transform.position = (new Vector3(respawnLocation.x, 
+                respawnLocation.y, ps.backgrounds[i].position.z)) / ps.parallaxScalesX[i];
         }
     }
     void consumePlayerDeathEvent(object sender, PlayerDeathEventArguments death) {
