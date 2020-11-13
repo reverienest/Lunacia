@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour {
 
 	public void Click_Settings() {
 		if (!settingsMenu.Equals("")) {
-			SceneManager.LoadScene(settingsMenu);
+			SceneManager.LoadScene(settingsMenu, LoadSceneMode.Additive);
 		}
 	}
 
