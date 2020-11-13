@@ -45,8 +45,8 @@ public class Parallax : MonoBehaviour {
              * the background's current position 
              * with it's target x position */
 			targetBgPos = new Vector3(backgroundTargetPosX, backgroundTargetPosY, backgrounds[i].position.z);
-			// backgrounds[i].position = targetBgPos;
-			backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, targetBgPos, smoothing);
+			backgrounds[i].position = targetBgPos;
+			// backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, targetBgPos, smoothing);
 		}
 		//set the previousCamPos to the camera's position at the end of the frame
 		previousCamPos = cam.position;
