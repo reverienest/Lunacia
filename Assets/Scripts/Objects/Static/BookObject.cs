@@ -11,7 +11,7 @@ public class BookObject : MonoBehaviour
     public GameObject WSTextContainer;
     public TextObject[] textObjectWS;
 
-    private SpriteRenderer sprite;
+    private SpriteRenderer spriteRenderer;
     public Sprite spriteWSOn;
     public Sprite spriteWSOff;
 
@@ -23,8 +23,8 @@ public class BookObject : MonoBehaviour
         {
             Debug.LogWarning("Book Manager is null!");
         }
-        sprite = GetComponent<SpriteRenderer>();
-        if (sprite == null)
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer == null)
         {
             Debug.LogWarning("Book Sprite is null!"); // consider making public sprite
         }
@@ -59,13 +59,17 @@ public class BookObject : MonoBehaviour
         isWSEnabled = isEnabled;
         if (isEnabled)
         {
-            sprite.sprite = spriteWSOn;
+            spriteRenderer.sprite = spriteWSOn;
         }
         else
         {
-            sprite.sprite = spriteWSOff;
+            spriteRenderer.sprite = spriteWSOff;
         }
     }
+
+    void OnDestroy() {
+		MessageBroker.Instance.WakingSightModeTopic -= consumeExampleMessage;
+	}
 
     private void consumeExampleMessage(object sender, WakingSightModeEventArgs example)
     {

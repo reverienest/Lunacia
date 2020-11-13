@@ -704,7 +704,6 @@ GameObject:
   m_Component:
   - component: {fileID: 69952091}
   - component: {fileID: 69952090}
-  - component: {fileID: 69952089}
   m_Layer: 0
   m_Name: BTBackground
   m_TagString: Untagged
@@ -712,22 +711,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &69952089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69952088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3855f4f2f96454749a3e632e1ef01f0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgrounds:
-  - {fileID: 69952091}
-  - {fileID: 1976249782}
-  smoothing: 7
 --- !u!212 &69952090
 SpriteRenderer:
   m_ObjectHideFlags: 0
