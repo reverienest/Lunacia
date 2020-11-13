@@ -1121,7 +1121,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
-<<<<<<< HEAD
 --- !u!114 &-3504682288634751903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,8 +1175,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
-=======
->>>>>>> ede8b660055f2807096e7709ac80dd7bc9a94e80
 --- !u!114 &-3072966406170717318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3031,11 +3028,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 187305
-<<<<<<< HEAD
---- !u!114 &5100613111433452906
-=======
 --- !u!114 &5149284250164050306
->>>>>>> ede8b660055f2807096e7709ac80dd7bc9a94e80
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3045,31 +3038,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-<<<<<<< HEAD
-  m_Name: parameter:/NexusWav/Waking Sight
-  m_EditorClassIdentifier: 
-  Name: Waking Sight
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &5101392079259505772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/CreditTheme/Waking Sight
-=======
   m_Name: parameter:/GladeTheme/Waking Sight
->>>>>>> ede8b660055f2807096e7709ac80dd7bc9a94e80
   m_EditorClassIdentifier: 
   Name: Waking Sight
   Min: 0
@@ -3285,7 +3254,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
-<<<<<<< HEAD
 --- !u!114 &6508358025475566714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3307,9 +3275,6 @@ MonoBehaviour:
     data2: 0
   Exists: 1
 --- !u!114 &6535703480711126536
-=======
---- !u!114 &6640163617215951317
->>>>>>> ede8b660055f2807096e7709ac80dd7bc9a94e80
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3319,15 +3284,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-<<<<<<< HEAD
-  m_Name: parameter:/CreditTheme/Waking Sight
-  m_EditorClassIdentifier: 
-  Name: Waking Sight
-=======
   m_Name: parameter:/GladeTheme/Area 2
   m_EditorClassIdentifier: 
   Name: Area 2
->>>>>>> ede8b660055f2807096e7709ac80dd7bc9a94e80
   Min: 0
   Max: 1
   Default: 0
@@ -3335,31 +3294,7 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
-<<<<<<< HEAD
---- !u!114 &6706904883351282612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GladeTheme/Area 2
-  m_EditorClassIdentifier: 
-  Name: Area 2
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &6778339996666190525
-=======
 --- !u!114 &6759112891113053982
->>>>>>> ede8b660055f2807096e7709ac80dd7bc9a94e80
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
