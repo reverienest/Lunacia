@@ -95252,7 +95252,7 @@ Transform:
   - {fileID: 1924416270}
   - {fileID: 285052858}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730031626
 GameObject:
@@ -95822,6 +95822,16 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSceneName
       value: GladeMap3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: newSceneCoordinates.x
+      value: -53.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: newSceneCoordinates.y
+      value: 56.96
       objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
@@ -105193,7 +105203,7 @@ Transform:
   - {fileID: 609295694}
   - {fileID: 1705286529}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2028021963
 PrefabInstance:
