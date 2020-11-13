@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{dddde2b9-63a3-4252-bc28-73da65aa5b2a}">
+		<property name="assetPath">
+			<value>pick up book.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.88235827664399091</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{af5eccdf-e7b3-45cb-b71f-32a780191a00}</destination>
+		</relationship>
+	</object>
+</objects>
