@@ -198,6 +198,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-7374055652114414908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Final Area
+  m_EditorClassIdentifier: 
+  Name: Final Area
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7054539684797646926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +318,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 7324634555366251222}
+  - {fileID: 4394657076596288505}
   MinDistance: 0
   MaxDistance: 0
   Length: 127004
@@ -361,7 +381,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6277709349144339341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +420,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6037417468806846245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TaigaTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-5967718826079252744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +639,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5074280243892125110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,12 +660,12 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3594027323603400998}
-  - {fileID: 1960010056314488625}
-  - {fileID: 6016315972093143835}
-  - {fileID: -225019315268884338}
-  - {fileID: 3460115344849651951}
-  - {fileID: 659888893525068619}
+  - {fileID: -63376358487281505}
+  - {fileID: 5840540664343497633}
+  - {fileID: -1100819673477915177}
+  - {fileID: -7374055652114414908}
+  - {fileID: 1048780810710939371}
+  - {fileID: 7859381277921549729}
   MinDistance: 0
   MaxDistance: 0
   Length: 126000
@@ -755,6 +795,26 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
+  Exists: 0
+--- !u!114 &-3541595973322545806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/NexusWav/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &-3504682288634751903
 MonoBehaviour:
@@ -770,7 +830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637408099491217272
+  lastModified: 637408162854896234
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -825,7 +885,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2857976343590202731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,6 +995,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-2128435648854809844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TaigaTheme/Final Area
+  m_EditorClassIdentifier: 
+  Name: Final Area
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1805981315363215394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,6 +1055,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-1430157657230849586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TaigaTheme/Area 2
+  m_EditorClassIdentifier: 
+  Name: Area 2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1324335011034037343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,6 +1091,26 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-1100819673477915177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
   ID:
     data1: 0
     data2: 0
@@ -1058,7 +1178,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-586226698974612161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1139,7 +1259,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6352546974922625541}
+  - {fileID: -3541595973322545806}
   MinDistance: 0
   MaxDistance: 0
   Length: 101578
@@ -1182,7 +1302,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-147254640148920646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1197,7 +1317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: LunaciaProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637408099491227244
+  lastModified: 637408162854906209
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1232,6 +1352,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 126000
+--- !u!114 &-63376358487281505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 3
+  m_EditorClassIdentifier: 
+  Name: Area 3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-56309366098448543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1278,7 +1418,7 @@ MonoBehaviour:
   - {fileID: -3504682288634751903}
   StringsBanks:
   - {fileID: -147254640148920646}
-  stringsBankWriteTime: 637408099491227244
+  stringsBankWriteTime: 637408162854906209
   cacheVersion: 5
 --- !u!114 &121297237545434418
 MonoBehaviour:
@@ -1363,7 +1503,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &702508247522994146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1424,6 +1564,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1048780810710939371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 1
+  m_EditorClassIdentifier: 
+  Name: Area 1
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1054619125921721549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,7 +1675,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1988421065234151894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1572,6 +1732,26 @@ MonoBehaviour:
   m_Name: parameter:/TaigaTheme/Area 2
   m_EditorClassIdentifier: 
   Name: Area 2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2082074452910787651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MainTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
   Min: 0
   Max: 1
   Default: 0
@@ -1718,7 +1898,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &3596251803561674647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1816,7 +1996,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4242232493868539499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,10 +2037,30 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -2887035423353975847}
+  - {fileID: 2082074452910787651}
   MinDistance: 0
   MaxDistance: 0
   Length: 192000
+--- !u!114 &4394657076596288505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreditTheme/Waking Sight
+  m_EditorClassIdentifier: 
+  Name: Waking Sight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4466812124428958017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1964,7 +2164,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5014317167287968177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1985,10 +2185,10 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5191327056340722533}
-  - {fileID: -605653432552268153}
-  - {fileID: 4077246293608920112}
-  - {fileID: 4925496084767108333}
+  - {fileID: -1430157657230849586}
+  - {fileID: 7152240925155845464}
+  - {fileID: -6037417468806846245}
+  - {fileID: -2128435648854809844}
   MinDistance: 0
   MaxDistance: 0
   Length: 187305
@@ -2072,6 +2272,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &5840540664343497633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 2
+  m_EditorClassIdentifier: 
+  Name: Area 2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6016315972093143835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,7 +2311,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &6535703480711126536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2172,6 +2392,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7152240925155845464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TaigaTheme/Area 1
+  m_EditorClassIdentifier: 
+  Name: Area 1
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7324634555366251222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2191,7 +2431,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &7509473911066608011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2205,6 +2445,26 @@ MonoBehaviour:
   m_Name: parameter:/GladeTheme/Area 3
   m_EditorClassIdentifier: 
   Name: Area 3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7859381277921549729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GladeTheme/Area 4
+  m_EditorClassIdentifier: 
+  Name: Area 4
   Min: 0
   Max: 1
   Default: 0

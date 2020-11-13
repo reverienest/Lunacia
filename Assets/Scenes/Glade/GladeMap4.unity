@@ -8498,7 +8498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 225, y: 220}
+  m_AnchoredPosition: {x: -225, y: 220}
   m_SizeDelta: {x: 400, y: 675}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &437081382
@@ -93690,7 +93690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 225, y: 220}
+  m_AnchoredPosition: {x: -225, y: 220}
   m_SizeDelta: {x: 400, y: 675}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &621832737
@@ -94232,7 +94232,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Another suspension will lose me my license.  I\u2019m not giving up."
+  m_text: "And the parents will finally get off my back.\r \n\nAnother suspension
+    will lose me my license.  I\u2019m not giving up."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2d076abb109f66145a33dce35ec8b060, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -94466,6 +94467,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: 66a671c51e1436048a70dc9ffde57a69,
         type: 3}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 2130420209}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -97885,6 +97891,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: 42b5d11be7e23884995e8cd19e7cbac5,
         type: 3}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 2130420209}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
@@ -97933,7 +97944,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 225, y: 220}
+  m_AnchoredPosition: {x: -225, y: 220}
   m_SizeDelta: {x: 400, y: 675}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1107571860
@@ -98267,7 +98278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -225, y: 220}
+  m_AnchoredPosition: {x: 225, y: 220}
   m_SizeDelta: {x: 400, y: 675}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1196096188
@@ -99046,6 +99057,11 @@ PrefabInstance:
       propertyPath: scrollAnimator
       value: 
       objectReference: {fileID: 1400469482724334595}
+    - target: {fileID: 6418540245368010397, guid: a3f8671d5ad77534dbcfef9fbdc399e2,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1850595330}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3f8671d5ad77534dbcfef9fbdc399e2, type: 3}
 --- !u!114 &1575479611 stripped
@@ -101066,6 +101082,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrackManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6179599347441270999, guid: a6952c18eebdc1f4ebec4082a0e34673,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6179599347441271000, guid: a6952c18eebdc1f4ebec4082a0e34673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -102101,6 +102122,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1af4c7d0416b334f8765b34b376f6cd, type: 3}
+--- !u!95 &2130420209 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9109538969881326234, guid: 44598d379fad13240958e6693f764c5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1626056569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1400469482441875224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103766,7 +103793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 225, y: 220}
+  m_AnchoredPosition: {x: -225, y: 220}
   m_SizeDelta: {x: 400, y: 675}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1400469483377087572
@@ -103810,7 +103837,7 @@ MonoBehaviour:
     but there\u2019s someone that they\u2019re looking to make their friend.  Knows
     a lot about her, too.  Being the smoothest counselor on earth, I gave my best
     advice.  They\u2019ll be talking about their friend instead of those books soon
-    enough!  And the parents will finally get off my back.\r"
+    enough!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2d076abb109f66145a33dce35ec8b060, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -105086,7 +105113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -225, y: 220}
+  m_AnchoredPosition: {x: 225, y: 220}
   m_SizeDelta: {x: 400, y: 675}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1400469484226987815
