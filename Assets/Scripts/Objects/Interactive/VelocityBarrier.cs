@@ -7,7 +7,7 @@ using UnityEngine.Tilemaps;
 public class VelocityBarrier : MonoBehaviour
 {
 
-    private BoxCollider2D collider;
+    private BoxCollider2D myCollider;
     private Vector2 direction;
     public Rigidbody2D playerRB;
     public float velocityThreshold = 10;
@@ -18,7 +18,7 @@ public class VelocityBarrier : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        collider = GetComponent<BoxCollider2D>();
+        myCollider = GetComponent<BoxCollider2D>();
         playerRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         direction = (Vector2)transform.TransformVector(Vector2.right);
     }
@@ -27,9 +27,9 @@ public class VelocityBarrier : MonoBehaviour
     void Update()
     {
         if (Mathf.Abs(Vector2.Dot(playerRB.velocity, direction)) > velocityThreshold) {
-            collider.isTrigger = true;
-        } else if (collider.isTrigger) {
-            collider.isTrigger = false;
+            myCollider.isTrigger = true;
+        } else if (myCollider.isTrigger) {
+            myCollider.isTrigger = false;
         }
     }
 
