@@ -38,7 +38,12 @@ public class FogEffect : MonoBehaviour {
 
     void setIntensity()
     {
-        bool inNZ = GameObject.FindGameObjectWithTag("Player").GetComponent<WakingSight>().inNZ;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+		if (player == null) {
+			return;
+		}
+
+		bool inNZ = player.GetComponentInChildren<WakingSight>().inNZ;
 
         if (inNZ && intensity < 1)
         {
