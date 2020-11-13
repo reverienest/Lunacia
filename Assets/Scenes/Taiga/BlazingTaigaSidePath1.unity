@@ -42086,6 +42086,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: a9f27708f924ff440a2171b3595560a5,
         type: 3}
+    - target: {fileID: 7141641396820177890, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
+        type: 3}
+      propertyPath: nextSceneName
+      value: BlazingTaiga2
+      objectReference: {fileID: 0}
     - target: {fileID: 7141641396820177895, guid: 8e5bc0b0119745c48a2c019ddd8b7827,
         type: 3}
       propertyPath: m_Name
