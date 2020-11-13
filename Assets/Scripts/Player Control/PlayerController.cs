@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
         //Get the Cursor Position relative to the player
         Vector3 moveDirection = Vector3.zero;
         if (Input.GetMouseButton(0)) {
+            //Debug.Log(Input.mousePosition);
             moveDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             moveDirection.z = 0f;
         } else {
