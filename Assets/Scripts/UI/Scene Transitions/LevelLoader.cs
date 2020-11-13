@@ -9,7 +9,7 @@ public class LevelLoader : MonoBehaviour
 	public GameObject loadingScreen;
 	public Slider loadingBar;
 	public Text progressPercentage;
-	public static string nextSceneName;
+	public string nextSceneName;
 	public GameObject player;
 
 	void Awake() 
