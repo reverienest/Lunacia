@@ -352,6 +352,8 @@ public class BookManager : MonoBehaviour
     public void CloseScroll()
     {
         scrollAnimator.SetBool("isOpen", false);
+        player.GetComponent<PlayerController>().enabled = true;
+        player.GetComponent<WakingSight>().enabled = true;
         // DisableBook();
     }
 
