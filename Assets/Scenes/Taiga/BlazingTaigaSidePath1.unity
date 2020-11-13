@@ -45141,7 +45141,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1511529223}
   - component: {fileID: 1511529225}
-  - component: {fileID: 1511529224}
   - component: {fileID: 1511529226}
   - component: {fileID: 1511529227}
   m_Layer: 0
@@ -45165,14 +45164,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1511529224
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511529222}
-  m_Enabled: 1
 --- !u!20 &1511529225
 Camera:
   m_ObjectHideFlags: 0
@@ -48575,6 +48566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 107898259, guid: a166746ae8c708344a7a1969e5dc27e0, type: 3}
+      propertyPath: emitter
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8346268092361463217, guid: a166746ae8c708344a7a1969e5dc27e0,
         type: 3}
       propertyPath: m_LocalPosition.x

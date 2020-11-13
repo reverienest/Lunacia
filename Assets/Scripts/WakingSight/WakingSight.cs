@@ -14,26 +14,32 @@ namespace WakingSightNS {
 		public bool inNZ = false;
 
 		[SerializeField]
+		private GameObject fManager;
 		private FMODUnity.StudioEventEmitter emitter;
 
 
 		// Start is called before the first frame update
 		void Start() {
-			GameObject fManager = GameObject.Find("TrackManager");
-
-			if (fManager) {
+			fManager = GameObject.Find("TrackManager");
+			emitter = fManager.GetComponent<FMODUnity.StudioEventEmitter>();
+			if (fManager)
+			{
 				Debug.Log(fManager.name);
-			} else {
+			}
+			else
+			{
 				Debug.Log("No TrackManager found!");
 			}
 
-			if (emitter == null) {
+			if (emitter == null)
+			{
 				Debug.LogWarning("No fmod emitter found, audio will not play.");
 			}
 		}
 
 		// Update is called once per frame
 		void Update() {
+
 			if (!changingMode) {
 				if (Input.GetButtonDown("Fire2")) {
 					if (inNZ == false) {
@@ -41,11 +47,13 @@ namespace WakingSightNS {
 						if (activeMode == 0) {
 							if (emitter != null) {
 								SetParameter(emitter.EventInstance, "Waking Sight", 1.0f);
+								FMODUnity.RuntimeManager.PlayOneShot("event:/SFX Events/Waking Sight A");
 							}
 							changeMode(1);
 						} else if (activeMode == 1) {
 							if (emitter != null) {
 								SetParameter(emitter.EventInstance, "Waking Sight", 0.0f);
+								FMODUnity.RuntimeManager.PlayOneShot("event:/SFX Events/Waking Sight D");
 							}
 							changeMode(0);
 						}
