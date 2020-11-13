@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{995e68b1-f600-4950-9637-ec47e1c8a22b}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{50bb2e11-6add-41f9-b2e1-eb571e77d03f}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{dc2c7cde-5727-48e1-903f-d4770264a376}</destination>
 		</relationship>
@@ -42,7 +45,7 @@
 	</object>
 	<object class="MasterTrack" id="{0712cbbc-41ca-48eb-ac6b-6aad4905133d}">
 		<relationship name="automationTracks">
-			<destination>{0f41f811-6e80-4fc8-9ea4-fca2fd4e4d74}</destination>
+			<destination>{616f9899-6892-4579-91b6-f78eeaad4c4c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{51ee1a1f-438d-4af0-97be-5060c7af4d9c}</destination>
@@ -73,6 +76,14 @@
 		<relationship name="modules">
 			<destination>{6d14eb5a-88a1-400c-9859-00911b24cd23}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{09aa1058-b6de-43f6-919a-626e3b7c1563}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{50bb2e11-6add-41f9-b2e1-eb571e77d03f}">
+		<relationship name="preset">
+			<destination>{be2ab157-1dc9-4026-b66d-d64d65818ec9}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{51ee1a1f-438d-4af0-97be-5060c7af4d9c}">
 		<relationship name="effectChain">
@@ -85,7 +96,7 @@
 			<destination>{e31ddec0-de72-43e8-8a7e-dd87539e51e7}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{0f41f811-6e80-4fc8-9ea4-fca2fd4e4d74}">
+	<object class="AutomationTrack" id="{616f9899-6892-4579-91b6-f78eeaad4c4c}">
 		<relationship name="automator">
 			<destination>{7e491de6-7106-4a5d-9515-5edce0703544}</destination>
 		</relationship>
@@ -116,6 +127,23 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{51ee1a1f-438d-4af0-97be-5060c7af4d9c}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{09aa1058-b6de-43f6-919a-626e3b7c1563}">
+		<property name="position">
+			<value>2.2204460492503131e-16</value>
+		</property>
+		<property name="length">
+			<value>101.2</value>
+		</property>
+		<property name="name">
+			<value>Full Track</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{995e68b1-f600-4950-9637-ec47e1c8a22b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{d04b50c5-321b-40c2-a89b-ef25ceae3b0e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b74a082e-ec85-44fb-b3d9-94fcad92be75}">
