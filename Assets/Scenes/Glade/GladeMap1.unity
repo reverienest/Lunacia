@@ -72136,8 +72136,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -176159485
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c388eec09786b724b82a9137718e9948, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -76815,15 +76815,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1143614334, guid: 12692a6037deabf4284bc7d1ea6d3cb8, type: 3}
+      propertyPath: backgrounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 1286762860}
     - target: {fileID: 2419881601208584422, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
         type: 3}
       propertyPath: m_Name
       value: Parallax
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419881601208584422, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4211735074767824809, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
         type: 3}
@@ -76879,16 +76878,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025965217635100762, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
-        type: 3}
-      propertyPath: backgrounds.Array.data[0]
-      value: 
-      objectReference: {fileID: 1286762860}
-    - target: {fileID: 6025965217635100762, guid: 12692a6037deabf4284bc7d1ea6d3cb8,
-        type: 3}
-      propertyPath: smoothing
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12692a6037deabf4284bc7d1ea6d3cb8, type: 3}
