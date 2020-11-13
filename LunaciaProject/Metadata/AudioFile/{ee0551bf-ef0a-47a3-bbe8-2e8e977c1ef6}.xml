@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{ee0551bf-ef0a-47a3-bbe8-2e8e977c1ef6}">
+		<property name="assetPath">
+			<value>bouncing off flower.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.3831292517006803</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{af5eccdf-e7b3-45cb-b71f-32a780191a00}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -115,6 +115,21 @@ PrefabInstance:
       propertyPath: prewarm
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3016691882455765517, guid: 3c54bb6aafd6bb44f8caf5cb0fe03449,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016691882455765517, guid: 3c54bb6aafd6bb44f8caf5cb0fe03449,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016691882455765517, guid: 3c54bb6aafd6bb44f8caf5cb0fe03449,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3016691882455765518, guid: 3c54bb6aafd6bb44f8caf5cb0fe03449,
         type: 3}
       propertyPath: m_Name
