@@ -10,19 +10,25 @@ public class PauseMenuButtonController : MonoBehaviour
 
     private bool onEntry = true, onExit = false, onHover;
 
-    private int dormantFrame = -20, startingFrame = 3, staticFrame = 35, peakFrame = 59; 
-        //starting is set to 3 to avoid dim buttons
-        //dormant is set to negative to stop frame progression when entry just began (i.e. the sprites are still transparent)
+    private int dormantFrame = 0, startingFrame = 3, staticFrame = 35, peakFrame = 59;
+    //starting is set to 3 to avoid dim buttons
+    //dormant is set to negative to stop frame progression when entry just began (i.e. the sprites are still transparent)
+
+    private float hoverTimer = 0.0f;
 
     private Sprite[] sprites;
 
     private Transform text;
-    public double textSizeMin, textSizeMax;
+    public int textSizeMin, textSizeMax;
 
     UnityEngine.UI.Image renderer_;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
+    {
+        loadResources();
+    }
+
+    void loadResources()
     {
         renderer_ = GetComponent<UnityEngine.UI.Image>();
 
@@ -37,13 +43,13 @@ public class PauseMenuButtonController : MonoBehaviour
         //the 0th element is the whole spritesheet and not the actual sprite
         //from 1 and on, the corresponding frame is (i - 1)th frame, which will be appended to
         //the actual list for actual sprites, instead of the object list
-        
+
         //the resources must be sort in order manually because unity doesn't
         //always import them by their naming order
         for (int i = 1; i < spriteList.Length; i++)
         {
             int true_index = Int32.Parse(spriteList[i].name.Substring(
-                spriteList[i].name.LastIndexOf("_")+1
+                spriteList[i].name.LastIndexOf("_") + 1
             ));
             sprites[true_index] = spriteList[i] as Sprite;
         }
@@ -54,6 +60,12 @@ public class PauseMenuButtonController : MonoBehaviour
         frame = dormantFrame;
 
         text = transform.Find("Text");
+
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
     }
 
     public void StartEntry()
@@ -83,6 +95,7 @@ public class PauseMenuButtonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //print(hovering);
         int img_num = Int16.Parse(
             renderer_.sprite.name.Substring(
@@ -95,7 +108,7 @@ public class PauseMenuButtonController : MonoBehaviour
         {
             if (frame < staticFrame)
             {
-                frame++;
+                frame+=4;
             }
             else
             {
@@ -107,7 +120,7 @@ public class PauseMenuButtonController : MonoBehaviour
         {
             if (frame > startingFrame)
             {
-                frame--;
+                frame-=4;
             }
             else
             {
@@ -120,19 +133,27 @@ public class PauseMenuButtonController : MonoBehaviour
             if (onHover)
             {
                 if (frame < peakFrame)
-                    frame++;
+                    frame+=4;
             }
             else
             {
                 if(frame > staticFrame)
-                    frame--;
+                    frame-=4;
             }
-            //scale button text according to sprite progression
-            text.GetComponent<UnityEngine.UI.Text>().fontSize =
-                (int)(
-                    (textSizeMax - textSizeMin) / (peakFrame * 1.0 - staticFrame)
-                    * (frame - staticFrame) + textSizeMin
-                );
+            
+        }
+
+        frame = (int)Mathf.Min(peakFrame, frame);
+        frame = (int)Mathf.Max(startingFrame, frame);
+
+        //scale button text according to sprite progression
+        if (onHover)
+        {
+            text.GetComponent<UnityEngine.UI.Text>().fontSize = textSizeMax;
+        }
+        else
+        {
+            text.GetComponent<UnityEngine.UI.Text>().fontSize = textSizeMin;
         }
 
         //set sprite according to static frame number
@@ -140,13 +161,20 @@ public class PauseMenuButtonController : MonoBehaviour
         {
             if (frame < startingFrame)
             {
-                renderer_.overrideSprite = sprites[startingFrame];
+                if(sprites[startingFrame])
+                    renderer_.overrideSprite = sprites[startingFrame];
             }
             else
             {
-                renderer_.overrideSprite = sprites[frame];
+                if(sprites[frame])
+                    renderer_.overrideSprite = sprites[frame];
             }
         }
 
+    }
+
+    float lerp(float start, float finish, float progress)
+    {
+        return start * (1.0f - progress) + finish * progress;
     }
 }
