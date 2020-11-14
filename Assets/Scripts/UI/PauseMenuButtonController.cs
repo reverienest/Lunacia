@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenuButtonController : MonoBehaviour
 {
@@ -14,31 +15,25 @@ public class PauseMenuButtonController : MonoBehaviour
     //starting is set to 3 to avoid dim buttons
     //dormant is set to negative to stop frame progression when entry just began (i.e. the sprites are still transparent)
 
-    private float hoverTimer = 0.0f;
-
     private Sprite[] sprites;
 
     private Transform text;
     public int textSizeMin, textSizeMax;
 
-    UnityEngine.UI.Image renderer_;
+    Image renderer_;
 
-    private void Awake()
+    void Awake()
     {
-        loadResources();
-    }
-
-    void loadResources()
-    {
-        renderer_ = GetComponent<UnityEngine.UI.Image>();
+        renderer_ = GetComponent<Image>();
 
         //get sprite name prefix
-        //ex. for "a_b_1", the prefix is "a_b_"
+        //ex. for "a_b_1", the prefix is "a_b"
         int lastI = renderer_.sprite.name.LastIndexOf("_");
         string prefix = renderer_.sprite.name.Substring(0, lastI);
-        //print(prefix);
+        Debug.Log(prefix);
         UnityEngine.Object[] spriteList = Resources.LoadAll(prefix);
-        sprites = new Sprite[60];
+        
+        sprites = new Sprite[spriteList.Length-1];
 
         //the 0th element is the whole spritesheet and not the actual sprite
         //from 1 and on, the corresponding frame is (i - 1)th frame, which will be appended to
@@ -46,12 +41,17 @@ public class PauseMenuButtonController : MonoBehaviour
 
         //the resources must be sort in order manually because unity doesn't
         //always import them by their naming order
-        for (int i = 1; i < spriteList.Length; i++)
+        
+        for (int i = 0; i < sprites.Length; i++)
         {
-            int true_index = Int32.Parse(spriteList[i].name.Substring(
-                spriteList[i].name.LastIndexOf("_") + 1
-            ));
-            sprites[true_index] = spriteList[i] as Sprite;
+            Sprite s = spriteList[i+1] as Sprite;
+
+            int true_index = Int32.Parse(
+                    s.name.Substring(s.name.LastIndexOf("_")+1)
+                );
+
+            //Debug.Log(true_index.ToString());
+            if (true_index < sprites.Length) sprites[true_index] = s;
         }
 
         //replace sprite with overrideSprite, the latter is controled dynamically by this script
@@ -60,7 +60,6 @@ public class PauseMenuButtonController : MonoBehaviour
         frame = dormantFrame;
 
         text = transform.Find("Text");
-
     }
 
     // Start is called before the first frame update
@@ -95,7 +94,6 @@ public class PauseMenuButtonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         //print(hovering);
         int img_num = Int16.Parse(
             renderer_.sprite.name.Substring(
@@ -133,12 +131,12 @@ public class PauseMenuButtonController : MonoBehaviour
             if (onHover)
             {
                 if (frame < peakFrame)
-                    frame+=4;
+                    frame+=2;
             }
             else
             {
                 if(frame > staticFrame)
-                    frame-=4;
+                    frame-=2;
             }
             
         }
