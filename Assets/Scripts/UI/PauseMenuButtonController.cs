@@ -30,7 +30,7 @@ public class PauseMenuButtonController : MonoBehaviour
         //ex. for "a_b_1", the prefix is "a_b"
         int lastI = renderer_.sprite.name.LastIndexOf("_");
         string prefix = renderer_.sprite.name.Substring(0, lastI);
-        Debug.Log(prefix);
+        //Debug.Log(prefix);
         UnityEngine.Object[] spriteList = Resources.LoadAll(prefix);
         
         sprites = new Sprite[spriteList.Length-1];
