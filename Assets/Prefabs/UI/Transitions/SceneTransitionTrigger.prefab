@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7141641396820177889}
   - component: {fileID: 7141641396820177888}
   - component: {fileID: 7141641396820177890}
+  - component: {fileID: 6926580991486234989}
   m_Layer: 0
   m_Name: SceneTransitionTrigger
   m_TagString: Untagged
@@ -73,4 +74,17 @@ MonoBehaviour:
   transition: {fileID: 0}
   transitionTime: 2
   loadingScreen: {fileID: 102900000, guid: a8b724502e6310e489ad1bab18904b94, type: 3}
-  nextScene: {fileID: 0}
+  nextSceneName: 
+  newSceneCoordinates: {x: 0, y: 0, z: 0}
+--- !u!114 &6926580991486234989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7141641396820177895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf13d7fad88b2c418f2c4e24ba10835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

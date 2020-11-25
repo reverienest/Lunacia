@@ -47,7 +47,7 @@ public class KillPlayer : MonoBehaviour {
 	IEnumerator waitForDeathAnimation() {
 		yield return new WaitForSeconds(1f);
 		Destroy(playerBody);
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.2f);
 		transition.SetTrigger("Start");
 		yield return new WaitForSeconds(1f);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
